@@ -1,0 +1,7 @@
+book_filename: Peel Book
+output_dir: docs
+delete_merged_file: true
+rmd_files: ["index.Rmd",
+            "chapter_1.Rmd",
+            "references.Rmd"]
+new_session: no
