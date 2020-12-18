@@ -2,6 +2,12 @@ book_filename: Peel Book
 output_dir: docs
 delete_merged_file: true
 rmd_files: ["index.Rmd",
-            "chapter_1.Rmd",
+            "BMI.Rmd",
+            "fish_ecology.Rmd",
+            "macrophytes.Rmd",
+            "sediment.Rmd",
+            "isotopes.Rmd",
+            "economic_competitiveness.Rmd",
+            "catchment_model.Rmd",
             "references.Rmd"]
 new_session: no

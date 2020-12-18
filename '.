@@ -1,0 +1,2 @@
+Error: The name of the input file cannot contain the special shell characters: [ <>()|\:&;#?*'] (attempted to copy to a version without those characters 'Peel-Book.Rmd' however that file already exists)
+Execution halted

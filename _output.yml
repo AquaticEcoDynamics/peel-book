@@ -2,7 +2,7 @@ bookdown::gitbook:
   css: css/style.css
   config:
     toc:
-      collapse: none
+      collapse: section
       before: |
         <li><a href="./"><b>Peel Book</b></a></li>
       after: |
@@ -10,7 +10,7 @@ bookdown::gitbook:
     download: []
     search: yes
     fontsettings:
-      theme: white
+      theme: c('white', 'night')
       family: sans
       size: 2
     sharing:
@@ -22,4 +22,8 @@ bookdown::gitbook:
       instapaper: no
       vk: no
       all: no
-    info: yes
+    info: no
+bookdown::bs4_book:
+  css: css/bs4style.css
+  # theme:
+  #   primary: "#637238"
