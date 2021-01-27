@@ -4,7 +4,7 @@ author: "Author 1, Author 2, Author 3 etc"
 date: "`r format(Sys.time(), 'the %dth of %B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography:  ["references/references.bib"]
+bibliography:  ["references/references.bib", "references/BMI_refs.bib", "references/all_refs.bib"]
 biblio-style: apalike
 link-citations: yes
 description: "The online Peel book"
@@ -22,4 +22,3 @@ knitr::knit_hooks$set(class = function(before, options, envir) {
 
 # Introduction {-}
 
-bloop

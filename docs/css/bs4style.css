@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap'); */
+
+/* Global */
+.row {
+  font-family: 'Roboto', sans-serif;
+}
+
 .rmdcaution, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
@@ -83,10 +91,7 @@ a {
   background-color: transparent;
 }
 
-/* Global */
-.row {
-  font-family: "Helvetica Neue";
-}
+
 
 /* TOC */
 .sidebar h2 {
@@ -277,3 +282,11 @@ blockquote {
 b, strong {
   font-weight: bold;
 }
+
+/* References */
+.csl-entry {
+  font-size: 1em;
+  margin-left: 40px;
+  text-indent: -40px;
+  padding-bottom: 5px;
+  }
