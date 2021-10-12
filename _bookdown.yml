@@ -1,13 +1,17 @@
-book_filename: Peel Book
+book_filename: Balancing estuarine and societal health in a changing environment
 output_dir: docs
 delete_merged_file: true
 rmd_files: ["index.Rmd",
-            "BMI.Rmd",
-            "fish_ecology.Rmd",
-            "macrophytes.Rmd",
-            "sediment.Rmd",
-            "isotopes.Rmd",
-            "economic_competitiveness.Rmd",
+            "summary_report.Rmd",
             "catchment_model.Rmd",
+            "model_hydrology.Rmd",
+            "model_water_quality.Rmd",
+            "isotopes.Rmd",
+            "sediment.Rmd",
+            "BMI.Rmd",
+            "macrophytes.Rmd",
+            "fish_ecology.Rmd",
+            "economic_competitiveness.Rmd",
+            "scenarios.Rmd",
             "references.Rmd"]
 new_session: no

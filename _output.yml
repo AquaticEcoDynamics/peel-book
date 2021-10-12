@@ -4,7 +4,7 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="./"><b>Peel Book</b></a></li>
+        <li><a href="./"><b>Balancing estuarine and societal health in a changing environment</b></a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     download: []
@@ -25,5 +25,14 @@ bookdown::gitbook:
     info: no
 bookdown::bs4_book:
   css: css/bs4style.css
+  template: bs4_book.html
+  includes:
+    after_body: scripts/imgZoom.html
   # theme:
   #   primary: "#637238"
+
+# html_document:
+#   template: template/bs4_book.html
+#   css: css/bs4style.css
+#   includes: 
+#     after_body: scripts/imgZoom.html

@@ -1,8 +1,11 @@
 # Seagrass and macroalgal communities of the Peel-Harvey Estuary from 1978 to 2018 {#macrophytes}
 
-::: {.title_matter width="100%"}
-[***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"}
-:::
+<!-- ::: {.title_matter width="100%"} -->
+<!-- [***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"} -->
+<!-- ::: -->
+<!-- <link href="css/zoom.css" rel="stylesheet"> -->
+<!-- <script src="js/zoom-vanilla.min.js"></script> -->
+
 
 ::: {.chapter-authors width="100%"}
 **Fiona Valesini, Oliver Krumholz, Chris Hallett, Halina Kobryn**
@@ -12,12 +15,13 @@
 Centre for Sustainable Aquatic Ecosystems, Murdoch University, Perth, Western Australia
 :::
 
-```{r macrophytes-pic1, echo = FALSE, out.width='100%', class = "title-image"}
+```{r macrophytes-pic1, echo = FALSE, out.width='100%', data.action = "zoom", class = "title-image"}
 
 knitr::include_graphics("images/macrophytes/picture1.png")
 
 ```
 
+::: {.body-text width="100%"}
 ## Executive Summary
 
 Seagrass and macroalgal communities ('macrophytes') play key roles in the function of estuaries and the societal benefits they provide. Over more recent history, the macrophytes of the Peel-Harvey, and especially the green macroalgae, have been a major focus due to the massive blooms that occurred from the 1960s--1980s and the ecological and societal issues that resulted. Opening of the Dawesville Cut in 1994 to help alleviate these problems led to a major step change in the estuary's hydrology and nutrient levels. There have also been other more gradual shifts in the estuarine environment from catchment development and climate change effects, particularly in recent decades.
@@ -26,8 +30,8 @@ This report explores how the macrophyte community in the Peel-Harvey has changed
 
 Our findings show there have been dramatic changes in the macrophyte community from the late 1970s, which in most regions of the estuary has reflected major declines in green macroalgae and increases in seagrass. These shifts were most obvious just after the Cut and the subsequent boost in tidal flushing. The most recent survey results (2017--2018) show that, for the first time in the monitoring record, the community is clearly dominated by seagrass (70% of overall biomass in autumn 2018) as opposed to green macroalgae (52--86% of overall biomass from 1978--1994). This progression has led to improved health of the macrophyte community, from very poor to fair (index grade E--C) across much of the estuary in 1985--1989, to fair to excellent (grade C--A) in 2018.
 
-```{r macrophytes-pic2, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Green macroalage in the southern Harvey Estuary (Photo, O. Krumholz)."}
 
+```{r macrophytes-pic2, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Green macroalage in the southern Harvey Estuary (Photo, O. Krumholz)."}
 knitr::include_graphics("images/macrophytes/picture2.png")
 ```
 
@@ -265,3 +269,4 @@ knitr::include_graphics("images/macrophytes/picture17.png")
 ## Acknowledgements
 
 We are particularly grateful to the Marine and Freshwater Laboratories at Murdoch University for generously sharing the historical macrophyte data they had collected across the Peel-Harvey Estuary from 1978--2009. We also thank the Department of Water and Environmental Regulation for providing water quality data recorded at their monitoring stations throughout the estuary. We are also indebted to Steve Goynich, Ian Dapson, Alan Cottingham and Sorcha Cronin-O'Reilly who bravely helped with the collection of the macrophyte cores for the 2017--18 survey.\
+:::

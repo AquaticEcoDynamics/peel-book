@@ -1,8 +1,10 @@
+# (PART)  Economic Health {-} 
+
 # Understanding Local Economic Competitiveness for the Peel-Harvey: Identifying Key and Strategic Industries, 2006-2016
 
-::: {.title_matter width="100%"}
-[***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"}
-:::
+<!-- ::: {.title_matter width="100%"} -->
+<!-- [***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"} -->
+<!-- ::: -->
 
 ::: {.chapter-authors width="100%"}
 **Paul Plummer, Jill Trinh & Julia Horsley**
@@ -18,6 +20,7 @@ knitr::include_graphics("images/economic_competitiveness/picture1.png")
 
 ```
 
+::: {.body-text width="100%"}
 ## Executive Summary
 
 The **Peel-Harvey Region** experienced **overall increase in employment** between **2006 and 2016** with its total workforce increased from 42,194 people to 64,491 people. The most significant period was between 2006 and 2011 with the region's employment growth rate reaching 28.7%. It was then followed by an employment growth rate of 18.8 between 2011 and 2016. Over the same decade, the total Western Australian workforce increased from 936,130 people to 1,157,735 people. The proportion of Peel-Harvey's workforce to that of Western Australia during the period increased by 1.1%, from approximately 4.5% to 5.6%.
@@ -191,3 +194,4 @@ This research component unpacks the growth experience of the Peel-Harvey Region.
 -   The potential for diffusion of external shocks across the economic system, and
 
 -   The potential significance of ecological change and/or environmental policy on the relative competitiveness of the local economy.
+:::

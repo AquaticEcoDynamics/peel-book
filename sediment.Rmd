@@ -1,8 +1,8 @@
 # Sediment condition in the Peel-Harvey Estuary
 
-::: {.title_matter width="100%"}
-[***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"}
-:::
+<!-- ::: {.title_matter width="100%"} -->
+<!-- [***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"} -->
+<!-- ::: -->
 
 ::: {.chapter-authors width="100%"}
 **Chris Hallett^1^, Fiona Valesini^1^, Sorcha Cronin O'Reilly^1^, Kieryn Kilminster^2^, Naomi Wells^3^, Brad Eyre^3^**
@@ -18,6 +18,7 @@ knitr::include_graphics("images/sediment/picture1.png")
 
 ```
 
+::: {.body-text width="100%"}
 ## Executive Summary
 
 The enrichment of sediments with nutrients and organic matter is a key stressor of the health of the Peel-Harvey Estuary. Its rivers drain extensively cleared catchments and have long brought large quantities of organic matter, fine sediments (mud) and dissolved nutrients, including nitrogen and phosphorus, into the system. These inputs impact the condition or health of the estuarine sediments, including their particle size and porosity, oxygen content and nutrient processing abilities. In turn, these changes can degrade water quality, impact biota that live on or in the sediments, and subsequently, lead to a host of diminished societal benefits from the estuary.
@@ -227,3 +228,4 @@ knitr::include_graphics("images/sediment/picture13.png")
 ## Acknowledgements
 
 We are very grateful to Marta Sánchez-Alarcón, Helen Nice, Frances D'Souza and particularly Alan Cottingham for assistance with fieldwork; Graham Lancaster, Iain Alexander, Natasha Carlson-Perret and colleagues at the Environmental Analysis Laboratory and the Centre for Coastal Biogeochemistry Research, Southern Cross University, for laboratory processing of sediment samples, and Malcolm Robb for helpful discussions and advice. We also greatly appreciate the funding and logistical support provided for this project by the Regional Estuaries Initiative, a Western Australian government program led by the Department of Water and Environmental Regulation.
+:::
