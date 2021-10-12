@@ -14,7 +14,7 @@
 
 ```{r sediment-pic1, echo = FALSE, out.width='100%', class = "title-image"}
 
-knitr::include_graphics("images/sediment/picture1.png")
+knitr::include_graphics("images/sediment/picture1.webp")
 
 ```
 
@@ -51,13 +51,13 @@ We undertook a broad-scale survey of sediments at almost 100 sites throughout th
 
 ```{r sediment-pic2, echo = FALSE, out.width='40%', class = "text-image", fig.cap = "Core with oxygenated sediment (grey/ brown) and anoxic sediment (black) (Photo, C. Hallett)."}
 
-knitr::include_graphics("images/sediment/picture2.png")
+knitr::include_graphics("images/sediment/picture2.webp")
 
 ```
 
 ```{r sediment-pic3, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Conceptual model of the effects of progressive enrichment with organic matter (OM) and nutrients on sediment condition and biogeochemistry (from Hallett et al., 2019). Increasing enrichment leads to declining sediment condition, including a shift from (a) oxic to (c) anoxic conditions. This disrupts nutrient cycling between the sediment and overlying water and leads to the accumulation and potential release of inorganic nutrients (ammonium, phosphates) and toxic sulfides. (aRPD – apparent Redox Potential Discontinuity, which reflects depth of oxygen penetration into the sediment)."}
 
-knitr::include_graphics("images/sediment/picture3.png")
+knitr::include_graphics("images/sediment/picture3.webp")
 
 ```
 
@@ -81,7 +81,7 @@ In the field, pooled subsamples of sediment were collected from each pair of rep
 
 ```{r sediment-pic4, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Map of the sites at which sediments were sampled in the Peel-Harvey Estuary in 2016."}
 
-knitr::include_graphics("images/sediment/picture4.png")
+knitr::include_graphics("images/sediment/picture4.webp")
 
 ```
 
@@ -105,7 +105,7 @@ Sites throughout the estuary differed widely in their sediment enrichment (organ
 
 ```{r sediment-pic5, echo = FALSE, out.width='75%', class = "text-image", fig.cap = ". Box and whisker plots of %TN, %TC and %OC values across all Low, Medium and High enrichment sites throughout the Peel-Harvey Estuary. Horizontal lines in each box represent median values, and whisker endpoints are high/low extreme values."}
 
-knitr::include_graphics("images/sediment/picture5.png")
+knitr::include_graphics("images/sediment/picture5.webp")
 
 ```
 
@@ -113,13 +113,13 @@ With respect to the sediment attributes that were scored using the RAP, very cle
 
 ```{r sediment-pic6, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Cores of sediments classified as (a) Good, (b) Fair and (c) Poor condition based on their Rapid Assessment Protocol (RAP) scores for sediment colour, texture and odour."}
 
-knitr::include_graphics("images/sediment/picture6.png")
+knitr::include_graphics("images/sediment/picture6.webp")
 
 ```
 
 ```{r sediment-pic7, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Box and whisker plots of sediment colour, texture, odour and total Rapid Assessment Protocol (RAP) scores among sites classified as being in Good, Fair and Poor sediment condition, across (a) basins and (b) rivers. Horizontal lines in each box represent median values, and whisker endpoints are high/low extreme values."}
 
-knitr::include_graphics("images/sediment/picture7.png")
+knitr::include_graphics("images/sediment/picture7.webp")
 
 ```
 
@@ -135,7 +135,7 @@ Broadly, to interpret the CAP plot in Fig. 6: (1) the points on the plot represe
 
 ```{r sediment-pic8, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Canonical Analysis of Principal Coordinates (CAP) plot, with the 97 sites coded by symbols for their enrichment class and labelled with their Rapid Assessment Protocol (RAP) condition class (G–Good, F–Fair, P–Poor). Note that several sites overlap on the plot. Vector lines (in blue) overlaid on the plot indicate the strength and direction of the correlations between each RAP variable (colour, texture and odour) with the CAP axes."}
 
-knitr::include_graphics("images/sediment/picture8.png")
+knitr::include_graphics("images/sediment/picture8.webp")
 
 ```
 
@@ -145,7 +145,7 @@ Given the above validation that the RAP accurately reflects sediment enrichment 
 
 ```{r sediment-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Decision trees for assigning new (a) basin and (b) river sites in the Peel-Harvey Estuary to their appropriate sediment condition class (bold text at terminal nodes) based on their Rapid Assessment Protocol (RAP) score thresholds. Unbracketed and bracketed thresholds at each branch indicate that a left and right path, respectively, should be followed through the tree. (Trees were constructed using LINKTREE and SIMPROF routines. B% reflects the extent of class differences)."}
 
-knitr::include_graphics("images/sediment/picture9.png")
+knitr::include_graphics("images/sediment/picture9.webp")
 
 ```
 
@@ -163,13 +163,13 @@ These relationships reflect the clear effects of enrichment, and associated mudd
 
 ```{r sediment-pic10, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Map of overall sediment enrichment (TC, OC and TN) interpolated throughout the estuary. Circles denote sediment sampling sites, colour coded by their sediment condition class (green, Good; yellow, Fair; red, Poor). Insets provide higher resolution views of patterns in the rivers."}
 
-knitr::include_graphics("images/sediment/picture10.png")
+knitr::include_graphics("images/sediment/picture10.webp")
 
 ```
 
 ```{r sediment-pic11, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Maps of (a) water depth, (b) %mud, (c) %OC, (d) %TN interpolated throughout the estuary. Circles denote sediment sampling sites, colour coded by their sediment condition class (green, Good; yellow, Fair; red, Poor). Insets provide higher resolution views of patterns in the rivers."}
 
-knitr::include_graphics("images/sediment/picture11.png")
+knitr::include_graphics("images/sediment/picture11.webp")
 
 ```
 
@@ -189,7 +189,7 @@ We measured the isotope composition of the organic matter in the sediments (δ^1
 
 ```{r sediment-pic12, echo = FALSE, out.width='90%', class = "text-image", fig.cap = "(a) Map of sediment nitrogen stable isotope values (δ15N) and carbon (δ13C) interpolated throughout the estuary. These values were measured on the total nitrogen (TN) and organic carbon (OC) pools, as reported in Fig. 9. Circles denote sediment sampling sites."}
 
-knitr::include_graphics("images/sediment/picture12.png")
+knitr::include_graphics("images/sediment/picture12.webp")
 
 ```
 
@@ -221,7 +221,7 @@ knitr::include_graphics("images/sediment/picture12.png")
 
 ```{r sediment-pic13, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Map of suggested sites for future monitoring of sediment condition throughout the estuary, based on the outcomes of the current study. Colours indicate sediment condition class, as assessed in the 2016 survey (green, Good; yellow, Fair; red, Poor). Red ellipses denote ‘watch’ areas, i.e. those deemed at greatest risk of impacted sediment condition, and which are particularly likely to require ongoing monitoring and management. Note that the location of all sites is provisional, and should be tailored for purpose prior to finalising any monitoring regime."}
 
-knitr::include_graphics("images/sediment/picture13.png")
+knitr::include_graphics("images/sediment/picture13.webp")
 
 ```
 

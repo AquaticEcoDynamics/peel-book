@@ -10,7 +10,7 @@
 
 ```{r model-water-quality-pic1, echo = FALSE, out.width='100%', class = "title-image"}
 
-knitr::include_graphics("images/model_water_quality/picture1.png")
+knitr::include_graphics("images/model_water_quality/picture1.webp")
 
 ```
 
@@ -51,7 +51,7 @@ This report seeks improved understanding of water quality responses to the envir
 A comprehensive data review and compilation process was undertaken to provide the necessary data for model setup, validation and assessment. Available monitoring data was sourced from: Marine and Freshwater Research Laboratory (MAFRL, 1977-2001), Department of Water and Environmental Regulation (DWER) Water Information Reporting (WIR, 2001-2018), Murdoch University biogeochemical field surveys (MU, 2016-2018), and Southern Cross University nutrient and isotope surveys (SCU, 2017). The data from these sources are summarized in Table 1 and sampling locations are shown in Fig. \@ref(fig:model-water-quality-pic2), and was standardised to facilitate comparison.
 
 ```{r model-water-quality-pic2, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Data sources and their sampling locations superimposed on the PHERM simulation domain."}
-knitr::include_graphics("images/model_water_quality/picture2.png")
+knitr::include_graphics("images/model_water_quality/picture2.webp")
 ```
 
 ### The Peel Harvey Estuary Response Model (PHERM)
@@ -77,7 +77,7 @@ The final version, PHERM v11, was run for 16 selected years from 1979 to 2017, i
 The models output all variables across the domain at 2-hourly internals for each of the 16 annual simulations, and these were also used for nutrient budgeting at the estuary scale, and also in each ERZ. The resultant predictions were also used to develop simpler Estuary Response Functions (ERFs) to illustrate typical patterns of water quality response to flow and nutrient input in different areas of the system.
 
 ```{r model-water-quality-pic3, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "AED water quality model diagram summarising interactions captured with the PHERM."}
-knitr::include_graphics("images/model_water_quality/picture3.png")
+knitr::include_graphics("images/model_water_quality/picture3.webp")
 ```
 
 ## Main Findings
@@ -87,7 +87,7 @@ knitr::include_graphics("images/model_water_quality/picture3.png")
 The monitored key water quality variables show strong seasonal signals, and the obvious response to the increased flushing brought about by the opening of the Cut (Fig. \@ref(fig:model-water-quality-pic4)). In general, the salinity decreases, and TN/TP concentrations increased during the wet season following catchment loading (see also Fig. \@ref(fig:model-water-quality-pic8)). The opening of the Cut enhanced the ocean water intrusion, therefore lifting salinity and reducing the mean concentrations of TN, TP and TCHLA since 1994. The annual-averaged TN concentration decreased from over 2.0 mg/L in the pre-Cut period to about 0.5 mg/L after the Cut opening, while the annual-averaged TP decreased from over 0.1 mg/L to about 0.03 mg/L. Variability in oxygen, and seasonal low oxygen in the lagoons, has also reduced since 1994.
 
 ```{r model-water-quality-pic4, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Synoptic view of the water quality evolution in the Peel Inlet (left panels) and Harvey Estuary (right panels) from 1979 to 2017. The symbol shapes indicate the data sources; blue indicates data measured within the surface waters and orange indicates data measured at the bottom. The brown arrows indicate the time when the Dawesville Cut was constructed."}
-knitr::include_graphics("images/model_water_quality/picture4.png")
+knitr::include_graphics("images/model_water_quality/picture4.webp")
 ```
 
 ### Reduction in catchment nutrient loading
@@ -95,7 +95,7 @@ knitr::include_graphics("images/model_water_quality/picture4.png")
 The catchment nutrient loading data were created from a synthesis of catchment river monitoring data, catchment model outputs and statistical modelling to allow the long-term comparison of loads and nutrient partitioning. The data shows a significant reduction in the annual TN and TP loading into the PHE system, following the reduction of annual inflows (Fig. \@ref(fig:model-water-quality-pic5)). The flow-normalised annual mean nitrogen concentrations remained relatively stable from 1970 to 2016, while there was significant declining trend in the TP concentration. The linear regression shows the total annual inflow dropped by 268.9 GL (39.8%) from 1970 to 2017, while the total annual TN loading dropped by 501.6 tonnes (44.6%) and the total annual TP loading dropped by 69.6 tonnes (50.9%), indicating not only the reduction of nutrient loading due to the inflow decline, but also the efforts of catchment nutrient control, especially on phosphorus.
 
 ```{r model-water-quality-pic5, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Annual-mean of (a) TN and (b) TP concentrations in all inflows entering the PHE estuary (8 gauged plus 16 ungauged), and the annual loading of (c) flow, (d) TN, and (e) TP."}
-knitr::include_graphics("images/model_water_quality/picture5.png")
+knitr::include_graphics("images/model_water_quality/picture5.webp")
 ```
 
 ### PHERM performance in reconstructing the water quality changes
@@ -105,19 +105,19 @@ The performance of PHE water quality response model in reproducing the estuary s
 Site validation examples are shown in Figs. \@ref(fig:model-water-quality-pic6) and \@ref(fig:model-water-quality-pic7) for PH1 (center of Harvey Estuary) and site PH7 (center of Peel Inlet), respectively. The model was able to accurately reproduce salinity and temperature in the estuary, and captured well the variations in dissolved oxygen and variation the nutrient pools such as TN and TP, though some over-prediction was occurring in the nutrient pools in the latter years. The model performance is further illustrated in Fig. \@ref(fig:model-water-quality-pic8) where monthly changes in water quality are aggregated to pre- and post-Cut periods and compared to monitoring data. The model well re-produced the seasonal variations in salinity, temperature, and nutrient levels, especially in the post-Cut period. In the pre-Cut period, the model under-predicted the salinity and nutrient concentrations, possibly due to the poor boundary condition setting in these periods when the quantity and quality of weather and catchment forcing were poor and were subject to numerous in-filling assumptions. However, the monthly-mean and deviation in the post-Cut period from the model output well matched the monitoring data. More importantly, the model response of key water attributes to the environmental inputs are close to the observational data (Fig. \@ref(fig:model-water-quality-pic9)), suggesting that in its present form, the model is suitable for assessing management scenarios associated with nutrient load management or climate change.
 
 ```{r model-water-quality-pic6, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Time history plot of key water quality variables from model output (dark line, monthly moving-average) and monitoring data (golden open circles, weekly/fortnightly interval) at site PH1 (center of Harvey Estuary). The model performance was evaluated with regression coefficient (r), mean absolute error (mae) and root-mean square error (rms) shown in the right panels. More detailed validation analyses of all measured variables for all years and regions are available online."}
-knitr::include_graphics("images/model_water_quality/picture6.png")
+knitr::include_graphics("images/model_water_quality/picture6.webp")
 ```
 
 ```{r model-water-quality-pic7, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Same as Fig. 5, except for site PH7 (center of Peel Inlet)."}
-knitr::include_graphics("images/model_water_quality/picture7.png")
+knitr::include_graphics("images/model_water_quality/picture7.webp")
 ```
 
 ```{r model-water-quality-pic8, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Monthly water quality changes in the pre-Cut and post-Cut period from model output and monitoring data."}
-knitr::include_graphics("images/model_water_quality/picture8.png")
+knitr::include_graphics("images/model_water_quality/picture8.webp")
 ```
 
 ```{r model-water-quality-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Response of S, TN, TP, and DO concentrations at site PH1to inflow comparing model outputs and observations, separated into pre- and post-Cut periods. "}
-knitr::include_graphics("images/model_water_quality/picture9.png")
+knitr::include_graphics("images/model_water_quality/picture9.webp")
 ```
 
 ### Nutrient retention and transportation
@@ -127,23 +127,23 @@ As the interface between the land and ocean, the PHE system can act to retain or
 The PHE nutrient retention capability (defined as the difference between the catchment loading and ocean export) showed a negative relationship to the catchment loading in the post-Cut period, and the PHE showed net export under the annual-inflow loading threshold of ~350 GL/year when the export exceeded the catchment loading.
 
 ```{r model-water-quality-pic10, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Spring average (a) water age and (b) TN across 8 simulated years, demonstrating the large change in potential for nutrient flushing and retention."}
-knitr::include_graphics("images/model_water_quality/picture10.png")
+knitr::include_graphics("images/model_water_quality/picture10.webp")
 ```
 
 ```{r model-water-quality-pic11, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Annual nutrient budget for (a) nitrogen and (b) phosphorus showing the balance between the catchment input and estuary export; and (c) estuary retention capability vs. annual inflow rate, showing the tendency to switch to net nutrient export below a critical catchment inflow volume."}
-knitr::include_graphics("images/model_water_quality/picture11.png")
+knitr::include_graphics("images/model_water_quality/picture11.webp")
 ```
 
 The effect of the Cut construction on the water transportation is further illustrated in Fig. \@ref(fig:model-water-quality-pic12), which shows the TN/TP fluxes transported through interior transects within the PHE. In a selected pre-Cut hydrologic year, about 40% of TN and 27% of TP was exported to ocean. Much of the nutrients entering from the Harvey River were retained in the Harvey Estuary, due to the poor flushing in this region at this time. In a post-Cut year (2016) however, over 70% of nutrients from the Harvey River were exported out of the Harvey Estuary region. This result matches the analysis of the water retention in the hydrology analysis by Huang et al. (2019) that the Cut-opening effectively improved the flushing effect, especially in the Harvey Estuary, therefore notably reducing the nutrient levels.
 
 ```{r model-water-quality-pic12, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Whole estuary view of annual TN/TP fluxes transported by currents through the system comparing 1979 (left) and 2016 (right). The size of the arrow indicates the flux rates relative to the inputs. Note the large Murray River in put in the 2016 hydrologic year is attributable to the Feb 2017 summer flood event."}
-knitr::include_graphics("images/model_water_quality/picture12.png")
+knitr::include_graphics("images/model_water_quality/picture12.webp")
 ```
 
 The stocks and internal fluxes of the carbon, nitrogen and phosphorus in the PHE were also computed and display the overlapping seasonal cycles of catchment loading and estuary metabolism (production and respiration) (Fig. \@ref(fig:model-water-quality-pic13)). The nutrient stocks in particle and dissolved forms changed following the catchment inputs. They increased in the wet season (July and August) and, in the selected year of 2017, also increased in February due to the summer storm event that occurred whereby catchment loading exceeded the export. Organic matter is the major form of the various nutrient stocks. The primary production and respiration intensity also varies seasonally within a notable increase in summer relative to winter, despite the majority of the nutrient inputs entering in the winter. Nitrification and denitrification also played fundamental roles in the nitrogen cycle, contributing up to 2 tonnes/day in the estuary, whilst particle organic matter sedimentation was a major sink of water column nitrogen and phosphorus.
 
 ```{r model-water-quality-pic13, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Daily changes in the carbon, nitrogen, and phosphorus stocks and their internal fluxes within the PHE (budgeted area including the Peel Inlet and Harvey Estuary regions)."}
-knitr::include_graphics("images/model_water_quality/picture13.png")
+knitr::include_graphics("images/model_water_quality/picture13.webp")
 ```
 
 ### Regional water quality response to catchment inputs
@@ -155,7 +155,7 @@ PHE presents high heterogeneity in the distributions of both hydrology such as s
 The local salinity is sensitive to the catchment inflows (Fig. \@ref(fig:model-water-quality-pic14)). In the pre-Cut years, the salinity showed a faster decrease with the inflows, especially in the Harvey Estuary where the salinity dropped quickly to below 10 PSU when inflow rates > ~50 GL/week. The Cut-opening increase the salinity but a general decrease of salinity in response to inflow can still be observed. The salinity at the locations near the channels (site PH2 and PH58) are less ‘sensitive’ to the inflows due to the mixing with ocean water, compared to other sites further to the channels.
 
 ```{r model-water-quality-pic14, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Monitored salinity at 6 routine monitoring sites in PHE vs. weekly catchment inflow."}
-knitr::include_graphics("images/model_water_quality/picture14.png")
+knitr::include_graphics("images/model_water_quality/picture14.webp")
 ```
 
 #### Salinity stratification response
@@ -163,7 +163,7 @@ knitr::include_graphics("images/model_water_quality/picture14.png")
 The stratification degrees (defined as the salinity difference between the surface and bottom water) showed a general increase with the catchment inflows (Fig. \@ref(fig:model-water-quality-pic15)), although there are large deviations in the response due to the fact that other factors such as wind mixing and current movements can also affect the salinity stratification. The response of stratification is stronger in the post-Cut period, especially in the Harvey Estuary, maybe because the Cut-opening enhanced ocean water intrusion that subsequently led to higher salinity in the bottom water.
 
 ```{r model-water-quality-pic15, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Monitored salinity stratification at 6 routine monitoring sites in PHE vs. weekly catchment inflow."}
-knitr::include_graphics("images/model_water_quality/picture15.png")
+knitr::include_graphics("images/model_water_quality/picture15.webp")
 ```
 
 #### TN and TP response
@@ -173,11 +173,11 @@ The regional TN concentration shows a positive relationship with the catchment T
 The regional TP concentration response is similar to TN, showing a positive relationship to the catchment input and slighter ‘sensitivity’ at the sites close to the channels (site PH2 and PH58) compared to other sites further to the channels (Fig. \@ref(fig:model-water-quality-pic17)).
 
 ```{r model-water-quality-pic16, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Monitored TN concentration at 6 routine monitoring sites in PHE vs. weekly catchment TN loading."}
-knitr::include_graphics("images/model_water_quality/picture16.png")
+knitr::include_graphics("images/model_water_quality/picture16.webp")
 ```
 
 ```{r model-water-quality-pic17, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Monitored TP concentration at 6 routine monitoring sites in PHE vs. weekly catchment TP loading."}
-knitr::include_graphics("images/model_water_quality/picture17.png")
+knitr::include_graphics("images/model_water_quality/picture17.webp")
 ```
 
 #### Oxygen response
@@ -185,7 +185,7 @@ knitr::include_graphics("images/model_water_quality/picture17.png")
 The oxygen concentration at the bottom water shows large deviation to the catchment flows (Fig. \@ref(fig:model-water-quality-pic18)), due to the facts that the oxygen was also impacted by many other factors such as wind speeds and primary production/respiration. The post-Cut period shows a general decrease of bottom oxygen concentration in response to the inflows, maybe due to the enhancement of salinity stratification (Fig. \@ref(fig:model-water-quality-pic15)) that inhibits the oxygen exchange from the surface water.
 
 ```{r model-water-quality-pic18, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Monitored bottom oxygen concentration at 6 routine monitoring sites in PHE vs. weekly catchment inflow."}
-knitr::include_graphics("images/model_water_quality/picture18.png")
+knitr::include_graphics("images/model_water_quality/picture18.webp")
 ```
 
 #### Maximum phytoplankton biomass response
@@ -193,7 +193,7 @@ knitr::include_graphics("images/model_water_quality/picture18.png")
 The maximum phytoplankton biomass recorded in the summertime in response to the catchment inflows demonstrates different behaviors in the Peel Inlet and Harvey Estuary (Fig. \@ref(fig:model-water-quality-pic19)). The Harvey Estuary shows a general increase of the maximum phytoplankton biomass to the catchment inputs in both the pre- and post-Cut periods, although the biomass in the post-Cut period was significantly reduced, especially at site PH58 which is close to the Cut. In comparison, the response in the Peel Inlet is less significant, although the decrease of phytoplankton biomass with Cut-opening can still be observed, except for site PH4 which is shallow and adjacent to the mouth of Murray River.
 
 ```{r model-water-quality-pic19, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Maximum annual phytoplankton biomass vs. annual inflow in hydrologic year for 6 routine monitoring sites in PHE."}
-knitr::include_graphics("images/model_water_quality/picture19.png")
+knitr::include_graphics("images/model_water_quality/picture19.webp")
 ```
 
 ## Conclusions

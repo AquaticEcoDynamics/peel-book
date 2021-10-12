@@ -16,7 +16,7 @@ Centre for Regional Development, The University of Western Australia, Crawley WA
 
 ```{r economic-competitiveness-pic1, echo = FALSE, out.width='100%', class = "title-image"}
 
-knitr::include_graphics("images/economic_competitiveness/picture1.png")
+knitr::include_graphics("images/economic_competitiveness/picture1.webp")
 
 ```
 
@@ -135,7 +135,7 @@ Combining the information on an economy's ability to create jobs locally (*Compe
 
 ```{r economic-competitiveness-pic2, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Classification of Industrial Structure."}
 
-knitr::include_graphics("images/economic_competitiveness/picture2.png")
+knitr::include_graphics("images/economic_competitiveness/picture2.webp")
 
 ```
 
@@ -161,13 +161,13 @@ Figs 2(a) and 2(b) summarise the economic structure of the Peel-Harvey economy:
 
 ```{r economic-competitiveness-pic3, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "The relative growth of the industry based on level of local specialization for 2006-2011."}
 
-knitr::include_graphics("images/economic_competitiveness/picture3.png")
+knitr::include_graphics("images/economic_competitiveness/picture3.webp")
 
 ```
 
 ```{r economic-competitiveness-pic4, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "The relative growth of the industry based on level of local specialization for 2011-2016."}
 
-knitr::include_graphics("images/economic_competitiveness/picture4.png")
+knitr::include_graphics("images/economic_competitiveness/picture4.webp")
 
 ```
 

@@ -65,7 +65,7 @@ It is has been the objective of this project that the data, tools, knowledge and
 
 
 ```{r summary-pic2, echo = FALSE, out.width='100%', class = "text-image"}
-knitr::include_graphics("images/summary_report/picture2.jpg")
+knitr::include_graphics("images/summary_report/picture2.webp")
 ```
 
 ## Background
@@ -76,7 +76,7 @@ knitr::include_graphics("images/summary_report/picture2.jpg")
 The overarching goal of this ARC Linkage project (2016-2019) was to produce an integrated, decision support system (DSS) for better understanding tradeoffs between regional catchment development drivers (economic resilience) and the health of receiving estuarine waterways (environmental and ecological resilience). Understanding these tradeoffs and exploring alternative futures around them is fundamental to sustainably developing our coastal regions. If a balance can be achieved, then broader societal resilience can be realised, reflecting the societal benefits that develop from both a healthy economy (e.g. more jobs, specialised industries) and healthy waterways (e.g. good fishing, wildlife watching, connection to place; Fig. \@ref(fig:summary-pic3)).
 
 ```{r summary-pic3, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Conceptual diagram of the balance between catchment development aspirations (economic resilience) and downstream estuarine health (ecological resilience) to achieve broader social resilience."}
-knitr::include_graphics("images/summary_report/picture3.jpg")
+knitr::include_graphics("images/summary_report/picture3.webp")
 ```
 
 Yet, despite the increasing challenges brought about by accelerated population growth, much of which is occurring along our coasts and estuaries, the pathways to achieving this duality are either unclear or poorly considered. This partly reflects the complexities of both societies and our coastal waterways across multiple scales. It also reflects the fact that good management of these socio-ecological systems requires long-term thinking and ongoing support, integration of diverse and high-resolution information streams, co-operation among disparate stakeholder groups, and the focusing of multidisciplinary skill sets on a common set of goals. Added to this complexity at local to regional scales, are the shifting external baselines that influence our economies and environments at broader scales, such as global economic drivers and climate change. 
@@ -95,7 +95,7 @@ Along-side the above-mentioned accelerating climate change pressures, the Peel i
 Given its particular history of fundamental ecosystem shifts through both chronic decline and an acute engineered ‘recovery’, as well as its current and forecast climate and development stressors, the Peel-Harvey represents an important opportunity to explore the resilience of estuarine systems and the societies they support. Our main study objectives are outlined below, with further detail on the objectives of each study component given in the underpinning catalogue of reports (see Tables 1 and 3 and section 4.1). 
 
 ```{r summary-pic4, echo = FALSE, out.width='100%', class = "text-image"}
-knitr::include_graphics("images/summary_report/picture4.jpg")
+knitr::include_graphics("images/summary_report/picture4.webp")
 ```
 
 ## Project Objectives
@@ -114,11 +114,11 @@ knitr::include_graphics("images/summary_report/picture4.jpg")
 > *This study is among the first in Australia to integrate all of the above components to support sustainable development and understanding of whole-of-system resilience across a catchment*
 
 ```{r summary-pic5, echo = FALSE, out.width='100%', class = "text-image"}
-knitr::include_graphics("images/summary_report/picture5.jpg")
+knitr::include_graphics("images/summary_report/picture5.webp")
 ```
 
 ```{r summary-pic6, echo = FALSE, out.width='100%', class = "text-image", fig.cap="(a) Peel-Harvey catchment and estuary, showing the three main river sub-catchments and broad land uses; (b) Peel-Harvey Estuary and detailed land uses on the coastal plain portion of the catchment (reproduced from Valesini et al. 2019a)"}
-knitr::include_graphics("images/summary_report/picture6.jpg")
+knitr::include_graphics("images/summary_report/picture6.webp")
 ```
 
 ## Approach
@@ -137,7 +137,7 @@ At the core of the DSS, is the coupled catchment-estuary response model framewor
 
 A comprehensive suite of estuarine ecosystem health indicators form the second main component of the DSS, providing quantitative measures that span the environmental, ecological and ecosystem services spectrum. These indices capture various facets of the ‘State’ element of the DPSIR model. Many of these indices are linked either inherently or statistically to the coupled estuarine response model, enabling prediction of index response under proposed future scenarios (Fig. \@ref(fig:summary-pic9)). While the calculations underlying these indices are complex, most are reported or illustrated simply on a ‘good-poor’ spectrum using either scales or ‘report card’ grades, so they can be easily interpreted by the wider community. The full suite of indicators are outlined in Table 1. 
 ```{r summary-pic7, echo = FALSE, out.width='100%', class = "text-image"}
-knitr::include_graphics("images/summary_report/picture7.jpg")
+knitr::include_graphics("images/summary_report/picture7.webp")
 ```
 
 ### Regional economic resilience indicators 
@@ -157,11 +157,11 @@ The final element of the DPSIR model is the Response. This refers to the actions
 The final element of the DPSIR model is the Response. This refers to the actions that managers and decision-makers across the Peel region may choose to take, given the information that is now available to them. This work delivers a framework to provide a transparent risk-management approach to support an ongoing and evidence-based adaptive decision making process. In this way, decisions related to either environmental management or catchment development share a common logic founded in resilience thinking principles, allowing agencies and groups charged with management to adopt a common road-map and project/policy assessment process. 
 
 ```{r summary-pic8, echo = FALSE, out.width='100%', class = "text-image"}
-knitr::include_graphics("images/summary_report/picture8.jpg")
+knitr::include_graphics("images/summary_report/picture8.webp")
 ```
 
 ```{r summary-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap="Conceptual diagram of the main study components underpinning the DSS for balancing tradeoffs between estuarine and economic health in the Peel-Harvey. Past and present data inform the ability of the DSS to predict future tradeoffs under stakeholder-defined scenarios, and hence inform management response."}
-knitr::include_graphics("images/summary_report/picture9.jpg")
+knitr::include_graphics("images/summary_report/picture9.webp")
 ```
 
 ### Data collation, collection and repository 
@@ -169,11 +169,11 @@ knitr::include_graphics("images/summary_report/picture9.jpg")
 Extensive historical data sets were collated to support development of the model and decision-support framework and individual components of the project, which are broadly summarised in Table 2. Additionally, extensive new field data were collected during this study to comprehensively summarise the current condition of the Peel-Harvey system. Broad categories of these new data sets are summarised in Figs \@ref(fig:summary-pic10) and \@ref(fig:summary-pic11) for the estuary and catchment, respectively.
 
 ```{r summary-pic10, echo = FALSE, out.width='100%', class = "text-image", fig.cap="Summary of the sampling or monitoring sites in the Peel-Harvey Estuary at which environmental or biotic data were collected in 2016-2018 to support development of the DSS. Further detail on each of the field sampling regimes can be found in the respective reports (Table 1)."}
-knitr::include_graphics("images/summary_report/picture10.jpg")
+knitr::include_graphics("images/summary_report/picture10.webp")
 ```
 
 ```{r summary-pic11, echo = FALSE, out.width='100%', class = "text-image", fig.cap="Summary of the sampling or monitoring sites in the Peel-Harvey catchment at which environmental data were collected in 2016-2018 to support development of the DSS. Further detail on each of the field sampling regimes can be found in the respective reports (Table 1)."}
-knitr::include_graphics("images/summary_report/picture11.jpg")
+knitr::include_graphics("images/summary_report/picture11.webp")
 ```
 
 ## Main Findings
@@ -228,7 +228,7 @@ Large-scale implementation of catchment management actions (e.g. improving ferti
 Comparison of scenarios with different levels of catchment management intervention (e.g. Fig \@ref(fig:summary-pic12)) highlighted that doing nothing in the face of climate change, urban expansion and agricultural intensification will lead to declining water quality. Continuing with current rate of implementation of approaches to catchment management, as well as enabling agricultural and urban development as proposed in the Strategic Assessment of the Perth and Peel Regions, is forecast to intensify problems with hypoxia in the rivers and increase nutrient flows to the rivers and parts of the basins. On the other hand, alternate “green-growth” development strategies were shown to be able to make a positive impact on maintaining and potentially improving water quality. Additionally, through our link with the econometrics modelling, it was identified how investment in agricultural technology to improve production whilst reducing nutrient leaching good additionally drive local competitiveness and promote longer-term growth.  
 
 ```{r summary-pic12, echo = FALSE, out.width='100%', class = "text-image", fig.cap="Catchment land-use and drainage entering into the Peel-Harvey estuary model (PHERM; top) and example outputs of the model scenario comparison for a chosen estuary health indicator. See Hipsey et al. (2019b) for detail."}
-knitr::include_graphics("images/summary_report/picture12.jpg")
+knitr::include_graphics("images/summary_report/picture12.webp")
 ```
 
 ## Recommendations

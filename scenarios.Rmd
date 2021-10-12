@@ -18,7 +18,7 @@
 :::
 
 ```{r scenarios-pic1, echo = FALSE, out.width='100%', class = "title-image"}
-knitr::include_graphics("images/scenarios/picture1.jpg")
+knitr::include_graphics("images/scenarios/picture1.webp")
 ```
 
 ::: {.body-text width="100%"}
@@ -79,7 +79,7 @@ Workshop participants were then asked to anonymously complete a survey (see Appe
 </ol>
 
 ```{r scenarios-pic2, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Summary of the main components underlying the scenarios concept that was adopted for exploring socio-ecological trade-offs in the Peel-Harvey system in 2050."}
-knitr::include_graphics("images/scenarios/picture2.jpg")
+knitr::include_graphics("images/scenarios/picture2.webp")
 ```
 
 #### Distilling key values and 2050 scenarios  

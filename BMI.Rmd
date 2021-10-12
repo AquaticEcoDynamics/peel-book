@@ -16,7 +16,7 @@ Centre for Sustainable Aquatic Ecosystems, Murdoch University, Perth, WA
 
 ```{r BMI-pic1, echo = FALSE, out.width='100%', class = "title-image"}
 
-knitr::include_graphics("images/BMI/picture1.png")
+knitr::include_graphics("images/BMI/picture1.webp")
 
 ```
 
@@ -37,7 +37,7 @@ Finally, we have proposed a benthic invertebrate monitoring plan to enable the e
 
 ```{r BMI-pic2, echo = FALSE, out.width='89%', class = "text-image", fig.cap = "Bait worm *Marphysa sanguinea*, showing gill structures (Photo, S. Cronin-O’Reilly)."}
 
-knitr::include_graphics("images/BMI/picture2.png")
+knitr::include_graphics("images/BMI/picture2.webp")
 
 ```
 
@@ -49,7 +49,7 @@ Benthic macroinvertebrates are bottom-dwelling invertebrates, > 500 µm in size,
 
 ```{r BMI-pic3, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Examples of benthic invertebrates collected from the Peel-Harvey. (Photos; 1a & c, S. Cronin-O-Reilly; 1b, M. Wildsmith)."}
 
-knitr::include_graphics("images/BMI/picture3.png")
+knitr::include_graphics("images/BMI/picture3.webp")
 
 ```
 
@@ -90,13 +90,13 @@ It is recognized that the effects of human-derived stressors (e.g. the downstrea
 
 ```{r BMI-pic4, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Map of the sites at which benthic macroinvertebrates were sampled across the Peel-Harvey Estuary in winter 2017 and summer 2018. Sites have been colour-coded by their RAP sediment condition class in summer 2018 (green, Good; yellow, Fair; red, Poor; see Table 1 and Fig. 3). Note that these condition classes differed for some sites in winter 2017, as shown in Figs 11 and 12."}
 
-knitr::include_graphics("images/BMI/picture4.png")
+knitr::include_graphics("images/BMI/picture4.webp")
 
 ```
 
 ```{r BMI-pic5, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Cores of sediments classified as (a) Good, (b) Fair and (c) Poor condition based on their RAP scores for sediment colour, texture and odour (from Hallett et al., 2019b)."}
 
-knitr::include_graphics("images/BMI/picture5.png")
+knitr::include_graphics("images/BMI/picture5.webp")
 
 ```
 
@@ -110,7 +110,7 @@ Various water quality characteristics, including salinity, temperature (°C) and
 
 ```{r BMI-pic6, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Collecting sediment cores using a telescopic corer with a detachable PVC coring tube; (b) Sieving sediment samples to collect benthic invertebrates (Photos, S. Cronin-O’Reilly)."}
 
-knitr::include_graphics("images/BMI/picture6.png")
+knitr::include_graphics("images/BMI/picture6.webp")
 
 ```
 
@@ -132,7 +132,7 @@ To display EBCI trends throughout the estuary in both the wet and dry seasons, E
 
 ```{r BMI-pic7, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Summary of the approach used to build the Benthic Community Index, outlining, from left to right, (i) the main steps in constructing the index; (ii) more detail underpinning each main step; (iii) main statistical methods used; (iv) key data inputs into the statistical methods (PCA, Principal Components Analysis; BEST, Biota and Environment Matching routine; DISTLM, Distance Based Linear Models) and (iv) main statistical outputs."}
 
-knitr::include_graphics("images/BMI/picture7.png")
+knitr::include_graphics("images/BMI/picture7.webp")
 
 ```
 
@@ -146,7 +146,7 @@ The largely marine and well-flushed northern Harvey/western Peel region had by f
 
 ```{r BMI-pic8, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Examples of common invertebrates (a) Corophium minor, (b) Arthritica semen, (c) Arcuatula senhousia (Photos; S. Cronin-O-Reilly)."}
 
-knitr::include_graphics("images/BMI/picture8.png")
+knitr::include_graphics("images/BMI/picture8.webp")
 
 ```
 
@@ -157,7 +157,7 @@ Many of the above-mentioned dominant species in the Peel-Harvey Estuary are reco
 
 ```{r BMI-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Benthic invertebrate community development along a gradient of increasing environmental stress. Diverse faunas are gradually replaced by a small number of dominant species (often highly tolerant worms and select bivalves)."}
 
-knitr::include_graphics("images/BMI/picture9.png")
+knitr::include_graphics("images/BMI/picture9.webp")
 
 ```
 
@@ -173,13 +173,13 @@ The regional shifts in the invertebrate community from basin to riverine areas w
 
 ```{r BMI-pic10, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Plot of the relative similarity of the invertebrate communities in each region (colour coded: WP/NH, Western Peel Inlet/ Northern Harvey Estuary; EP, Eastern Peel Inlet; SH, Southern Harvey Estuary; SP, Serpentine River; LM, Lower Murray River; UM, Upper Murray River) and season (black labels: W, Wet; D, Dry) sampled in the Peel-Harvey in 2017–18. Points closer together have more similar communities, and sampling seasons in each region are joined by colour-coded lines. Plots have been constructed using MDS ordination. (b) Shadeplot of the average abundance of key invertebrate species in each region and season. Abundance is shown on a grey scale from most abundant (black) to absent (white), and has been plotted from pretreated not raw data."}
 
-knitr::include_graphics("images/BMI/picture10.png")
+knitr::include_graphics("images/BMI/picture10.webp")
 
 ```
 
 ```{r BMI-pic11, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Plot of the relative similarity of the invertebrate communities in each region (colour coded: WP/NH, Western Peel Inlet/ Northern Harvey Estuary; EP, Eastern Peel Inlet; SH, Southern Harvey Estuary; SP, Serpentine River; LM, Lower Murray River; UM, Upper Murray River) and depth (black labels: S, Shallow; D, Deep) sampled in the Peel-Harvey in 2017–18. Points closer together have more similar communities, and sampling depths in each region are joined by colour-coded lines. Plots have been constructed using MDS ordination. (b) Shadeplot of the average abundance of key invertebrate species in each region and depth. Abundance is shown on a grey scale from most abundant (black) to absent (white), and has been plotted from pretreated not raw data."}
 
-knitr::include_graphics("images/BMI/picture11.png")
+knitr::include_graphics("images/BMI/picture11.webp")
 
 ```
 
@@ -192,7 +192,7 @@ Further exploration of how particular attributes (‘metrics’) of the inverteb
 
 ```{r BMI-pic12, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Plots showing the relative similarity of invertebrate communities in each region (colour-coded; see Fig. 8 for full names) and season (a; W, Wet; D, Dry) or depth (b–d; S, Shallow; D, Deep). Invertebrate sample points (those closer together have more similar communities) have been overlaid with key sediment condition variables (represented by circles of proportionate sizes) known to best ‘explain’ the observed patterns in the fauna. Plots have been constructed using MDS ordination."}
 
-knitr::include_graphics("images/BMI/picture12.png")
+knitr::include_graphics("images/BMI/picture12.webp")
 
 ```
 
@@ -208,25 +208,25 @@ Although there was general agreement between the benthic health grades (A–E) a
 
 ```{r BMI-pic13, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Map of the Benthic Condition Index in the wet season, interpolated throughout the estuary (A, excellent to E, very poor). Circles denote invertebrate sampling sites, colour coded by their sediment condition class (green, Good; yellow, Fair; red, Poor). Insets provide higher resolution views of patterns in the rivers."}
 
-knitr::include_graphics("images/BMI/picture13.png")
+knitr::include_graphics("images/BMI/picture13.webp")
 
 ```
 
 ```{r BMI-pic14, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Map of the Benthic Condition Index in the dry season, interpolated throughout the estuary (A, excellent to E, very poor). Circles denote invertebrate sampling sites, colour coded by their sediment condition class (green, Good; yellow, Fair; red, Poor). Insets provide higher resolution views of patterns in the rivers."}
 
-knitr::include_graphics("images/BMI/picture14.png")
+knitr::include_graphics("images/BMI/picture14.webp")
 
 ```
 
 ```{r BMI-pic15, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Plots of the each component metric of the BCI in the (a) wet season in the shallows, (b) wet season in the deeper waters, (c) dry season in the shallows, (d) dry season in the deeper waters. Separate lines on each plot represent each region of the estuary (WP/NH, Western Peel Inlet/ Northern Harvey Estuary; EP, Eastern Peel Inlet; SH, Southern Harvey Estuary; SP, Serpentine River; LM, Lower Murray River; UM, Upper Murray River)."}
 
-knitr::include_graphics("images/BMI/picture15.png")
+knitr::include_graphics("images/BMI/picture15.webp")
 
 ```
 
 ```{r BMI-pic16, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Averages of each sediment condition variable (aRPD [oxic sediment depth], odour, organic content, left y-axis; mud content, right y-axis) in each Benthic Community Index grade (A, excellent to E, very poor)."}
 
-knitr::include_graphics("images/BMI/picture16.png")
+knitr::include_graphics("images/BMI/picture16.webp")
 
 ```
 
@@ -264,7 +264,7 @@ These findings have significant implications for the ongoing benthic ecological 
 
 ```{r BMI-pic17, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Map of suggested sites for future monitoring of benthic ecological health, based on the outcomes of the current study. Note that the location of all sites is provisional, and should be tailored for purpose prior to finalising any monitoring regime. "}
 
-knitr::include_graphics("images/BMI/picture17.png")
+knitr::include_graphics("images/BMI/picture17.webp")
 
 ```
 

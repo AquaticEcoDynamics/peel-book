@@ -44,6 +44,6 @@ knitr::knit_hooks$set(class = function(before, options, envir) {
 This project was generously supported by the Australian Research Council (ARC) Linkage Program, together with our Industry Partners (Department of the Premier and Cabinet; Department of Water and Environmental Regulation; City of Mandurah; Shire of Murray; Peel-Harvey Catchment Council) and collaborating research institutions (Murdoch University; The University of Western Australia; Southern Cross University; University of Hull). 
 
 ```{r introduction-pic1, echo = FALSE, out.width='100%', class = "text-image"}
-knitr::include_graphics("images/introduction/picture1.jpg")
+knitr::include_graphics("images/introduction/picture1.webp")
 ```
 :::

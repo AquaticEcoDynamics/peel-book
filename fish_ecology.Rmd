@@ -14,7 +14,7 @@ Centre for Sustainable Aquatic Ecosystems, Murdoch University, Perth, WA
 
 ```{r fish-ecology-pic1, echo = FALSE, out.width='100%', class = "title-image"}
 
-knitr::include_graphics("images/fish_ecology/picture1.png")
+knitr::include_graphics("images/fish_ecology/picture1.webp")
 
 ```
 
@@ -37,7 +37,7 @@ Finally, when FCI scores were statistically correlated with a suite of environme
 
 ```{r fish-ecology-pic2, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Murdoch fish sampling team Chris Hallett (centre) and Alan Cottingham (left) with Steve Fisher (right) from Peel-Harvey Catchment Council (Photo, S. Meredith, PHCC)."}
 
-knitr::include_graphics("images/fish_ecology/picture2.png")
+knitr::include_graphics("images/fish_ecology/picture2.webp")
 
 ```
 
@@ -49,7 +49,7 @@ The structure of fish communities can therefore provide important signals about 
 
 ```{r fish-ecology-pic3, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Conceptual diagram of predicted responses of the estuarine fish community to poor and good ecological condition (‘health’). Images courtesy of the Integration and Application Network, University of Maryland Center for Environmental Science (ian.umces.edu/symbols/). Reproduced from Hallett et al. (2019)."}
 
-knitr::include_graphics("images/fish_ecology/picture3.png")
+knitr::include_graphics("images/fish_ecology/picture3.webp")
 
 ```
 
@@ -89,13 +89,13 @@ Firstly, all fish species in the collated and standardised data sets (section 4.
 
 ```{r fish-ecology-pic4, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Map of the sites at which fish communities were sampled in the Peel-Harvey Estuary from 1979–2018."}
 
-knitr::include_graphics("images/fish_ecology/picture4.png")
+knitr::include_graphics("images/fish_ecology/picture4.webp")
 
 ```
 
 ```{r fish-ecology-pic5, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Overview of the process for calculating the Fish Community Index."}
 
-knitr::include_graphics("images/fish_ecology/picture5.png")
+knitr::include_graphics("images/fish_ecology/picture5.webp")
 
 ```
 
@@ -135,12 +135,12 @@ Another feature of the longer-term trends in the FCI is the greater inter-season
 
 ```{r fish-ecology-pic6, echo = FALSE, out.width='95%', class = "text-image", fig.cap = "Trends in mean Fish Community Index (FCI) scores and corresponding ecological health grades in the shallow nearshore waters from 1979-2018 in (a) the rivers and basins and (b) the Peel-Harvey Estuary as a whole. The dashed lines represent the line of best fit through the data."}
 
-knitr::include_graphics("images/fish_ecology/picture6.png")
+knitr::include_graphics("images/fish_ecology/picture6.webp")
 ```
 
 ```{r fish-ecology-pic7, echo = FALSE, out.width='95%', class = "text-image", fig.cap = "Shadeplot of the average FCI metric scores in the shallows of the (a) basins and (b) rivers in each sampling year and season (S, summer; A, autumn; W, winter; SP, spring) from 1979–2018. Metric scores are shown on a coloured spectrum from red/black (poor scores) to green/white (excellent scores)."}
 
-knitr::include_graphics("images/fish_ecology/picture7.png")
+knitr::include_graphics("images/fish_ecology/picture7.webp")
 ```
 
 > *The ecological health of the deeper waters has declined over the last 40 years*
@@ -155,12 +155,12 @@ Nonetheless, it is notable that the health of the deeper waters in the rivers ha
 
 ```{r fish-ecology-pic8, echo = FALSE, out.width='95%', class = "text-image", fig.cap = "Trends in mean Fish Community Index (FCI) scores and corresponding ecological health grades in the deeper waters from 1979-2018 in (a) the rivers (orange lines) and basins (blue lines) and (b) the Peel-Harvey Estuary as a whole. The dashed lines represent the line of best fit through the data."}
 
-knitr::include_graphics("images/fish_ecology/picture8.png")
+knitr::include_graphics("images/fish_ecology/picture8.webp")
 ```
 
 ```{r fish-ecology-pic9, echo = FALSE, out.width='95%', class = "text-image", fig.cap = "Shadeplot of the average FCI metric scores in the deeper waters of the (a) basins and (b) rivers in each sampling year and season (S, summer; A, autumn; W, winter; SP, spring) from 1979-2018. Metric scores are shown on a coloured spectrum from red/black (poor scores) to green/white (excellent scores)."}
 
-knitr::include_graphics("images/fish_ecology/picture9.png")
+knitr::include_graphics("images/fish_ecology/picture9.webp")
 ```
 
 > *Interpretation of long-term trends in estuary health is hampered by inconsistencies in sampling approach among historical studies*
@@ -191,7 +191,7 @@ The condition of the deeper waters of the upper Murray region was poor (D) in si
 
 ```{r fish-ecology-pic10, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "One of the many Black Bream killed in the Murray River during the summer 2017 rainfall event (Photo, A. Cottingham)."}
 
-knitr::include_graphics("images/fish_ecology/picture10.png")
+knitr::include_graphics("images/fish_ecology/picture10.webp")
 ```
 
 The poor ecological health of the deeper waters in the upper Murray likely reflects their susceptibility to stratification of the water column, and the persistent low dissolved oxygen conditions that develop as a result. The high levels of organic matter that accumulate in the deeper waters of this region [@hallett2019fish] also accelerate the biological consumption of oxygen in the bottom waters. From summer to winter 2017 and again in summer 2018, the salinity at the water surface was 12-24 units fresher than at the bottom, and there was close to no dissolved oxygen in the bottom waters (concentrations of  \<1 mg L^‑1^) on all four sampling occasions. A major fish kill event (\>10,000 fish) occurred in the Murray River during this period (summer 2017), triggered by an unseasonally high rainfall event and the extensive hypoxia/anoxia that developed as a result (see below). While the most visible impact of these events is on larger fish (with many dead Black bream observed; C. Hallett, pers. obs., and photo above), the impacts on earlier life stages and small fish are less obvious. In the case of Black bream, given that its typical spawning period [late spring-summer, @sarre1999comparisons] coincides not only with the acute episode in summer 2017, but also with the chronic stratification and hypoxia that develops at that time of year, it is very possible that its decline in the Peel-Harvey is due to the mortality of its eggs and/or young larvae under these conditions.  
@@ -206,7 +206,7 @@ On the 10^th^ of February 2017, the Perth Metro area received a daily total of 1
 
 ```{r fish-ecology-pic11, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Plume of organic-rich water from the Murray River (darker waters) spreading across Peel Inlet on 13th February 2017"}
 
-knitr::include_graphics("images/fish_ecology/picture11.png")
+knitr::include_graphics("images/fish_ecology/picture11.webp")
 ```
 
 During this period, both the shallow and deeper waters of the lower Murray region were in poor to very poor health, reflecting that either no fish were caught at all (deeper waters), or that the fish fauna contained only a limited number of species with ecological traits that decreased the FCI (shallows). Indeed the slightly higher grades in the shallows appeared to be artificially inflated by some larger species which normally inhabit the deeper waters of the lower Murray coming up on the banks to seek refuge (e.g. Tarwhine), and some species which normally occupy the more upstream river reaches being flushed down (e.g. the Southwestern goby). Another goby species which was relatively abundant in the shallows was the Blue-spot goby, which can tolerate silty substrates and survive hypoxic conditions through its capacity to 'breathe air' at the water surface [@gee1991reactions]. This 'indicator' species represents two metrics in the shallow-water FCI (Table 2), and its relative abundance would have contributed to the poor ecological health recorded in summer 2017.
@@ -225,22 +225,22 @@ While some of these trends may be influenced by differences in sampling regimes 
 
 ```{r fish-ecology-pic12, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Average Fish Community Index condition grades (A, very good; B, good; C, fair; D, poor; E, very poor) in the shallow waters of each region of the Peel-Harvey Estuary, and for the estuary as a whole, in each sampling season from autumn 2016 to summer 2018."}
 
-knitr::include_graphics("images/fish_ecology/picture12.png")
+knitr::include_graphics("images/fish_ecology/picture12.webp")
 ```
 
 ```{r fish-ecology-pic13, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Average Fish Community Index condition grades (A, very good; B, good; C, fair; D, poor; E, very poor) in the deeper waters of each region of the Peel-Harvey Estuary, and for the estuary as a whole, in each sampling season from autumn 2016 to summer 2018. NB condition assessments missing for some regions in first two seasons due to sampling issues."}
 
-knitr::include_graphics("images/fish_ecology/picture13.png")
+knitr::include_graphics("images/fish_ecology/picture13.webp")
 ```
 
 ```{r fish-ecology-pic14, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Shadeplot of the average FCI metric scores in the shallows of each region (MC, Mandurah Channel; EP, Eastern Peel Inlet; WP, Western Peel Inlet; NH, Northern Harvey Estuary; SH, Southern Harvey Estuary; SR, Serpentine River; LM, Lower Murray River; UM, Upper Murray River) in each season (S, summer; A, autumn; W, winter; SP, spring) from autumn 2016-summer 2018. Metric scores are shown on a coloured spectrum from red/black (poor scores) to green/white (excellent scores)."}
 
-knitr::include_graphics("images/fish_ecology/picture14.png")
+knitr::include_graphics("images/fish_ecology/picture14.webp")
 ```
 
 ```{r fish-ecology-pic15, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Shadeplot of the average FCI metric scores in the deeper waters of each region (EP, Eastern Peel Inlet; WP, Western Peel Inlet; NH, Northern Harvey Estuary; SH, Southern Harvey Estuary; SR, Serpentine River; LM, Lower Murray River; UM, Upper Murray River) in each season (S, summer; A, autumn; W, winter; SP, spring) from autumn 2016-summer 2018. Metric scores are shown on a coloured spectrum from red/black (poor scores) to green/white (excellent scores). NB condition assessments missing for some regions in first two seasons due to sampling issues."}
 
-knitr::include_graphics("images/fish_ecology/picture15.png")
+knitr::include_graphics("images/fish_ecology/picture15.webp")
 ```
 
 ### Relating estuary condition to modelled environmental changes
@@ -257,17 +257,17 @@ This study represents the first time FCI scores and environmental variables (obs
 
 ```{r fish-ecology-pic16, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Estimated FCI scores in the deeper waters of the rivers under changing environmental conditions predicted by GAMs. Inward tick marks on the x-axis show the distribution of observed values for each variable, and the grey shading represents the confidence limits of the model."}
 
-knitr::include_graphics("images/fish_ecology/picture16.png")
+knitr::include_graphics("images/fish_ecology/picture16.webp")
 ```
 
 ```{r fish-ecology-pic17, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Observed and GAM-predicted FCI scores (± standard error) in the deeper riverine areas of the Peel-Harvey Estuary during 2017–18. Regions; SR, Serpentine River; LM, Lower Murray River; UM, Upper Murray River. Seasons; S, summer; A, autumn; W, winter; SP, spring."}
 
-knitr::include_graphics("images/fish_ecology/picture17.png")
+knitr::include_graphics("images/fish_ecology/picture17.webp")
 ```
 
 ```{r fish-ecology-pic18, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Estimated FCI scores in the shallow waters of the estuary under changing environmental conditions predicted by GAMs. (a) The effect of salinity in riverine areas and, (b) the effect of hypoxia area in the basins. Inward tick marks on the x-axis show the distribution of observed values for each variable, and the grey shading represents the confidence limits of the model."}
 
-knitr::include_graphics("images/fish_ecology/picture18.png")
+knitr::include_graphics("images/fish_ecology/picture18.webp")
 ```
 
 ### Proposed fish monitoring regime for the Peel-Harvey Estuary

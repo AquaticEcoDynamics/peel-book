@@ -14,7 +14,7 @@
 
 ```{r isotopes-pic1, echo = FALSE, out.width='100%', class = "title-image"}
 
-knitr::include_graphics("images/isotopes/picture1.png")
+knitr::include_graphics("images/isotopes/picture1.webp")
 
 ```
 
@@ -53,7 +53,7 @@ The conceptual model underpinning our work is based on the knowledge that differ
 
 ```{r isotopes-pic2, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Different nutrient sources (e.g. livestock waste, wastewater treatments, rain) have different quantities of heavy vs light isotopes. These sources will mix in surface waters, where biological removal will again alter the ratio of heavy to light isotopes by preferentially removing the latter."}
 
-knitr::include_graphics("images/isotopes/picture2.png")
+knitr::include_graphics("images/isotopes/picture2.webp")
 
 ```
 
@@ -67,13 +67,13 @@ In addition to the above sampling of sources and receiving waters, high-resoluti
 
 ```{r isotopes-pic3, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Examples of the different types of water bodies sampled across the Peel-Harvey system. The different flow dynamics and biological structure of these water bodies could have a major impact on how efficiently they remove excess nutrients."}
 
-knitr::include_graphics("images/isotopes/picture3.png")
+knitr::include_graphics("images/isotopes/picture3.webp")
 
 ```
 
 ```{r isotopes-pic4, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "A map of the Peel-Harvey catchment and estuary showing locations where isotope samples were collected. The farms where the soil and feeder drain samples are outlined in grey, and the drain (yellow circle) where the WWTP samples were collected is indicated."}
 
-knitr::include_graphics("images/isotopes/picture4.png")
+knitr::include_graphics("images/isotopes/picture4.webp")
 
 ```
 
@@ -87,7 +87,7 @@ Measuring the isotopic composition of N involved converting the two inorganic fo
 
 ```{r isotopes-pic5, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Analysing inorganic N isotope samples at the Centre for Coastal Biogeochemistry’s stable isotope lab (Lismore, NSW). "}
 
-knitr::include_graphics("images/isotopes/picture5.png")
+knitr::include_graphics("images/isotopes/picture5.webp")
 
 ```
 
@@ -105,7 +105,7 @@ Standard water quality models only consider nutrients as a 'total' of their form
 
 ```{r isotopes-pic6, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "The sampling set-up used to measure gas concentrations across the Peel Harvey system."}
 
-knitr::include_graphics("images/isotopes/picture6.png")
+knitr::include_graphics("images/isotopes/picture6.webp")
 
 ```
 
@@ -133,7 +133,7 @@ Dissolved organic nitrogen (DON, that is, organic nitrogen smaller than 0.45 µ
 
 ```{r isotopes-pic7, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Concentrations of N as DON, NO3- and NH4+ across the hydrologic gradient, from farm dams (‘pond’) to feeder drains, main drains, rivers then the estuary basins, measured in winter 2017."}
 
-knitr::include_graphics("images/isotopes/picture7.png")
+knitr::include_graphics("images/isotopes/picture7.webp")
 
 ```
 
@@ -147,7 +147,7 @@ We sent our phosphate fertiliser samples to our collaborator Daren Gooddy at the
 
 ```{r isotopes-pic8, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "The isotopic composition of PO~4~^3-^ in fertilisers sold to farmers in the Peel-Harvey catchment between 2012 and 2018. Dashed lines show mean values for AGRAS (top) and Superphosphate (bottom)."}
 
-knitr::include_graphics("images/isotopes/picture8.png")
+knitr::include_graphics("images/isotopes/picture8.webp")
 
 ```
 
@@ -157,7 +157,7 @@ We measured the isotope composition of the different forms of nitrogen found in 
 
 ```{r isotopes-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Box and whisker plots of the (a) isotope composition of the total soil N pool, (b) 2M KCl extractable NH~4~^+^, and (c, d) NO~3~^-^ pools. Black diamonds indicate outlier values and boxes represent quartiles 1 – 3 around the median (black horizontal line). Note that Farm C has a significantly depleted δ15N-TN composition (a), while Farms A and D have significantly depleted δ15N and δ18O compositions of the extractable inorganic N forms (b, c, d). "}
 
-knitr::include_graphics("images/isotopes/picture9.png")
+knitr::include_graphics("images/isotopes/picture9.webp")
 
 ```
 
@@ -173,7 +173,7 @@ The isotope composition of NO~3~^-^ in the groundwater ranged from values that a
 
 ```{r isotopes-pic10, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Variations in the concentrations of the dominant N forms and (b) isotopic composition of NO~3~^-^, when present, in groundwater in ten shallow wells (~4 m to water table). Wells were sampled both in the winter (Jul. 2017) and summer (Feb. 2017), but water chemistry did not differ significantly between these sampling dates."}
 
-knitr::include_graphics("images/isotopes/picture10.png")
+knitr::include_graphics("images/isotopes/picture10.webp")
 
 ```
 
@@ -183,7 +183,7 @@ We were surprised to find such high and variable concentrations of all three nit
 
 ```{r isotopes-pic11, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) The concentration of different N forms in precipitation and (b) the isotopic composition of NO3- in precipitation that fell in the Peel-Harvey catchment in summer and winter 2017. To give these results context, the grey boxes in (b) show the commonly reported range of NO3- isotopes in NH4NO3 fertilisers and terrestrial soils."}
 
-knitr::include_graphics("images/isotopes/picture11.png")
+knitr::include_graphics("images/isotopes/picture11.webp")
 
 ```
 
@@ -197,7 +197,7 @@ By far the highest concentrations of dissolved gasses in the drains (including d
 
 ```{r isotopes-pic12, echo = FALSE, out.width='25%', class = "text-image", fig.cap = "A summary of the dissolved gasses produced in different portions of the Peel Harvey catchment, from the main drains (0.9 % of the surface water by area) through the rivers (11% of the surface water by area) to the main estuary basins (87% of the surface water by area). The emissions of three gasses (N2O, CH4, and CO2) were all normalised to their ‘global warming potential’ (GWP), which is reported in Tg C y-1 and based on the assumption that CH4 has 28× the warming potential of CO2 and N2O has 280× the warming potential of CO2 (IPCC, 2013)."}
 
-knitr::include_graphics("images/isotopes/picture12.png")
+knitr::include_graphics("images/isotopes/picture12.webp")
 
 ```
 
@@ -205,7 +205,7 @@ Summer measurements of nitrogen concentrations and isotopes in the main drains s
 
 ```{r isotopes-pic13, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Changes in NO3- (centre, left axis, blue circles) and NH4+ (bottom, left axis, blue circles) in the Waroona Drain as water leaves the wastewater treatment plant (~26 km from the estuary) and approaches the Harvey Estuary. Data is from the summer sampling campaign. Note the very high NH4+ concentrations and low δ15N values (right axis, black crosses) closest to the plant. The isotope ‘source’ signature is almost immediately lost, and over 4 km in the drain, all of the NH4+ has converted to NO3- via microbial reactions."}
 
-knitr::include_graphics("images/isotopes/picture13.png")
+knitr::include_graphics("images/isotopes/picture13.webp")
 
 ```
 
@@ -213,7 +213,7 @@ At the opposite end of the hydrologic gradient, we also found evidence that the 
 
 ```{r isotopes-pic14, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Concentrations of NO3-, the most mobile nitrogen form, across the estuary and main rivers, measured in March 2017. Warmer colours indicate higher concentrations, and black circles indicate locations where samples were collected. (b) The isotope composition of this NO3- shows that the higher loads carried in the rivers primarily came from soil / terrestrial sources (see Fig. 5), while closer to the ocean, the small amounts of NO3- present came primarily from rain /atmospheric deposition (see Fig. 7). "}
 
-knitr::include_graphics("images/isotopes/picture14.png")
+knitr::include_graphics("images/isotopes/picture14.webp")
 
 ```
 
@@ -225,7 +225,7 @@ Winter rainfalls produce a distinct 'drainage season' in the Peel-Harvey, which 
 
 ```{r isotopes-pic15, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Concentrations of ^222^Rn, a qualitative indicator of groundwater inputs, detected in the surface water in the tidal portions of the Murray and Serpentine Rivers, as well as the Harvey Estuary, in the dry summer period (February 2017) and the wet winter period (July 2017). Higher values indicate a higher relative contribution of groundwater to the surface water body."}
 
-knitr::include_graphics("images/isotopes/picture15.png")
+knitr::include_graphics("images/isotopes/picture15.webp")
 
 ```
 
@@ -251,13 +251,13 @@ The difference between these 'source fingerprints' and the measured NO~3~^-^ in 
 
 ```{r isotopes-pic16, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Estimated daily discharge and (b) N export through two drains (Punrak and Peel Main) and one stream (Upper Serpentine) that run parallel to each other along the northern end of the Peel-Harvey catchment. Estimates are based on gauged flow in each system and monthly measured TN concentrations at the gauging stations in 2017. Rectangles indicate dates for the summer and winter sampling campaigns for N forms and isotopes."}
 
-knitr::include_graphics("images/isotopes/picture16.png")
+knitr::include_graphics("images/isotopes/picture16.webp")
 
 ```
 
 ```{r isotopes-pic17, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Plots showing the relative isotopic enrichment of O (y axis) and N (x axis) in NO3- measured in the surface water of two drains (Punrak and Peel Main) and the upper Serpentine River feeding the Peel-Harvey Estuary. Rectangles indicate the isotopic range of known N sources to the system, and the 1:1 line indicates the pattern produced during biological N attenuation. Note differences in the scales between summer and winter plots."}
 
-knitr::include_graphics("images/isotopes/picture17.png")
+knitr::include_graphics("images/isotopes/picture17.webp")
 
 ```
 
@@ -282,7 +282,7 @@ Using this approach, we found that N attenuation was consistently lower in the P
 
 ```{r isotopes-pic18, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Daily N exported to the Peel-Harvey via the upper Serpentine River (top), Punrak Drain (middle), and Peel Main Drain (bottom), calculated from logged stream flow and modelled TN concentrations (coloured lines and symbols) and accounting for biological attenuation during transport (black areas, which cover the range of calculated values). Grey background indicates winter months (high flow). Question marks on %Attenuation are due to lack of measurable NO3- in the surface water."}
 
-knitr::include_graphics("images/isotopes/picture18.png")
+knitr::include_graphics("images/isotopes/picture18.webp")
 
 ```
 

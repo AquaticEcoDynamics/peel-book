@@ -17,7 +17,7 @@ Centre for Sustainable Aquatic Ecosystems, Murdoch University, Perth, Western Au
 
 ```{r macrophytes-pic1, echo = FALSE, out.width='100%', data.action = "zoom", class = "title-image"}
 
-knitr::include_graphics("images/macrophytes/picture1.png")
+knitr::include_graphics("images/macrophytes/picture1.webp")
 
 ```
 
@@ -32,7 +32,7 @@ Our findings show there have been dramatic changes in the macrophyte community f
 
 
 ```{r macrophytes-pic2, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Green macroalage in the southern Harvey Estuary (Photo, O. Krumholz)."}
-knitr::include_graphics("images/macrophytes/picture2.png")
+knitr::include_graphics("images/macrophytes/picture2.webp")
 ```
 
 One region of the estuary that is not showing signs of improvement is the southern Harvey Estuary. The macrophytes in this shallow and poorly flushed region remain in poor condition and are showing worrying signs with respect to increases in nuisance green macroalgae. While average green algal biomass decreased from the late 1970s to just after the Cut in this region, it has increased in more recent years, especially in spring when it far exceeds values recorded for any other macrophyte group across the whole estuary in the full 40 year timeframe. The shallow south-eastern Peel Inlet also has a high biomass of green macroalgae, again especially in spring, which has largely persisted throughout the monitoring record and even increased in recent years.
@@ -95,12 +95,12 @@ Note that, due to some inconsistencies in the water quality monitoring record wh
 
 ```{r macrophytes-pic3, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Oliver Krumholz, coring for macrophytes (Photo, S. Cronin-O’Reilly)."}
 
-knitr::include_graphics("images/macrophytes/picture3.png")
+knitr::include_graphics("images/macrophytes/picture3.webp")
 ```
 
 ```{r macrophytes-pic4, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Map of the sites at which macrophytes were regularly sampled in the Peel-Harvey Estuary from 1978–2018, and the stations at which water quality was monitored by the Department of Water and Environmental Regulation. Additional macrophyte sites sampled only in 2017–18 are highlighted, and the estuarine regions and water depths to which each site was assigned are also shown."}
 
-knitr::include_graphics("images/macrophytes/picture4.png")
+knitr::include_graphics("images/macrophytes/picture4.webp")
 ```
 
 #### Field and laboratory methods
@@ -109,7 +109,7 @@ At each field site on each sampling occasion, five replicate samples of the macr
 
 ```{r macrophytes-pic5, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Example of a sediment core used to sample macrophyte biomass across the estuary (Photo, O. Krumholz)."}
 
-knitr::include_graphics("images/macrophytes/picture5.png")
+knitr::include_graphics("images/macrophytes/picture5.webp")
 ```
 
 In the laboratory, all macrophytes in each replicate core were sorted into individual taxa, oven dried at 70°C, then the dry weights (g) of each taxon recorded. The resulting data from the five replicate cores were used to calculate the mean biomass of each taxa (weight per unit area; g m^−2^) at each site on each sampling occasion. Further details on field and lab methods can be found in @wilson1999macrophyte, @pedretti2011snapshot and @krumholz2019macrophyte.
@@ -146,7 +146,7 @@ Inter-period shifts in the macrophyte community are shown in more detail for eac
 
 ```{r macrophytes-pic6, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Average contribution of each broad macrophyte group to the overall biomass in each period from 1978–2018 in autumn (top) and spring (bottom)."}
 
-knitr::include_graphics("images/macrophytes/picture6.png")
+knitr::include_graphics("images/macrophytes/picture6.webp")
 ```
 
 The large shift in the macrophyte community following the Cut, especially in the northern Harvey and western Peel regions located closest to this channel, are also reflected in Fig. 7. Simply, years lying close together on these plots have more similar communities while those further apart have greater differences, and it was clear that there was a notable jump between pre- and post-Cut periods. While there was also a shift in the eastern Peel Inlet over time (mainly in autumn), it was a more gradual progression (Fig. 7).
@@ -155,22 +155,22 @@ The macrophytes of the southern Harvey Estuary, however, have shown different lo
 
 ```{r macrophytes-pic7, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Shadeplots of average biomass of each macrophyte group in each period (from 1978–2018) and estuarine region in autumn (top) and spring (bottom). Biomass is shown on a grey scale from highest biomass (black) to absent (white). *Average biomass values, which have been derived from the data recorded at each site, are presented on a pretreated (square-root transformed, dry weight g m-2) not raw scale."}
 
-knitr::include_graphics("images/macrophytes/picture7.png")
+knitr::include_graphics("images/macrophytes/picture7.webp")
 ```
 
 ```{r macrophytes-pic8, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Average autumn biomass of green macroalgae (top) and seagrass (bottom) interpolated throughout the Peel-Harvey Estuary in each period from 1978–2018. Interpolated values were derived from the average biomass at each site in each period."}
 
-knitr::include_graphics("images/macrophytes/picture8.png")
+knitr::include_graphics("images/macrophytes/picture8.webp")
 ```
 
 ```{r macrophytes-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Average spring biomass of green macroalgae (top) and seagrass (bottom) interpolated throughout the Peel-Harvey Estuary in each period from 1978–2018. Interpolated values were derived from the average biomass at each site in each period."}
 
-knitr::include_graphics("images/macrophytes/picture9.png")
+knitr::include_graphics("images/macrophytes/picture9.webp")
 ```
 
 ```{r macrophytes-pic10, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Plots showing the relative similarity of macrophyte communities in each year (black labels) from 1978–2018 (years closer together have more similar macrophyte compositions) and each region during autumn (top) and spring (bottom). Consecutive years in each period are joined by colour-coded lines. Plots have been constructed using MDS ordination."}
 
-knitr::include_graphics("images/macrophytes/picture10.png")
+knitr::include_graphics("images/macrophytes/picture10.webp")
 ```
 
 Another (but lesser) exception to the general long-term trends across most of the estuary was the eastern Peel Inlet, especially in spring, where green algal biomass is still comparatively high (Figs 4, 6). Growths are particularly abundant in the shallow south-eastern corner, which has long been a 'problem area' for nuisance macroalgae, and appear to have increased from post-Cut periods to the most recent period in both seasons (Figs 5, 6). Given this area is very shallow and close to the mouth of the Murray River, the recurrence of high green algal biomass is not surprising following seasonal increases in temperature (and shallow waters that are quick to warm) and, especially in spring, a new flush of nutrients from preceding winter river flows. Across the broader eastern Peel region, there has been a slight decline in spring algal biomass since the mid-1980s (Fig. 4), which could reflect both markedly lower river flows [\~50% drop in flow from the Murray sub-catchment since the 1970s, @valesini2019peel] and greater tidal flushing.
@@ -185,7 +185,7 @@ Correlations between longer-term trends in the spring macrophyte communities and
 
 ```{r macrophytes-pic11, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Plots showing the relative similarity of macrophyte communities in each year from 1978–2018 (black labels; years closer together have more similar communities), with TN concentration overlaid as circles of proportionate sizes. Separate plots are shown for the northern Harvey and western Peel regions. Plots constructed using MDS ordination of macrophyte biomass composition data."}
 
-knitr::include_graphics("images/macrophytes/picture11.png")
+knitr::include_graphics("images/macrophytes/picture11.webp")
 ```
 
 > *The 'health' of the macrophyte community has improved in most regions of the estuary, but remains poor in the southern Harvey Estuary*
@@ -196,7 +196,7 @@ Trends in the condition index from 1978--2018 show that, in general, the macroph
 
 ```{r macrophytes-pic12, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Macrophyte condition index categories interpolated throughout the Peel-Harvey Estuary in each period from 1978–2018. Index values have been calculated from data recorded in autumn in each sampling year. * *It is important to note that the 0–1 index scale, and hence the condition categories, are relative to macrophyte trends observed only in the Peel-Harvey from 1978–2018.*"}
 
-knitr::include_graphics("images/macrophytes/picture12.png")
+knitr::include_graphics("images/macrophytes/picture12.webp")
 ```
 
 ### Current trends in macroalgae and seagrass species composition (2017--18)
@@ -213,22 +213,22 @@ When trends in the macrophyte community composition were tested statistically, s
 
 ```{r macrophytes-pic13, echo = FALSE, out.width='50%', class = "text-image", fig.cap = "Nuisance green macroalgae in the southern Harvey; Willeella sp. overlying black anoxic sediment (left) and Chaetomorpha sp. (right; Photos, S. Cronin-O-Reilly)."}
 
-knitr::include_graphics("images/macrophytes/picture13.png")
+knitr::include_graphics("images/macrophytes/picture13.webp")
 ```
 
 ```{r macrophytes-pic14, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Percentage contributions of each broad macrophyte group to the total macrophyte biomass (across all sampling sites in spring 2017 and autumn 2018) and the contribution of each species comprising each group."}
 
-knitr::include_graphics("images/macrophytes/picture14.png")
+knitr::include_graphics("images/macrophytes/picture14.webp")
 ```
 
 ```{r macrophytes-pic15, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Shadeplots of average biomass of each macrophyte taxa in each region and water depth in 2017–2018. Biomass is shown on a grey scale from highest biomass (black) to absent (white). Average biomass values, which have been derived from the data recorded at each site, are presented on a pretreated (square-root transformed, dry weight g m-2) not raw scale."}
 
-knitr::include_graphics("images/macrophytes/picture15.png")
+knitr::include_graphics("images/macrophytes/picture15.webp")
 ```
 
 ```{r macrophytes-pic16, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Average biomass of abundant macrophytes recorded in spring 2017 and autumn 2018 (seagrasses Halophila sp. and Ruppia sp. and green macroalgae *Chaetomorpha* sp.), interpolated throughout the Peel-Harvey Estuary. Interpolated values were derived from the average biomass at each site in each season."}
 
-knitr::include_graphics("images/macrophytes/picture16.png")
+knitr::include_graphics("images/macrophytes/picture16.webp")
 ```
 
 > *Spatial trends in the current macrophyte community are best correlated with total nitrogen and total phosphorus concentrations*
@@ -241,7 +241,7 @@ Similar relationships were found between the macrophytes and total phosphorus (T
 
 ```{r macrophytes-pic17, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Plots showing the relative similarity of macrophyte communities during 2017–18 in (a) each region (colour coded) and water depth (white labels; s=shallows; d=deeper) and (b) each site and water depth. Samples closer together have more similar communities. The values of (a) total nitrogen concentration (with a two-month time lag) and (b) total phosphorus concentration, have been overlaid as circles of proportionate sizes. Plots constructed using MDS ordination of macrophyte biomass composition data."}
 
-knitr::include_graphics("images/macrophytes/picture17.png")
+knitr::include_graphics("images/macrophytes/picture17.webp")
 ```
 
 ## Conclusions

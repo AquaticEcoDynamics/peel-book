@@ -9,7 +9,7 @@
 :::
 
 ```{r model-hydrology-pic1, echo = FALSE, out.width='100%', class = "title-image"}
-knitr::include_graphics("images/model_hydrology/picture1.jpg")
+knitr::include_graphics("images/model_hydrology/picture1.webp")
 ```
 
 ::: {.body-text width="100%"}
@@ -42,7 +42,7 @@ The TUFLOW-FV (BMT WBM, 2013) package was used for this investigation as a 3D fl
 Surface momentum exchange and heat dynamics are solved internally within TUFLOW- FV. In the current application, turbulent mixing of momentum and scalars has been calculated using the Smagorinsky scheme in the horizontal plane and through coupling with the General Ocean Turbulence Model (GOTM) for vertical mixing with option of second-order $k-\varepsilon$ turbulence closure. The bottom shear stress was calculated using a roughness-length relationship assuming a rough-turbulent logarithmic velocity profile in the lowest model layer. The roughness length z0 settings were based on the area type (e.g. coast, rivers, and estuary) and the estimated biomass of aquatic vegetation within the estuary. For the purpose the modelling domain was categorized into eight zones (Fig. \@ref(fig:model-hydrology-pic2)b) where the benthic character and associated $z_0$ in each zone are specified. While the setting of $z_0$ affected the water advection and uncertainty remains in the spatial (and temporal) variability in the $z_0$, it is important to note that the modelled $\tau$ and salinity do not change fundamentally over a reasonable range of $_z0$, as shown in the results of the model sensitivity tests described later.
 
 ```{r model-hydrology-pic2, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Model domain of the Peel-Harvey Estuary and three main rivers: Serpentine River, Murray River, and Harvey River. The colours indicate the water depths of the study domain; the black crosses indicated the 6 monitoring sites, and the red polygons indicate the areas for result analysis. The three sub-plots are: a) location of the Peel-Harvey Estuary and its catchment in the Western Australia; b) b)	Zonal categorization of the model domain according to the area and aquatic vegetation biomass (see Table 1); and c)	a zoom-in view of the artificial channel Dawesville Cut, constructed in 1994 aiming at improving the ocean flushing."}
-knitr::include_graphics("images/model_hydrology/picture2.jpg")
+knitr::include_graphics("images/model_hydrology/picture2.webp")
 ```
 
 ### Data review and model simulations
@@ -52,7 +52,7 @@ Historical observations of nearby precipitation and the gauged data of the major
 Due to the concern that the drying climate will continue into 21st century (Silberstein et al., 2012), we also undertook model simulations to investigate the potential hydrologic changes in “future scenarios” representative of 2040 and 2060, by considering reduced streamflow and rising sea levels. The runoff declines were based on the mean projection by Smith and Power (2014) that suggested the total runoff to the rivers and estuaries within the WA region will drop by about 0.96% per year, corresponding to the projected reduction in precipitation of 0.27% per year, on average. Sea level rise was also included in the future scenarios, estimated from the long- term (1897–2000) tide gauge observations at the Fremantle tide gauge station that shows a sea level trend of 1.50 mm/yr (Kuhn et al., 2011). These estimates may be biased due to a possible accelerated sea level rise towards the end of the 21st century (IPCC, 2007; Kuhn et al., 2011).
 
 ```{r model-hydrology-pic3, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Historical record of (a) annual precipitation rate; (b) Murray River annual inflow rate; (c) monthly-average sea level at Fremantle gauge station; (d) salinity at Harvey Estuary and Peel Inlet; and (e) total chlorophyll-a (TCHLA) in Harvey Estuary and Peel Inlet since 1970 to 2016."}
-knitr::include_graphics("images/model_hydrology/picture3.jpg")
+knitr::include_graphics("images/model_hydrology/picture3.webp")
 ```
 
 For the modelling years after 1994, when the artificial channel was constructed, we also ran “no-Cut scenarios” that assumed the Dawesville Cut was not constructed, in order to separate the impact of the artificial engineering intervention on hydrology relative to the “with-Cut” scenarios.
@@ -76,17 +76,17 @@ The opening of the Cut also affected the surface elevations of the estuary (Fig.
 In general, the model reproduced the temporal variations of salinity and temperature in both the surface and water well (Table 2). The mean regression coefficient r for the salinity from six monitoring sites is above 0.81, and for the water temperature is above 0.85 except in the year 1970, when a mean r of 0.72 was obtained, which may have been due to poor boundary forcing for this year. The model skill scores are generally higher than 0.61 for both salinity and temperature in all historical years, suggesting the model has captured the major features of the hydrologic response to the external forcing of tide and freshwater inputs.
 
 ```{r model-hydrology-pic4, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Annual variation in 1990 (left column, a) and 1998 (right column, b) of (1) inflow rate of the three main rivers; (2) monitored and modelled surface and bottom salinity at the centre of Peel Inlet (site PH7 at Fig. 1); (3) monitored and modelled surface and bottom water temperature at the centre of Peel Inlet; (4) monitored and modelled surface and bottom salinity at the centre of Harvey Estuary (site PH1 at Fig. 1); (3) monitored and modelled surface and bottom water temperature at the centre of Harvey Estuary."}
-knitr::include_graphics("images/model_hydrology/picture4.jpg")
+knitr::include_graphics("images/model_hydrology/picture4.webp")
 ```
 
 ```{r model-hydrology-pic5, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Sea level variation in 1990 and 1998; (b) modelled vs. measured surface elevation in the centre of Peel Inlet in 1990 (r=0.9795), the grey line indicates the 1:1 ratio; and (c) same as figure b except for year 1998 (r=0.9841). The colour from blue to red in figure b and c indicate the data density from minimum to maximum."}
-knitr::include_graphics("images/model_hydrology/picture5.jpg")
+knitr::include_graphics("images/model_hydrology/picture5.webp")
 ```
 
 The sensitivities of modelled salinity and $\tau$ to air temperature, tide elevation, and bed roughness are shown in Fig. \@ref(fig:model-hydrology-pic6). The changes in the air temperature of ±1 degree have minor effects on both the salinity and $\tau$ in both years of 1990 and 1998. The influence of air temperature on the hydrology was mostly through evaporation, and resulted in changes in salinity of less than 0.9 psu, and 0.5 days changes in $\tau$. Secondly, the changes in the mean tide elevation of ±0.15 m led to changes in salinity of up to 2.2 psu and 8.4 days in $\tau$. This is not surprising because the changes in the mean tide elevation were theoretically equal to changing the volume of this shallow estuary, where 0.15 m is significant when compared to the mean estuary depth of ~1.4 m. Thirdly, the bed friction also had a noteworthy impact on the salinity and $\tau$ by modifying the water movement and therefore benthic layer mixing at near-bed level. The presence of benthic vegetation was shown to impact salinity by up to 2.8 psu in the Harvey Estuary, while a maximum change in the $\tau$ of 8.6 days was observed in the same location.
 
 ```{r model-hydrology-pic6, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Sensitivity of the modelled annual-mean salinity and retention time in the Peel Inlet and Harvey Estuary. SV: standard scenario; S1: +1 degree in air temperature scenario; S2: −1 degree in air temperature scenario; S3: +0.15 m in tide elevations scenario; S4: −0.15 m in tide elevations scenario; S5: +50% in bed roughness scenario; S6: −50% in bed roughness scenario."}
-knitr::include_graphics("images/model_hydrology/picture6.jpg")
+knitr::include_graphics("images/model_hydrology/picture6.webp")
 ```
 
 In summary, the modelled salinity and $\tau$ were more sensitive to the changes in the sea level variation and bottom vegetation presence, but the effects of these environmental factors were still small when compared to that caused by the reduced flow over the past decade and the Cut opening. For example, the maximum change in $\tau$ observed in the sensitivity test runs was 8.6 days, caused by the enhanced bottom roughness in the 1990 scenario, compared to the magnitude of 20–100 days caused by the reduced flow from 1970 to 2016 (see more details below). The maximum changes in the salinity observed in the sensitivity test runs was 2.8 psu, caused by the reduction of tide level in the Harvey Estuary, compared to the magnitude of 10–30 psu changes in the salinity caused by the reduced flows from 1970 to 2016 (see more details below).
@@ -106,7 +106,7 @@ where $\tau_{f}$ is the bulk flushing time of the estuary, $V$ is the estuary vo
 Both the mean $\tau$ from the hydrodynamic model and the $\tau_{f}$ bulk approximation show significant reduction of retention time in summertime and wintertime due to the Cut opening (Fig. \@ref(fig:model-hydrology-pic7)). Yet the $\tau_{f}$ is about 5–50% lower than the average modelled water age in the Cut-closed scenarios and 68–82% lower in the Cut-open scenarios, indicating the seawater fluxes are considerably over-estimated with the bulk flushing time method, especially after the Cut construction. The flushing time method assumes the estuary is fully mixed as a box model, which is not the case given the shallow and complex morphometry of the PHE system. These changes suggest strong incomplete mixing of the ocean flushing, which results in a lower tidal exchange ratio (Sheldon and Alber, 2006). Therefore the concept of flushing time is not appropriate in this large shallow lagoon and heterogeneity in the water age distribution needs to be considered from the model results. It also has implications since incomplete mixing will lead to area-specific retention of nutrients, and therefore affect local biogeochemistry such as pelagic denitrification and P burial rates (e.g. Almroth-Rosell et al., 2016).
 
 ```{r model-hydrology-pic7, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Comparison of average water age ($\tau$) and bulk flushing time ($\tau_{f}$) in (a) summertime and (b) wintertime in the PHE."}
-knitr::include_graphics("images/model_hydrology/picture7.jpg")
+knitr::include_graphics("images/model_hydrology/picture7.webp")
 ```
 
 ### Past and future hotspots of water retention
@@ -114,7 +114,7 @@ knitr::include_graphics("images/model_hydrology/picture7.jpg")
 Water retention is highly dynamic depending on seasonal flows, tidal conditions, and different regions of the estuary. The evolution of water age, $\tau$, over time has shown a general increase from 1970 to the present, superimposed on the effect of the Cut, however, with some considerable variation across the two lagoons (Fig. \@ref(fig:model-hydrology-pic8)). Firstly, wet season (winter and spring) conditions were more sensitive to the changes in the drying climate. In the “no-Cut” scenarios (assuming the artificial channel was not constructed), it was predicted that τ would have increased in the Peel Inlet from about 50 days in 1970 to nearly double in 2016 and increased from approximately 50 days in 1970 to nearly 150 days in 2016 in the Harvey Estuary, solely due to the drying climate trend. In contrast, the dry season (summer and autumn) conditions did not show as significant changes over time in most parts of the estuary, except in the south Harvey Estuary, which is furthest from the channels. These effects are masked by the effects of opening of the Cut, which had a prominent effect by reducing the $\tau$ by about 20–45 days in the Peel Inlet, and more profoundly by 50–100 days in the Harvey Estuary. Yet the drying climate has largely canceled out the flushing effect by the Cut on the water age in some regions. The increases in $\tau$ from 1998 to 2016, due to reduced inflows, are in the same magnitudes of that reduced by the Cut opening. For example, the Cut opening reduced the $\tau$ by 28 days in the west Peel Inlet in 1998, yet the $\tau$ increased by 27 days from 1998 to 2016 due to the reduced flows. Lastly, the Harvey Estuary was most influenced by the climate changes and the Cut opening. North Harvey Estuary, directly connected to the Cut, was most impacted by the Cut opening with the $\tau$ was reduced by more than 110 days. The south Harvey Estuary, which is furthest from both the channels, was more sensitive to climate change, showing greatest variation over the past decades.
 
 ```{r model-hydrology-pic8, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Mean water retention time in east Peel Inlet, west Peel Inlet, north Harvey Estuary, and south Harvey Estuary (see Fig. 1 for their domain definition). The data were categorized into four seasons: spring (September, October, November), summer (December, January, February), autumn (March, April, May), and winter (June, July, August)."}
-knitr::include_graphics("images/model_hydrology/picture8.jpg")
+knitr::include_graphics("images/model_hydrology/picture8.webp")
 ```
 
 ### Increasing salinity and changing patterns of stratification
@@ -126,19 +126,19 @@ Hypersalinity was often observed in summer and autumn in the Peel Inlet from bot
 The magnitude of salinity stratification (salinity difference between the bottom and surface water) in winter and spring has shown a declining trend with the drying climate, while the variations are small in summer and autumn (Fig. \@ref(fig:model-hydrology-pic11)). The opening of the Cut introduces more ocean water intrusion, which creates a stronger salt-stratification in the wet seasons when it interacts with the freshwater inflows. The salt-stratification in the Peel Inlet was enhanced by the Cut opening in the wet seasons but that has gradually diminished with the reduction if the inflows, and there is increasing stratification in wet season within the Murray River (Fig. \@ref(fig:model-hydrology-pic12)). The maximum mean salinity difference in spring time was over 10 psu in 1970, which then decreased to about 3 psu in 1998 and was mostly <1 psu in the 2060 projection scenario, indicating weaker stratification due to the reduced inflow. The Cut enhanced the stratification in the Harvey Estuary, especially the northern part, and it also has shown a declining trend with the reduction in inflows.
 
 ```{r model-hydrology-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Same as Fig. 7, except for mean salinity evolution."}
-knitr::include_graphics("images/model_hydrology/picture9.jpg")
+knitr::include_graphics("images/model_hydrology/picture9.webp")
 ```
 
 ```{r model-hydrology-pic10, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Maximum salinity recorded in March/April and the annual inflow in the hydrologic year (March to March) at 6 monitoring sites (see the site locations in Fig. 1)."}
-knitr::include_graphics("images/model_hydrology/picture10.jpg")
+knitr::include_graphics("images/model_hydrology/picture10.webp")
 ```
 
 ```{r model-hydrology-pic11, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Same as Fig. 7, except for mean salinity-stratification."}
-knitr::include_graphics("images/model_hydrology/picture11.jpg")
+knitr::include_graphics("images/model_hydrology/picture11.webp")
 ```
 
 ```{r model-hydrology-pic12, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Stratification intensity model outputs, comparing pre (1978 and 1990, top panel) and post (1998 and 2016, bottom panel) Cut conditions."}
-knitr::include_graphics("images/model_hydrology/picture12.jpg")
+knitr::include_graphics("images/model_hydrology/picture12.webp")
 ```
 
 ### Implications for estuary management
@@ -146,7 +146,7 @@ knitr::include_graphics("images/model_hydrology/picture12.jpg")
 The Cut had an obvious and dramatic effect on increasing the export of nutrients that would have otherwise been retained (Fig. \@ref(fig:model-hydrology-pic13)). Since the Cut opening in 1994 the main monitoring stations have shown TN as being stable around 0.5mg/L and TP has declined from 0.05 to 0.02 mg/L over time. Importantly, the increasing rate of exchange has made the estuary concentration of nutrients less sensitive to the inflow load (as demonstrated by the reduction in slope of 11c and d). The results have, however, revealed an increase in τ associated with the drying climate that has eroded some of the benefits associated with increased flushing following the construction of the Cut, and further reductions in flows will cause less flushing and will likely lead to a tendency for increasing nutrient accumulation over time. Importantly, this is also now manifesting in reduced flushing and higher concentrations in the riverine portions of the domain that are not clearly depicted in the long-term data shown in Fig. 11. This is explored by looking at the nutrient loading and export rates in more detail in other components of this ARC Linkage Project (see Hipsey et al., 2019a; b).
 
 ```{r model-hydrology-pic13, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Changes in the mean nutrient concentration of (a) TN and (b) TP in the Peel-Harvey Estuary (based on the average of the 6 main monitoring stations), and their relationship with the total annual nutrient loading (c and d)."}
-knitr::include_graphics("images/model_hydrology/picture13.jpg")
+knitr::include_graphics("images/model_hydrology/picture13.webp")
 ```
 
 The hydrologic changes led to not only changes in the nutrient levels but also the mean salinity, with potential ramifications for the ecological community. In particular, the phytoplankton biomass dropped dramatically since the Cut opening (Fig. \@ref(fig:model-hydrology-pic3)) due to the improvement of ocean connectivity and flushing, but also due to a less desirable salinity regime for the toxic cyanobacteria *Nodularia spumigena* that plagued the Harvey Estuary before the Cut opening. The biomass of macroalgae has also decreased in the Peel Inlet, while it has increased in the Harvey Estuary since the Cut opening, which potentially reflecting the reduced nutrient concentrations, increased salinities and/or greater light availability (Pedretti et al., 2011). The biomass of some benthic macroinvertebrates, such as the blue swimmer crabs (*Portunus armatus*) and the Western king prawn (*Penaeus latisulcatus*) also showed an increase with the Cut opening and the reduced flow in recent years (Johnston et al., 2014). These trends seem to continue as our models predict a constant low flushing and high saline future in this estuary.
@@ -154,7 +154,7 @@ The hydrologic changes led to not only changes in the nutrient levels but also t
 Aside from changes in flushing and the mean salinity fields, the annual variability of salinity along the rivers has indicated there is an increasing risk of hypersalinity in the Serpentine River and an upward moving of the salt-wedge in the Murray River (Fig. \@ref(fig:model-hydrology-pic14)). For example, the mean salinity at the Serpentine River mouth is about 20 psu in 1970, then increased to 24 psu in 1998 and projected to increase to over 30 psu in 2060. In the upstream areas of the Serpentine River, the mean salinity increased faster from about 15 psu in 1970 to near 35 psu. While there is no hypersalinity risk in the Murray River due to stronger freshwater flushing, the trend of increasing salinity along the river drives stratification which is a known driver of hypoxia and fish-kill events. The differences between the Cut-closed and Cut-open scenarios in year 1998 are much smaller than that caused by the drying climate, which concludes the drying climate is the major cause of the salinity changes in the rivers.
 
 ```{r model-hydrology-pic14, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Longitudinal gradient in annual salinity variability in four selected scenarios (1970, 1998 without the Cut opening, 1998 with the Cut opening, and a future scenario 2060 with assumptions of reduced flow and sea level rise) moving upstream along the (a) Serpentine River and (b) Murray River. "}
-knitr::include_graphics("images/model_hydrology/picture14.jpg")
+knitr::include_graphics("images/model_hydrology/picture14.webp")
 ```
 
 ## Conclusions
