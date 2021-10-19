@@ -1,6 +1,6 @@
 # (PART)  Estuarine Ecological Health {-} 
 
-# Assessing the health of the Peel-Harvey Estuary through its benthic invertebrate fauna
+# Assessing the Health of the Peel-Harvey Estuary through it's Benthic Invertebrate Fauna
 
 <!-- ::: {.title_matter width="100%"} -->
 <!-- [***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"} -->
@@ -20,9 +20,10 @@ knitr::include_graphics("images/BMI/picture1.webp")
 
 ```
 
-::: {.body-text width="100%"}
+
 ## Executive Summary
 
+::: {.body-text width="100%"}
 Small benthic (bottom-dwelling) invertebrates, such as worms, bivalves and shrimps, are a fundamental component of healthy aquatic ecosystems. Living on or just below the sediment, they play vital ecosystem roles such as decomposing organic matter, recycling nutrients and providing a major food source for fish and birds. They can also provide key ‘signals’ about the condition of the benthic environment, and have been used worldwide to develop biotic indices for measuring and tracking estuarine health. However, many of these indices have been developed for northern hemisphere systems, and applying them to south-western Australian estuaries has proved difficult and/or ineffective for various reasons.
 
 This report was aimed firstly at characterising the current benthic macroinvertebrate community throughout the Peel-Harvey Estuary, and secondly at building a robust biotic index of benthic ecological health (the Estuarine Benthic Community Index – EBCI) and exploring its patterns across the estuary. We also explored which aspects of the benthic environment were best linked to changes in the invertebrate community and health grades (‘A’, excellent, to ‘E’, very poor) of the EBCI.
@@ -40,9 +41,11 @@ Finally, we have proposed a benthic invertebrate monitoring plan to enable the e
 knitr::include_graphics("images/BMI/picture2.webp")
 
 ```
+:::
 
 ## Background
 
+::: {.body-text width="100%"}
 Benthic macroinvertebrates are bottom-dwelling invertebrates, \> 500 µm in size, that live on the sediment surface or just below it in structures such as burrows or self-made tubes [@snelgrove1998biodiversity]. These faunal communities consist mainly of polychaetes (worms), molluscs (e.g. bivalves) and crustaceans (e.g. shrimps and crabs; Figure \@ref(fig:BMI-pic3)). They are a fundamental component of the healthy functioning of estuarine ecosystems, performing vital roles such as decomposing the vast organic matter that accumulates in these environments, recycling nutrients and providing rich food sources for many fish and bird species. They are also excellent indicators of the ecological health status of estuaries and other waterways, which is reflected by well-established changes in the species composition of the invertebrate communities. For example, degraded estuaries often have faunas with low numbers of species that are dominated by polychaetes, which are often more tolerant of environmental stress than the more sensitive molluscs and especially crustaceans [e.g. @warwick1993comparing; @wildsmith2009marine; @tweedley2012benthic].
 
 Benthic macroinvertebrates are bottom-dwelling invertebrates, > 500 µm in size, that live on the sediment surface or just below it in structures such as burrows or self-made tubes [@snelgrove1998biodiversity]. These faunal communities consist mainly of polychaetes (worms), molluscs (e.g. bivalves) and crustaceans (e.g. shrimps and crabs; Figure \@ref(fig:BMI-pic3)). They are a fundamental component of the healthy functioning of estuarine ecosystems, performing vital roles such as decomposing the vast organic matter that accumulates in these environments, recycling nutrients and providing rich food sources for many fish and bird species. They are also excellent indicators of the ecological health status of estuaries and other waterways, which is reflected by well-established changes in the species composition of the invertebrate communities. For example, degraded estuaries often have faunas with low numbers of species that are dominated by polychaetes, which are often more tolerant of environmental stress than the more sensitive molluscs and especially crustaceans (e.g. @warwick1993comparing; @wildsmith2009marine; @tweedley2012benthic).
@@ -58,6 +61,7 @@ For the above reasons, many environmental management agencies worldwide have dev
 To date, studies of the benthic macroinvertebrate communities in the Peel-Harvey Estuary have concentrated on restricted parts of the estuary basins, times of year and/or subsets of the faunal community, with their main focus on exploring inter-decadal changes between pre-Dawesville Cut (1970s or 1980s) and post-Cut periods [early to mid-2000s: @whisson2004benthic; @wildsmith2009marine]. Both of these studies have generally shown the loss of more environmentally-sensitive crustacean and molluscan taxa and increases in more tolerant annelid taxa over time.
 
 Given it has been 15 years since the benthic invertebrate faunas have been assessed across the Peel-Harvey, and no previous studies have included the faunas in the tidal rivers, the first part of our study was ***aimed at characterising the current benthic macroinvertebrate community throughout the full extent of the estuary***. Secondly, as a comprehensive index of benthic ecological health is still lacking for this system (and most others across south-western Australia), we then focused on ***building a suitable and robust index from the benthic macroinvertebrate community (the Estuarine Benthic Community Index – EBCI)*** and exploring its patterns across the estuary. The specific study objectives are outlined below.
+:::
 
 ## Objectives
 
@@ -77,7 +81,9 @@ Given it has been 15 years since the benthic invertebrate faunas have been asses
 
 #### Field and laboratory methods
 
+::: {.body-text width="100%"}
 Benthic macroinvertebrates were collected at 60 sites throughout the Peel-Harvey Estuary during both late winter 2017 (high rainfall period – ‘wet’ season) and late summer 2018 (low rainfall period – ‘dry’ season; Fig. \@ref(fig:BMI-pic4)). The location of the sampling sites was governed by the following three factors to account for both ***anthropogenic and natural environmental influences*** on the condition of the benthic environment and their accompanying invertebrate communities. Sites were positioned to provide the best possible spread across these factors (with the first being of primary interest), while also keeping the time requirements for both field sampling and laboratory processing within an achievable window.
+:::
 
 1.  The ***condition of the sediment*** (i.e. Good, Fair or Poor), as determined by the Rapid Assessment Protocol (RAP) for characterizing sediment condition, based on scores for sediment colour, odour and texture developed by Hallett et al. (2019a) and presented in the complementary ARC Linkage report Hallett et al. (2019b). The guide for how the sediment at each site was scored and assigned to a RAP class is given in Table 1, with some examples shown in Fig.  \@ref(fig:BMI-pic5).
 
@@ -85,6 +91,7 @@ Benthic macroinvertebrates were collected at 60 sites throughout the Peel-Harvey
 
 3.  ***Water depth***, accounting for both shallow (\< 1 m deep) and deeper (≥ 1 m deep) waters.
 
+::: {.body-text width="100%"}
 It is recognized that the effects of human-derived stressors (e.g. the downstream impacts of high catchment nutrient loads, organic matter loads from livestock effluent etc.) and natural environmental influences act synergistically to influence benthic environmental condition in estuaries. However, sediment condition was considered to mainly reflect the culmination of anthropogenic influences in the catchment and estuary, while regional and depth differences were considered to represent natural environmental drivers. 
 
 
@@ -113,17 +120,21 @@ Various water quality characteristics, including salinity, temperature (°C) and
 knitr::include_graphics("images/BMI/picture6.webp")
 
 ```
+:::
 
 #### Data analyses
 
+::: {.body-text width="100%"}
 Analysis of the 2017–18 invertebrate species abundance data focused on determining the nature, extent and environmental drivers of any significant shifts in community composition between estuarine regions, seasons, water depths and sediment condition. Note that, while every effort was made to find sites representing each sediment condition class (i.e. Good, Fair, Poor) in each region, season and depth, they were not present in all combinations of those latter three factors. Consequently, analyses of invertebrate community differences among condition classes were undertaken separately from the combined analyses for region x season x depth, though were guided by the outcomes of the latter test (i.e. condition x region x depth tests were undertaken separately for each season, and only those significant terms involving condition were further interpreted). The footnote on p11 provides further technical explanation on the practicalities and drawbacks of this testing approach, and the subsequent choices for other condition-based analyses in section 4.2. 
 
 The environmental variables that were correlated with the invertebrate data included all of the sediment variables outlined in Table 2, as well as the water quality variables measured at the time of faunal sampling (see section 4.1.1).
 
 All data analyses were undertaken in the Primer v7 multivariate statistics software [@clarke2015getting] with the PERMANOVA+ add-on module [@gorley2008permanova].
+:::
 
 ## Building an index of benthic ecological health
 
+::: {.body-text width="100%"}
 An index of benthic ecological health (the EBCI), reflected as a ‘report card’ grading system from A (excellent health) to E (very poor health), was built from key attributes (‘metrics’) derived from the invertebrate species abundance data outlined in section 4.1.2. The list of candidate metrics that were trialed, and the ones that were selected to comprise the index, are shown in Table 3.
 
 The method used to construct this index is summarised in Fig. \@ref(fig:BMI-pic7), which outlines from left to right (i) the main steps in building the index; (ii) further detail underpinning each main step; (iii) the main statistical methods used (all of which were undertaken in the Primer v7 multivariate statistics software [@clarke2015getting] with the PERMANOVA+ add-on module [@gorley2008permanova]); (iv) key data inputs into the statistical methods; and (iv) main outputs of the statistical methods. The overarching approach was similar to that for the Fish Community Index, broadly outlined in Hallett et al. (2019b) and described in detail in @hallett2012rapid. The main difference between these approaches was that whereas a large historical and current data set was available to build a time-based gradient for selecting the most informative fish metrics (numerous interannual periods between 1978–2018), this was not the case for the invertebrate data [with historical data existing only for the late 1970s, 1986/7, 2000 and 2003/4, and sometimes for only restricted parts of the basin, times of year and/or subsets of the invertebrate community; @whisson2004benthic; @wildsmith2009marine]. Instead, a continuous spatial ‘benthic condition gradient’, built from key sediment variables shown to best reflect differences in sediment condition scores throughout the estuary, was used as the premise for selecting the most informative (i.e. responsive) invertebrate metrics.
@@ -135,11 +146,13 @@ To display EBCI trends throughout the estuary in both the wet and dry seasons, E
 knitr::include_graphics("images/BMI/picture7.webp")
 
 ```
+:::
 
 ## Main Findings
 
 > *The benthic invertebrate community is species rich, but dominated by a small number of taxa that are highly tolerant to environmental stress and represent only the early stages of community development*
 
+::: {.body-text width="100%"}
 More than 70 benthic invertebrate species were found across the estuary in 2017–18 (Appendix 1). They represented nine broader phyla, but more than 75% of species belonged to just two phyla, namely Annelida (worms; 30 species) and Arthropoda (crustaceans such as shrimps and crabs; 23 species). Thirteen species of Mollusca (shelled organisms) were found, but the remaining six phyla were each represented by only one taxon (Appendix 1). We found a greater overall number of species than @wildsmith2009marine in 2003–04 (63), most likely because this previous study was restricted to northern Harvey Estuary/western Peel Inlet whereas the current study covered the full breadth of the estuary and the tidal rivers. Species such as the worms *Desdemona ornata* and *Pseudopolydora kempi* and the bivalves *Mysella spp.* and *Arcuatula senhousia*, were abundant in this study, but were either not recorded or found in low numbers by @wildsmith2009marine.
 
 The largely marine and well-flushed northern Harvey/western Peel region had by far the most species (55), while the upper Murray River had the least (18). This decline in species richness along a marine to riverine gradient is common in south-western Australian estuaries, not only for benthic invertebrates [e.g. @wildsmith2017estuarine], but also for other fauna such as fish [e.g. @valesini2017interdecadal]. However, 60% of the species found in the northern Harvey/western Peel each made very small contributions (≤0.5%) to the total number of invertebrates recorded in that region, with many being ‘marine stragglers’ that occur infrequently in the marine reaches of estuaries, e.g. the worms *Heteromastus filiformis*, *Malacoceros sp.* and *Mediomastus sp*. In contrast, only 28% of the species in the upper Murray made similarly small contributions to the fauna in that region, reflecting a more restricted community that is well adapted to deal with environmental stress. Further evidence of this is the far lower total abundance of invertebrates found in the upper Murray, i.e. about one third to one fifth of that in other regions (Appendix 1). 
@@ -160,9 +173,11 @@ Many of the above-mentioned dominant species in the Peel-Harvey Estuary are reco
 knitr::include_graphics("images/BMI/picture9.webp")
 
 ```
+:::
 
 > *Regional differences in salinity and sediment oxygen, odour and microalgae exert the greatest influence on the invertebrate community*
 
+::: {.body-text width="100%"}
 Regional differences in the benthic invertebrate community throughout the estuary were generally about twice as strong as differences among seasons (winter vs summer), water depth (shallow vs deep) or sediment condition class (Good, Fair, Poor). The community still differed significantly among each of the latter factors, but the magnitude of change was usually far smaller (Appendix 2). Regional shifts in the fauna were strongly correlated with combinations of salinity, depth of the sediment oxic layer, sediment odour and the quantity of microalgae living near the sediment surface (BEST, *P* = 0.01–0.02, Spearman rank correlation = 0.78–0.87).
 
 The regional patterns in the species composition of the invertebrate fauna are illustrated on the plots in Figs \@ref(fig:BMI-pic10) and \@ref(fig:BMI-pic11). They have been displayed for each season (Fig. \@ref(fig:BMI-pic10)) and water depth (Fig. \@ref(fig:BMI-pic11)) to accommodate significant ‘interaction effects’ with those other sampling factors (i.e. contrasting regional trends across different seasons and depths; Appendix 2a). Based on the simple premise that points lying close together on these plots have similar faunas while those further apart have greater differences, it is clear that there was a distinct shift in the invertebrate communities between the estuary basins (western Peel/northern Harvey, eastern Peel and south Harvey regions, all lying to the left on plots) and the tidal Murray River (lower and particularly the upper regions, lying to the right), while those in the Serpentine River bridged this spectrum. 
@@ -185,7 +200,6 @@ knitr::include_graphics("images/BMI/picture11.webp")
 
 These trends match the long water residence times in the estuary during low river flows (Huang et al., 2019), which in turn leads to deoxygenation of the bottom waters and the sediment. Interestingly, low sediment oxygen persisted year-round in the Serpentine River (~0.7–1.5 cm of oxic sediment; \@ref(fig:BMI-pic12)), and was also prevalent in some basin regions (southern Harvey and eastern Peel) in one or more seasons. The most malodourous sediments (reflecting the production of hydrogen sulphide or ‘rotten-egg gas’ under anoxic conditions) matched several of the trends in sediment oxygen, being worst in the deeper waters of the upper Murray, Serpentine River and the shallows of the eastern Peel (Fig. \@ref(fig:BMI-pic12)). ‘Signals’ of these environmental conditions were evident in the invertebrate fauna. For example, the worm *Capitella sp.*, which was far more abundant in the Serpentine than any other region and dominated in both seasons and water depths, is well able to persist in low oxygen conditions [@diaz1995marine]. Other closely related species are also highly tolerant of hydrogen sulphide [@gamenick1996hypoxia]. The most obvious regional shifts in the amount of sediment microalgae, which provides a food source for deposit-feeding invertebrates, were the far lower quantities in the most marine and highly flushed region (western Peel/northern Harvey) compared to the upper Murray (Fig. \@ref(fig:BMI-pic12)). These trends almost certainly reflect the far lower sediment nutrient concentrations in the western Peel/northern Harvey than any other part of the estuary, and particularly the upper Murray, most of which is highly enriched (Hallett et al., 2019b). The higher microalgal concentrations in the shallows than deeper waters of most regions (Fig. \@ref(fig:BMI-pic12)) very likely reflects the greater light availability in those environments to support benthic algal growth.
 
-
 A separate set of tests to explore sediment condition impacts on the invertebrate community in each season showed that they were relatively strong in winter, when their influence was not too far behind that of regional differences and far stronger than depth differences (Appendix 2b). Faunas in the poor sediment class were the most distinct, and were generally characterised by less species than their ‘fair-good’ counterparts, as well as lower abundances of species that were present. Additionally, species such as the worms *Australonereis ehlersi* (which builds U-shaped burrows in sandy sediments and has strong jaws for eating other invertebrates; Beesley et al., 2000) and *D. ornata* [a predominantly deposit-feeding fan worm that is relatively sensitive to environmental stress; @borja2000marine; @rossi2002dynamics] showed clear preferences for good sediments and were mostly absent from poor sediments. The fauna also differed significantly among condition classes in summer, with poor vs good sediments being most distinct, but these differences were comparatively weak (Appendix 2c). It should be noted, however, that since not all condition classes were well represented in each region, season and depth combination^[The lack of the full spectrum of sediment condition classes in each region x season x depth combination necessitated a separate testing design to that used for the other three sampling factors (compare Appendix 2a and 2b-c). This was needed to (i) moderate the influence of the ‘Poor’ class being underrepresented in the wet season and the ‘Good’ class lacking in the dry season, and (ii) account for any confounding influences on sediment condition of region, depth and season. Yet, this design was still compromised by sampling imbalance. Difficulties with this multifactorial categorical approach for testing condition differences in the fauna inspired an alternative analysis pathway when building the EBCI (section 4.2). Composite EBCI metrics were instead selected based on their responsiveness to a continuous condition gradient, built from sediment variables that best reflected estuary-wide differences in benthic condition. We were confident in using condition as a reliable premise for exploring invertebrate community shifts and building the EBCI, given its robust validation by Hallett et al. (2019a,b).], these findings may underrepresent the true influence of sediment condition on the invertebrate fauna. 
 
 Further exploration of how particular attributes (‘metrics’) of the invertebrate community relate to the full spectrum of sediment condition is presented below in the findings for the EBCI.
@@ -195,9 +209,11 @@ Further exploration of how particular attributes (‘metrics’) of the inverteb
 knitr::include_graphics("images/BMI/picture12.webp")
 
 ```
+:::
 
 > *The benthic ecological health of the estuary was mainly good to fair in the wet season, but fair to poor in the dry season*
 
+::: {.body-text width="100%"}
 The EBCI, interpolated across the whole estuary from the index scores calculated for each site in each season, showed that overall benthic health was better in the wet than dry season (Figs 11 and 12). In the wet season, large sections of the basins (excepting the south-eastern Peel Inlet) were classified as having a good (B grade) to far (C grade) health status, with some sites near the Dawesville Channel and in the shallows of the northern Harvey in excellent health (A grade; Fig. 11). Most of the Serpentine River was also in fair to good benthic health, while this was only true for intermittent sections of the Murray River and mainly in its shallow lower reaches. In the dry season, however, most of the basins were in fair (C grade) to poor (D grade) benthic health (excepting again some healthy sites near the Cut and in the shallows), with some sites near navigation channels in the eastern Peel Inlet (Yunderup canals) in very poor condition (E grade; Fig. 12). Most of the upper Murray was also in poor to very poor condition (D/E grade), though the lower Murray and Serpentine typically had a fair to good health status (C/B grade), with a few sites even being in excellent health (A grade). 
 
 The poorer health grades in the dry season, which were especially evident in the deeper waters, mainly reflected conspicuous decreases in species richness and diversity (Fig. 13). This was particularly evident in the upper Murray River, with several samples containing no invertebrates at all (Fig. 13d). In the shallows, health declines between the wet and dry season were most obvious in the eastern Peel Inlet, and were driven mainly by a drop in species diversity (Fig. 13a, c).
@@ -229,14 +245,17 @@ knitr::include_graphics("images/BMI/picture15.webp")
 knitr::include_graphics("images/BMI/picture16.webp")
 
 ```
+:::
 
 > *Benthic ecological health is generally poorest in the deeper waters of the upper Murray River, deeper waters of the basins and in the south-eastern Peel Inlet*
 
+::: {.body-text width="100%"}
 Poor to very poor EBCI grades were most commonly recorded in the deeper waters of the upper Murray River, the deeper sections of the basins (especially in the dry season) and in the shallow south-eastern area of Peel Inlet (including the deeper navigational channels near the entrance of the Murray River; Figs 11, 12). The deeper parts of the upper Murray were characterised by faunas with a low species richness and diversity in winter, and were highly depauperate in summer when they either contained just one species or were totally lacking invertebrate fauna (Fig. 13b, d). The deeper waters of all basin regions, and especially the southern Harvey Estuary, had among the lowest species richness and/or diversity in summer, as did the shallows of the eastern Peel in both seasons (Fig. 13).
 
 The above areas typically corresponded with either fair to poor RAP sediment condition in the current study (Figs 11 and 12), and the most highly enriched (including both nutrient and organic matter content) and muddier sediments found by Hallett et al. (2019b) in the companion study on sediment health. These poorer quality sediments, and subsequently less healthy benthic invertebrate faunas, typically intersect with poorly flushed, depositional environments. The shallow south-eastern Peel Inlet also has a high biomass of green macroalgae, which has largely persisted throughout the 40-year macrophyte monitoring record in the Peel-Harvey Estuary and even increased in recent years (Valesini et al., 2019). Large accumulations of macroalgae can also contribute to sediment deoxygenation and enrichment, with the sediment acting as a source of nutrients to fuel further macrophyte growth [@lavery1991macroalgal].
 
 These findings have significant implications for the ongoing benthic ecological health of the estuary, given the forecast trends of less freshwater flushing under a drying climate, and the proposed expansion of marina developments and boating channels within the Peel-Harvey Estuary.
+:::
 
 ## Conclusions
 
@@ -262,13 +281,16 @@ These findings have significant implications for the ongoing benthic ecological 
 
 -   A broad program for the future monitoring of the benthic health of the Peel-Harvey via the EBCI (and accompanying RAP) is proposed in Table 4 and Fig. 15. Finer details for implementing this program will need to be determined, following clarity in level of interest in uptake and resourcing. 
 
+::: {.body-text width="100%"}
 ```{r BMI-pic17, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Map of suggested sites for future monitoring of benthic ecological health, based on the outcomes of the current study. Note that the location of all sites is provisional, and should be tailored for purpose prior to finalising any monitoring regime. "}
 
 knitr::include_graphics("images/BMI/picture17.webp")
 
 ```
+:::
 
 ## Acknowledgements
 
+::: {.body-text width="100%"}
 We are indebted to the many hard-working team members who helped with the collection of sediment cores, including Alan Cottingham, Jason Crisp, Brian Poh, Clara Obregon, Oliver Krumholz, Sam Robinson, Bianca Owen and Evan Byrnes. We would also like to express our gratitude to Steve Goynich, Mike Taylor and Iain Alexander who provided technical support for field surveying or laboratory processing of samples. Additional thanks to Michelle Wildsmith, who helped with species identification of benthic invertebrate taxa.
 :::
