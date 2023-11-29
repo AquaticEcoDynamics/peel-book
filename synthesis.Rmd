@@ -1,7 +1,9 @@
 # Synthesis
 
+<br>
+
 ::: {.chapter-authors width="100%"}
-**Fiona Valesini^1^, Matthew Hipsey^2^, Brad Eyre^3^, Kieryn Kilminster^4^, Paul Plummer^3^, Mike Elliott^5^, Chris Hallett^1^, Peisheng Huang^2^, Brendan Busch^2^, Naomi Wells^3^, Karl Hennig^4^, Sorcha Cronin-O'Reilly^1^, Mustefa Reshid^3^, Oliver Krumholz^1^, Julia Horsley^2^, Jill Trinh^12^**
+**Fiona Valesini^1^, Matthew Hipsey^2^, Brad Eyre^3^, Kieryn Kilminster^4^, Paul Plummer^3^, Mike Elliott^5^, Chris Hallett^1^, Peisheng Huang^2^, Brendan Busch^2^, Naomi Wells^3^, Karl Hennig^4^, Sorcha Cronin-O'Reilly^1^, Mustefa Reshid^3^, Oliver Krumholz^1^, Julia Horsley^2^, Jill Trinh^1,2^**
 :::
 
 ::: {.author-info width="100%"}
@@ -13,6 +15,8 @@
 knitr::include_graphics("images/summary_report/picture1.webp")
 
 ```
+
+<br>
 
 ## Executive Summary
 

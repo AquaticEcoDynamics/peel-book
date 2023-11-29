@@ -1,8 +1,12 @@
 # The What, Where, When and Why of Nutrient Transport to the Peel-Harvey Estuary
 
 <!-- ::: {.title_matter width="100%"} -->
+
 <!-- [***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"} -->
+
 <!-- ::: -->
+
+<br>
 
 ::: {.chapter-authors width="100%"}
 **Naomi S. Wells^1^, Mustefa Yasin Reshid^1^, Karl Hennig^2^, Daren Gooddy^3^, Bradley Eyre^1^**
@@ -18,8 +22,9 @@ knitr::include_graphics("images/isotopes/picture1.webp")
 
 ```
 
+<br>
 
-## Executive Summary
+## Abstract
 
 ::: {.body-text width="100%"}
 The overarching aim of this component of the ARC Linkage Project was to characterise the source, form and biological controls on nutrient inputs to the Peel-Harvey Estuary. We achieved this by first assessing the dominant forms of nitrogen and phosphorus found in the catchment sources (e.g. groundwater, rainwater, wastewater effluent and soil water) and in the receiving waters (e.g. drains, farm dams, rivers and the estuary basins).
@@ -29,7 +34,7 @@ We then developed isotope-based indicators for the biological transformations th
 Together, these findings lay the foundation for improved catchment-estuary nutrient modelling, as well as some directions around drain management that could help maximise nutrient removal, rather than simply water removal.
 :::
 
-## Background
+## Introduction & Background
 
 ::: {.body-text width="100%"}
 There is a long history of concern about excess nutrients leading to the over-enrichment of organic matter (eutrophication) in the Peel Harvey Estuary [@bradby1997peel; @mccomb1981eutrophication]. However, relatively little is known about how the nutrients (nitrogen and phosphorus) that cause this over-enrichment to reach the estuary. Understanding how, why, where, and when nitrogen (N) and phosphorus (P) move from sources like agricultural soils and wastewater treatment plants to the estuary, is a critical (but complex) step in being able to effectively manage eutrophication in this system. This complexity stems, from the fact that microbes and vegetation can remove up to 100%, or as little as 0%, of excess nitrogen as it's transported downstream from the catchment and/or atmospheric sources.
@@ -68,9 +73,35 @@ knitr::include_graphics("images/isotopes/picture2.webp")
 ::: {.body-text width="100%"}
 We collected samples from both receiving waters (defined as surface waters in the catchment and estuary) and N and P sources (defined as soils, fertilisers, and the non-surface waters that could directly flow to the surface water; Table 1). This sampling design enabled us to build a biogeochemical understanding onto the known hydrologic flow paths linking 'sources' and 'receiving waters' and avoid extraneous or duplicate sampling. For instance, we sampled soil water (which could directly leach into creeks, drains and rivers), but not the nitrogen fertilisers and livestock excreta that are applied to these soils (Table 1).
 
-The location of all sampling points is shown in Fig. 2, with most being sampled in both summer (February--March 2017) and winter (July--August 2017; see Table 1 for exceptions).
+The location of all sampling points is shown in Fig. 2, with most being sampled in both summer (February--March 2017) and winter (July--August 2017; see Table \@ref(tab:sampletable)) for exceptions).
+:::
 
-In addition to the above sampling of sources and receiving waters, high-resolution temporal sampling (24 h continuous measurements) of different forms of nitrogen were carried out at two estuary locations (Fig. 2) in winter 2017 to assess how tides impacted their distributions. 
+<center>
+
+```{r sampletable, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx("tables/peel_tables.xlsx", sheet="sampletable")
+  kable(Diff_tab[,1:2],"html", escape = F, align = "c"
+        , caption = "Summary of sampled sources and receiving waters. Note that soils and storm drains were only sampled during the high flow season (winter 2017), while the rest were sampled in both summer and winter.",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+    
+  row_spec(0, background = "#14759e", bold = TRUE, color = "white") %>%
+  column_spec(1, width_min = "20em" ,color="black",bold = F) %>%
+  column_spec(2, width_min = "20em" ,color="black") %>%
+  # column_spec(3, width_min = "15em" ,color="black") %>%
+  # row_spec(1:2, background = 'white')  %>%
+ scroll_box(width = "40em", height = "20em",fixed_thead = FALSE)
+```
+
+<br>
+
+::: {.body-text width="100%"}
+In addition to the above sampling of sources and receiving waters, high-resolution temporal sampling (24 h continuous measurements) of different forms of nitrogen were carried out at two estuary locations (Figure \@ref(fig:isotopes-pic3)) in winter 2017 to assess how tides impacted their distributions. 
 
 ```{r isotopes-pic3, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Examples of the different types of water bodies sampled across the Peel-Harvey system. The different flow dynamics and biological structure of these water bodies could have a major impact on how efficiently they remove excess nutrients."}
 
@@ -88,9 +119,9 @@ knitr::include_graphics("images/isotopes/picture4.webp")
 ### Isotope analyses
 
 ::: {.body-text width="100%"}
-In each of the samples collected from the various sources and receiving waters (Table 1), we first measured the concentration of the different species of P (dissolved organic P, and inorganic P, PO~4~^3-^) and N (dissolved organic and inorganic N, as nitrate, NO~3~^-^, and ammonium, NH~4~^+^). We then analysed the isotope composition of the inorganic species. 
+In each of the samples collected from the various sources and receiving waters (Table \@ref(tab:sampletable))), we first measured the concentration of the different species of P (dissolved organic P, and inorganic P, PO~4~^3-^) and N (dissolved organic and inorganic N, as nitrate, NO~3~^-^, and ammonium, NH~4~^+^). We then analysed the isotope composition of the inorganic species. 
 
-For P, this involved sending samples to our colleagues at the British Geological Survey for processing, as described in @davies2014phosphate. Phosphate isotope (δ^18^O-PO~4~^3-^) samples were limited to the main sources (fertilisers and soils) due to the large sample volume required for these analyses, the very time-intensive preparation steps, and the need for significant method development before these analyses can be readily applied to samples with complex organic matrices and high salinities, as found throughout most of the Peel-Harvey system. 
+For P, this involved sending samples to our colleagues at the *British Geological Survey* for processing, as described in @davies2014phosphate. Phosphate isotope (δ^18^O-PO~4~^3-^) samples were limited to the main sources (fertilisers and soils) due to the large sample volume required for these analyses, the very time-intensive preparation steps, and the need for significant method development before these analyses can be readily applied to samples with complex organic matrices and high salinities, as found throughout most of the Peel-Harvey system. 
 
 Measuring the isotopic composition of N involved converting the two inorganic forms (NO~3~^-^ and NH~4~^+^) to nitrous oxide (N~2~O), which we could then use to quantify the relative abundance of heavy to light isotopes for both N (δ^15^N) and O (δ^18^O). These analyses were performed in the stable isotope laboratory at Southern Cross University's Centre for Coastal Biogeochemistry. For more details on these methods, see McIlvin and Casciotti (2011) and Zhang et al. (2007). 
 
@@ -114,7 +145,7 @@ Using the laboratory methods outlined above, samples of all of these sources wer
 ##### Forms
 
 ::: {.body-text width="100%"}
-Standard water quality models only consider nutrients as a 'total' of their forms (e.g. TN and TP). While this approach is efficient given the many chemical forms of both N and P that exist in the environment, it makes it difficult to accurately track changes in nutrient export. This is because, (1) the process used to measure TN and TP concentrations (persulfate oxidation of unfiltered samples) is imprecise and thus often obscures real changes occurring in the environment, and (2) the TN pool in particular is large and thus a fairly insensitive indicator of changes in nutrient pollution over space and time (Table 2). 
+Standard water quality models only consider nutrients as a 'total' of their forms (e.g. TN and TP). While this approach is efficient given the many chemical forms of both N and P that exist in the environment, it makes it difficult to accurately track changes in nutrient export. This is because, (1) the process used to measure TN and TP concentrations (persulfate oxidation of unfiltered samples) is imprecise and thus often obscures real changes occurring in the environment, and (2) the TN pool in particular is large and thus a fairly insensitive indicator of changes in nutrient pollution over space and time (Table \@ref(tab:ntable))). 
 
 ```{r isotopes-pic6, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "The sampling set-up used to measure gas concentrations across the Peel Harvey system."}
 
@@ -125,15 +156,48 @@ knitr::include_graphics("images/isotopes/picture6.webp")
 We also know that certain forms included in the TN pool, like nitrate (NO~3~^-^), exist in relatively low concentrations but can rapidly increase in response to human activities like N fertiliser use [@parfitt2012nitrogen]. This makes such inorganic forms (NO~3~^-^ and NH~4~^+^) potentially more indicative of changes in pollution over space and time. The rest of the dissolved N pool is made up of organic molecules (DON), which can range from easily altered compounds like urea to large and non-biodegradable compounds [@sipler2015dynamics]. Therefore, the first objective that must be fulfilled in order to understand how nitrogen moves from land to the Peel-Harvey is to quantify the relative abundance and distribution of more labile nitrogen forms like NO~3~^-^, ammonium (NH~4~^+^), and DON. 
 :::
 
+<br>
+
+```{r ntable, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+library(rmarkdown)
+theSheet <- read_excel('tables/peel_tables.xlsx', sheet="ntable")
+theSheetGroups <- unique(theSheet$Group)
+
+kbl(theSheet[,2:NCOL(theSheet)], caption = "Summary of the different N forms commonly found in rivers and estuaries. Note that negatively charged N forms like NO3- are more readily transported in water than positively charged N forms like NH4+, which tends to stick to soil and sediment particles", align = "c",) %>%
+  pack_rows(theSheetGroups[1],
+            min(which(theSheet$Group == theSheetGroups[1])),
+            max(which(theSheet$Group == theSheetGroups[1])),
+            background = '#ebebeb') %>%
+  pack_rows(theSheetGroups[2],
+            min(which(theSheet$Group == theSheetGroups[2])),
+            max(which(theSheet$Group == theSheetGroups[2])),
+            background = '#ebebeb') %>%
+  pack_rows(theSheetGroups[3],
+            min(which(theSheet$Group == theSheetGroups[3])),
+            max(which(theSheet$Group == theSheetGroups[3])),
+            background = '#ebebeb') %>%
+  row_spec(0, background = "#14759e", bold = TRUE, color = "white") %>%
+  kable_styling(full_width = F,font_size = 11) %>%
+  column_spec(2, width_min = "7em") %>%
+  column_spec(4, width_min = "12em") %>%
+  scroll_box(width = "40em", height = "36em",
+             fixed_thead = FALSE)
+```
+
+
+
 #### 'Where and When': Identify nitrogen removal 'hot spots' and 'hot moments (Objective 3)
 
-##### Spatial variations in nitrogen removal
+##### Spatial variations in nitrogen removal {-}
 
 ::: {.body-text width="100%"}
 To determine which regions of the catchment were more biologically active (and thus more likely to remove source nutrients), we measured N concentrations and isotopes across a range of receiving waters from small feeder drains on farms (shallow, seasonally flowing, vegetated) to large regional drains (permanently flowing, high velocity, channelized) to the Peel and Harvey estuaries (shallow with a large surface area; Table 1, Fig. 2). At these sites, we also used laser instruments to measure dissolved concentrations of carbon dioxide (CO~2~), methane (CH~4~) and nitrous oxide (N~2~O) gasses. Gas measurements are useful as they provide an independent indicator of biological productivity, and thus potential nutrient removal 'hot spots'. This is because CO~2~, CH~4~, and N~2~O are produced by the same microorganisms that consume excess nitrogen. 
 :::
 
-##### Temporal variations in nitrogen removal
+##### Temporal variations in nitrogen removal {-}
 
 ::: {.body-text width="100%"}
 We carried out the same isotope and dissolved gas measurements over both winter (high flow) and summer (low flow) seasons. As there was an anomalously large rainfall event in the Murray catchment during this summer, we sampled both before and after this 'flood'. Unless otherwise noted the presented data is from the pre-flood (low flow) period. We further assessed the effect of extreme events on nutrient fluxes by sampling during a winter storm (wind speeds \>100 km h^-1^) very strong winds) in the Harvey Estuary. Seasonal variations in N forms, sources and removal were also assessed by measuring concentrations and isotopes in monthly samples from eight estuary sites that were collected for us by the Department of Environmental Regulation. 
@@ -145,7 +209,7 @@ We carried out the same isotope and dissolved gas measurements over both winter 
 Current nutrient monitoring in the Peel-Harvey system (and thus the models based on this data) do not measure biological removal ('attenuation') processes that could occur as N is moved from catchment soils and/or rainfall sources to the waterways. A key aim of our isotope data was therefore to generate independent attenuation calculations that could be used to validate and improve the coupled catchment-estuary model being developed in other components of the current Linkage Project [@huang2019changing; @huang2019integrated; @killminster2019modelling]. Isotope-based calculations provide a measure of N removal that integrates N removal during *transport to* the sampled system and N removal *within* the sampled system. This approach will provide unique insight into the complex and poorly understood processes that occur as N is transported from land to water. 
 :::
 
-## Main Findings
+## Results & Findings
 
 ### 'What': The majority of nitrogen in the Peel-Harvey is in organic forms
 
@@ -274,7 +338,6 @@ We also found major seasonal differences the nitrogen isotopes measured in the r
 ::: {.body-text width="100%"}
 Catchment models currently predict daily TN exported via major rivers and drains into the estuary (Fig. 12), where the flux of N from the catchment to the estuary (*N*~export~) is approximated as a function of downstream discharge (*Q*) and the TN concentration measured at the gauging station, i.e. 
 
-
 $$
 N_{export} = Q*N
 $$
@@ -306,11 +369,9 @@ $$
 \text{Attenuation} &= 1-e^{(\delta-\delta_{0})/\epsilon} \\
 Atten_{total} &= \int_{0}^{x} \frac{d[\text{Attenuation}]}{dx} \
 \end{align*}
-$$
-Where δ is the measured δ^15^N-NO~3~^-^ or δ^18^O-NO~3~^-^ value at a given location, δ~0~ is the established 'source' value for that isotope (using either model 1 or model 2), and ε is the known degree of isotopic enrichment caused by N removal. The top equation generates the proportion of the initial N pool attenuated, which is then calculated for each location along the stream and integrated over stream length (*x*) to generate the proportion of the total N load attenuated (*Atten*~total~). For more details on this equation and approach, see [@wells2019effects; @wells2016spatial].
+$$ Where δ is the measured δ^15^N-NO~3~^-^ or δ^18^O-NO~3~^-^ value at a given location, δ~0~ is the established 'source' value for that isotope (using either model 1 or model 2), and ε is the known degree of isotopic enrichment caused by N removal. The top equation generates the proportion of the initial N pool attenuated, which is then calculated for each location along the stream and integrated over stream length (*x*) to generate the proportion of the total N load attenuated (*Atten*~total~). For more details on this equation and approach, see [@wells2019effects; @wells2016spatial].
 
 The generated *Atten*~total~ value was then folded into the established catchment *N*~export~ model [@huang2019changing; @killminster2019modelling] to better capture *N*~export~ differences driven by biology vs hydrology, i.e. 
-
 
 $$
 N_{total} = N_{export} + Atten_{total} N_{export}
