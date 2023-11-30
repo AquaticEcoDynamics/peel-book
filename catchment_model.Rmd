@@ -12,14 +12,14 @@
 :::
 
 ::: {.author-info width="100%"}
-Department of Water and Environmental Regulation, Perth, WA
+Department of Water and Environmental Regulation, Perth WA 6842, Australia.
 :::
 
 ```{r catchment-model-pic1, echo = FALSE, out.width='100%', class = "title-image"}
 knitr::include_graphics("images/catchment_model/picture1.webp")
 ```
 
-## Executive Summary
+## Abstract
 
 ::: {.body-text width="100%"}
 The Source (eWater®) modelling platform was used to develop hydrological and nutrient models for the catchment of the Peel-Harvey Estuary. These models allow the nutrient export delivered to the estuary to be estimated and the major sources of these nutrients to be identified. This allows management actions to be targeted where they will have the most capacity to reduce nutrient export. 
@@ -29,23 +29,23 @@ The model indicates that the nutrient load from all sub-catchments reaching the 
 The catchment model, which was coupled with an estuary response model developed in other components of this ARC Linkage project, was then used to compare a range of scenarios proposed for 2050 by stakeholders across the Peel region. These scenarios encapsulated three different catchment management narratives (termed 'environmentally optimistic, 'business as usual' and 'environmentally pessimistic/economically optimistic') under two climate regimes (current climate and 2050 predicted climate). Full details of the catchment model development, calibration and outputs of the tested scenarios relating to (i) land-use change, (ii) nutrient management and (iii) climate are outlined in separate documents detailed in the following report. 
 :::
 
-## Background
+## Introduction
 
 ::: {.body-text width="100%"}
-This study used catchment-scale models to estimate the water flows and loads and concentrations of nitrogen and phosphorus to the Peel-Harvey Estuary and the ocean. The Source (eWater®) modelling platform was used to develop hydrological and nutrient models, which require meteorological and land-cover input data, and are calibrated using the data from flow and water quality monitoring sites located throughout the Peel-Harvey catchment. This modelling is an update of the work done by @kelsey2011hydrological, using different models and methodology. The Department of Water and Environmental Regulation (DWER) is currently preparing a detailed technical report on this revised catchment modelling, and exploring a suite of scenarios of land-use change, catchment management actions and climate change (Hennig et al., in prep.).
+This study used catchment-scale models to estimate the water flows and loads and concentrations of nitrogen and phosphorus to the Peel-Harvey Estuary and the ocean. The Source (eWater®) modelling platform was used to develop hydrological and nutrient models, which require meteorological and land-cover input data, and are calibrated using the data from flow and water quality monitoring sites located throughout the Peel-Harvey catchment. This modelling is an update of the work done by @kelsey2011hydrological, using different models and methodology. The Department of Water and Environmental Regulation (DWER) is currently preparing a detailed technical report on this revised catchment modelling, and exploring a suite of scenarios of land-use change, catchment management actions and climate change (Hennig et al., 2021).
 
-Specific catchment model outputs were made available to inform a set of three 2050 narratives or 'plausible futures' proposed by Peel stakeholders during the ARC Linkage project. The scenarios underpinning these narratives, which are detailed in @hipsey2019estuarine, comprised specific land-use, catchment management and climate combinations. The catchment model outputs for each of these scenarios were then coupled with the estuary hydrodynamic and biogeochemical models developed in other parts of the Linkage [see @huang2019changing; @huang2019integrated]. This enabled forecasting of estuarine ecosystem response under each 2050 scenario [see @hipsey2019estuarine].
+Specific catchment model outputs were made available to inform a set of three 2050 narratives or 'plausible futures' proposed by Peel stakeholders during project discussions and workshops. The scenarios underpinning these narratives, which are detailed in @hipsey2019estuarine, comprised specific land-use, catchment management and climate combinations. The catchment model outputs for each of these scenarios were then coupled with the estuary hydrodynamic and biogeochemical models developed in other parts of the Linkage [see Chapter X and Y]. This enabled forecasting of estuarine ecosystem response under each 2050 scenario [see Chapter Z].
 
-Beyond this project, the revised Peel-Harvey catchment model will also inform the development of the *Peel-Harvey Estuary Protection Plan* and a revision of the *Peel Harvey Water Quality Improvement Plan*, which are currently being developed by DWER.
+Beyond this project, the revised Peel-Harvey catchment model has been developed to inform the development of the *Peel-Harvey Estuary Protection Plan* and a revision of the *Peel Harvey Water Quality Improvement Plan*, which are currently being developed by DWER.
 :::
 
-## Objectives
+### Objectives
 
 1.  Create a calibrated catchment hydrological model to estimate flow and nutrient loads in the Peel-Harvey.
 
 2.  Run the model for a suite of 2050 scenarios related to catchment land-use, management and climate. 
 
-3.  Provide the above catchment output data (flow, total nitrogen and total phosphorus) to the coupled Peel-Harvey estuary model to support forecasting of estuarine response under each 2050 scenario. 
+3.  Analyse the catchment output data (flow, total nitrogen and total phosphorus) in the context of the linked Peel-Harvey estuary model to support forecasting of estuarine response under each 2050 scenario. 
 
 ## Approach
 
@@ -67,7 +67,7 @@ The basis of the **hydrological model** comprised three different models for lan
 
 -   [Urban:]{.ul} Urban land-uses (such as urban residential, commercial and education offices, industry, manufacturing and transport) were assigned the calibrated parameters for Bannister Creek, as this was the gauge with the best calibration metrics. 
 
--   [Vegetated:]{.ul} Vegetated land-uses (such as plantations, rural living [bush block], native vegetation) were calibrated to vegetated gauged catchments. Model parameters were assigned by major river (Serpentine and Murray). 
+-   [Vegetated:]{.ul} Vegetated land-uses (such as plantations, rural living bush block, native vegetation) were calibrated to vegetated gauged catchments. Model parameters were assigned by major river (Serpentine and Murray). 
 
 -   [Cleared:]{.ul} Cleared land-uses (such as dairy, beef, cropping, horticulture) were calibrated to flow gauging stations throughout the Peel-Harvey catchment. 
 
@@ -94,7 +94,7 @@ Dairy farms were modelled using the same approach described for the diffuse nutr
 
 Water and nutrients from dam releases and irrigation returns were calculated separately and included as inflow nodes. 
 
-Riparian zone nutrient removal was calculated linearly with 0% removal for modelling catchments with 0% riparian zone vegetation and the maximum nutrient removal for catchments with 100% riparian zone vegetation. Stream order was also considered. It was assumed that first- and second-order streams required half the vegetated riparian zone width of larger-order streams to achieve the same percentage nutrient reductions [@hennig2015avon]. The vegetated riparian zone nutrient-removal percentages were assumed to be the same as the 'medium' quality riparian zone efficacy given in the Leschenault Estuary Water Quality Improvement Plan [@hugues2012leschenault]. The nutrient removal of riparian zones on the Swan Coastal Plain was assumed to be less effective that those in inland areas [@hugues2012leschenault].
+Riparian zone nutrient removal was calculated linearly, assuming 0% removal for catchments with 0% riparian zone vegetation to the maximum nutrient removal for catchments with 100% riparian zone vegetation. Stream order was also considered. It was assumed that first- and second-order streams required half the vegetated riparian zone width of larger-order streams to achieve the same percentage nutrient reductions [@hennig2015avon]. The vegetated riparian zone nutrient-removal percentages were assumed to be the same as the 'medium' quality riparian zone efficacy given in the Leschenault Estuary Water Quality Improvement Plan [@hugues2012leschenault]. The nutrient removal of riparian zones on the Swan Coastal Plain was assumed to be less effective that those in inland areas [@hugues2012leschenault].
 :::
 
 ### Model input data
@@ -161,7 +161,7 @@ knitr::include_graphics("images/catchment_model/picture7.webp")
 ```
 :::
 
-## Main Findings
+## Results & Findings
 
 ### Flows and loads to the Peel-Harvey Estuary
 
@@ -250,6 +250,12 @@ and for **phosphorus**: 
 ::: {.body-text width="100%"}
 The major sources of nutrients by land-use are, for **nitrogen**: beef (62% of total load), cropping (12%) and dairy (6.8%) and, for **phosphorus:** beef (67%), dairy (8.1%) and horticulture (7.3%).
 :::
+
+## Data availability & Supplementary Materials
+
+Data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository (Busch et al., 2023). 
+
+Supplementary materials for this chapter are available <here>.
 
 ## Acknowledgements
 

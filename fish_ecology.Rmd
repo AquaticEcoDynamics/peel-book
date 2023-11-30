@@ -1,15 +1,16 @@
-# Assessing the Health of the Peel-Harvey Estuary through its Fish Communities
+# Assessing the Health of the Peel-Harvey Estuary Through its Fish Communities
 
 <!-- ::: {.title_matter width="100%"} -->
 <!-- [***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"} -->
 <!-- ::: -->
+<br>
 
 ::: {.chapter-authors width="100%"}
 **Chris Hallett, Fiona Valesini, Daniel Yeoh**
 :::
 
 ::: {.author-info width="100%"}
-Centre for Sustainable Aquatic Ecosystems, Murdoch University, Perth, WA
+Centre for Sustainable Aquatic Ecosystems, Murdoch University, Perth WA 6XXX, Australia.
 :::
 
 ```{r fish-ecology-pic1, echo = FALSE, out.width='100%', class = "title-image"}
@@ -18,17 +19,24 @@ knitr::include_graphics("images/fish_ecology/picture1.webp")
 
 ```
 
+<br>
 
-## Executive Summary
+::: {.author-info width="100%"}
+Cover image: Seine-net catch in shallow waters of the Peel-Harvey Estuary, including a Small-toothed flounder (*Pseudorhombus jenynsii*).
+:::
+
+<br>
+
+## Abstract
 
 ::: {.body-text width="100%"}
 Fish communities provide important 'signals' about the ecosystem health of estuaries. Their component species typically occupy habitats from the top to bottom of the water column, feed across most levels of estuarine food webs, and encompass varied behavioral traits and estuarine use patterns. Taking a community-wide view can thus reveal many clues about the cumulative and complex impacts of the estuarine environment on higher ecological health. As a result, biotic indices that integrate key traits of fish communities, scored against established 'benchmark' or reference conditions, have been used to measure, monitor and report the ecological health of estuaries worldwide. 
 
 This study focused on applying a Fish Community Index (FCI) to the Peel-Harvey Estuary to measure and track its ecological health over a 40-year period from 1978 to 2018. It also aimed to link patterns in the FCI to key environmental drivers to support forecasting of ecological health under different environmental scenarios.
 
-The FCI, which was developed specifically for south-western Australian estuaries, synthesises complex information from different structural and functional metrics of the fish community into simple 'report card' grades (A, very good, to E, very poor). The long historical fish community data set that exists for the Peel-Harvey was supplemented by two further years of fish sampling in the current study (2016-2018), which covered a greater spatial range in both the shallow (\<1.5 m deep) and deeper waters (\>1.5 m deep) than had ever been sampled previously. While this 40 year data set provides a rare basis for setting metric benchmark conditions (especially in the shallow basins where most historical data was collected), inconsistencies in sampling methods over time, gaps in the data record, and a relative lack of data in the deeper waters and rivers, has hampered some interpretations of longer-term health. Moving forward, we have proposed a consistent fish monitoring regime for the Peel-Harvey to enable its ecological health to be reliably tracked with the FCI into the future. 
+The FCI, which was developed specifically for south-western Australian estuaries, synthesises complex information from different structural and functional measures (metrics) of the fish community into simple 'report card' grades (A, very good, to E, very poor). The long historical fish community data set that exists for the Peel-Harvey was supplemented by two further years of fish sampling in the current study (2016-2018), which covered a greater spatial range in both the shallow (\<1.5 m deep) and deeper waters (\>1.5 m deep) than had ever been sampled previously. While this 40 year data set provides a rare basis for setting metric benchmark conditions (especially in the shallow basins where most historical data was collected), inconsistencies in sampling methods over time, gaps in the data record, and a relative lack of data in the deeper waters and rivers, has hampered some interpretations of longer-term health. Moving forward, we have proposed a consistent fish monitoring regime for the Peel-Harvey to enable its ecological health to be reliably tracked with the FCI into the future. 
 
-Based on the available evidence, our findings show that there has been a slight improvement in the health of the shallow river environments from 1978-2018, from poor (grade D) to fair (grade C), while the shallow basin waters have remained in fair health. The condition of the deeper waters, however, and especially in the basins, has declined from a good health status (grade B) to a fair/poor status (C/D). The improvements in the shallow rivers mainly reflect an increased dominance of small hardyhead species that are specialist feeders and can spawn in the estuary, rather than the opportunistic or detritus-feeding species that previously dominated these areas. The more obvious decline in the deeper basins, however, reflected a clear shift in the fish fauna from one that was relatively species-rich, abundant and contained more benthic-associated and/or estuarine individuals (all of which positively influence the FCI, e.g. Estuary cobbler, Mulloway, Yellow-finned whiting and Western striped grunter), to one that is more depauperate (with no fish being caught on several sampling occasions), sporadic and dominated by marine species (traits which negatively influence the FCI, e,g. Tailor, Southern eagle rays, Herring and Weeping toadfish). The opening of the Dawesville Cut in the mid-1990s, combined with a drying climate, has clearly led to a 'marinisation' of the fish fauna. However, the above declines in ecological health may also reflect (i) declines in the health of the benthic invertebrate fauna upon which many of these species feed, (ii) decreases in green macroalgal growths (especially in Peel Inlet) which can provide abundant fish food and shelter, (iii) increased water clarity and thus net avoidance and/or (iv) fishing pressure impacts on targeted species.
+Based on the available evidence, our findings show that there has been a slight improvement in the health of the shallow river environments from 1978-2018, from poor (grade D) to fair (grade C), while the shallow basin waters have remained in fair health. The condition of the deeper waters, however, and especially in the basins, has declined from a good health status (grade B) to a fair/poor status (grade C/D). The improvements in the shallow rivers mainly reflect an increased dominance of small hardyhead species that are specialist feeders and can spawn in the estuary, rather than the opportunistic or detritus-feeding species that previously dominated these areas. The more obvious decline in the deeper basins, however, reflected a clear shift in the fish fauna from one that was relatively species-rich, abundant and contained more benthic-associated and/or estuarine individuals (all of which positively influence the FCI, e.g. Estuary cobbler, Mulloway, Yellow-finned whiting and Western striped grunter), to one that is more depauperate (with no fish being caught on several sampling occasions), sporadic and dominated by marine species (traits which negatively influence the FCI, e,g. Tailor, Southern eagle rays, Herring and Weeping toadfish). The opening of the Dawesville Cut in the mid-1990s, combined with a drying climate, has clearly led to a 'marinisation' of the fish fauna. However, the above declines in ecological health may also reflect (i) declines in the health of the benthic invertebrate fauna upon which many of these species feed, (ii) decreases in green macroalgal growths (especially in Peel Inlet) which can provide abundant fish food and shelter, (iii) increased water clarity and thus net avoidance and/or (iv) fishing pressure impacts on targeted species.
 
 More detailed analysis of the current (2016--2018) FCI trends showed that, overall, the estuary is in fair to poor health (grades C--D). At a finer regional and seasonal resolution, trends in the shallow nearshore waters were often inconsistent, possibly reflecting that large areas of the basins are extremely shallow and prone to rapid environmental changes, and are dominated by small, highly-schooling species which can lead to variable catches. One worrying trend that was consistent in the shallows, however, was the often poor to very poor health (grade D--E) in the Mandurah Entrance Channel. This reflected a far lower number of species since the 1970s/80s, as well as clear drops in abundance of various specialist feeding, estuarine-spawning and/or bottom-dwelling species (e.g. Long-finned goby, Bridled goby and Small-toothed flounder), and increases in the relative proportions of opportunistic species such as Weeping toadfish.
 
@@ -36,34 +44,36 @@ Trends in the deeper waters were generally more discernible, and indicated that 
 
 Finally, when FCI scores were statistically correlated with a suite of environmental variables, bottom water age, dissolved oxygen content and salinity were shown to have the greatest influence on ecological condition. In the deeper waters of the rivers, the best ecological condition occurred when dissolved oxygen content was highest and when the bottom water age was between 50 and 100 days. Poor FCI scores in this region occurred shortly after flooding (very low water age) and when bottom water became stagnant (water age \>100 days). In the shallow waters of the rivers increasing salinity had a weak positive effect on FCI scores, while in the shallow waters of the basins, hypoxia area (% of region with dissolved oxygen content \< 2 mg/L) had a weak negative influence. These quantitative responses of the FCI to specific environmental variables provides a basis for predicting the future ecological condition of the system under various environmental scenarios. 
 
-```{r fish-ecology-pic2, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Murdoch fish sampling team Chris Hallett (centre) and Alan Cottingham (left) with Steve Fisher (right) from Peel-Harvey Catchment Council (Photo, S. Meredith, PHCC)."}
+```{r fish-ecology-pic2, echo = FALSE, out.width='100%', class = "text-image"}
 
 knitr::include_graphics("images/fish_ecology/picture2.webp")
 
 ```
 :::
 
-## Background
+## Introduction
 
 ::: {.body-text width="100%"}
-Healthy, diverse and productive estuarine fish communities require good water quality, the availability of appropriate habitats and good connectivity between estuarine, marine and freshwater environments. Human activities can degrade estuaries and disrupt these requirements, resulting in the loss of particular species or groups ('guilds') of fish. Environmentally-sensitive fish species, including those that cannot tolerate widely ranging salinities or low levels of oxygen, or those with specialized feeding strategies or habitats, are typically lost first as estuary health declines (Fig. 1). Conversely, species that are highly tolerant and/or are more generalist in their requirements, can often dominate communities when the environmental niches previously occupied by less robust species become available.
+Healthy, diverse and productive estuarine fish communities require good water quality, the availability of appropriate habitats and good connectivity between estuarine, marine and freshwater environments. Human activities can degrade estuaries and disrupt these requirements, resulting in the loss of particular species or groups ('guilds') of fish. Environmentally-sensitive fish species, including those that cannot tolerate widely ranging salinities or low levels of oxygen, or those with specialized feeding strategies or habitats, are typically lost first as estuary health declines (Fig. \@ref(fig:fish-ecology-pic3)). Conversely, species that are highly tolerant and/or are more generalist in their requirements, can often dominate communities when the environmental niches previously occupied by less robust species become available.
 
 The structure of fish communities can therefore provide important signals about the ecological health of an estuary and the ways in which it is impacted by human activities, climate change and other pressures. Even though fish communities occupy higher ecological levels than other biotic indicators such as plankton or benthic invertebrates, they are known to be excellent indicators of estuarine condition (or 'health') since their component species vary widely in their (i) feeding levels (e.g. from primary to secondary consumers), (ii) habitat types (e.g. fresh to hypersaline waters, bottom-dwelling to open water, bare to vegetated substrates), (iii) the ways in which they use estuaries (e.g. nurseries to permanent residence) and (iv) life spans (e.g. one year to decades). Consequently, their ability to capture 'signals' from acute to chronic environmental changes, is vast [e.g. @whitfield2002fishes; @perez2012current; @richardson2011weight].
 
-```{r fish-ecology-pic3, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Conceptual diagram of predicted responses of the estuarine fish community to poor and good ecological condition (‘health’). Images courtesy of the Integration and Application Network, University of Maryland Center for Environmental Science (ian.umces.edu/symbols/). Reproduced from Hallett et al. (2019)."}
+```{r fish-ecology-pic3, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Conceptual diagram of predicted responses of the estuarine fish community to poor and good ecological condition (‘health’). Images courtesy of the Integration and Application Network, University of Maryland Center for Environmental Science (ian.umces.edu/symbols/). Reproduced from Hallett et al. (2019a)."}
 
 knitr::include_graphics("images/fish_ecology/picture3.webp")
 
 ```
 
-Biotic indicators based on fish communities are now used to measure and monitor the ecological health of estuaries worldwide [@perez2012current; @martinho2015efficacy], although Australia has been slower to adopt this approach [@hallett2016review]. However, one fish-based indicator that has been developed specifically for south-western Australian estuaries is the Fish Community Index [FCI, @hallett2012validation]. The FCI integrates data on various characteristics ('metrics') of the fish community to generate ecological condition scores (0--100), which are then assigned to corresponding 'report card' grades (A, very good -- E, very poor) that are easily understood by the wider community The FCI was originally developed for the Swan-Canning Estuary, where it has been used by the Department of Biodiversity, Conservation and Attractions for annual monitoring and reporting of estuary health since 2012. It has also been adopted in the Walpole-Nornalup Estuary by the Department of Primary Industries and Regional Development (Fisheries) since 2017 [@hallett2019fish; @yeoh2019monitoring]. 
+Biotic indicators based on fish communities are now used to measure and monitor the ecological health of estuaries worldwide [@perez2012current; @martinho2015efficacy], although Australia has been slower to adopt this approach [@hallett2016review]. However, one fish-based indicator that has been developed specifically for south-western Australian estuaries is the Fish Community Index [FCI, @hallett2012validation]. The FCI integrates data on various characteristics ('metrics') of the fish community to generate ecological condition scores (0--100), which are then assigned to corresponding 'report card' grades (A, very good -- E, very poor) that are easily understood by the wider community The FCI was originally developed for the Swan-Canning Estuary, where it has been used by the Department of Biodiversity, Conservation and Attractions for annual monitoring and reporting of estuary health since 2012. It has also been adopted in the Walpole-Nornalup Estuary by the *Department of Primary Industries and Regional Development* (Fisheries) since 2017 [@hallett2019fish; @yeoh2019monitoring]. 
 
-In this study, we ***aimed to adapt and apply the FCI to the Peel-Harvey Estuary to quantify patterns in its ecological health over the past four decades.*** We also sought to relate observed FCI scores to estuarine environmental conditions [as derived from the estuary response model developed in other parts of the Linkage Project, @huang2019changing; @huang2019integrated] to determine which elements were the key drivers of ecological health. 
+In this study, we ***aimed to adapt and apply the FCI to the Peel-Harvey Estuary to quantify patterns in its ecological health over the past four decades.*** We also sought to relate observed FCI scores to estuarine environmental conditions [as derived from the estuary response model developed in Chapters \@ref(model-hydrology) and \@ref(model-water-quality) to determine which elements were the key drivers of ecological health. 
 
 It should be noted that while the fish communities of the Peel-Harvey Estuary have been studied periodically since the late 1970s, these surveys have typically differed in their sampling methods. Not only have different net types been used over time, but the fish communities in the tidal rivers and deeper waters of the estuary have been poorly studied. This study therefore involved an extensive fish sampling campaign to expand the collective fish data set for this system, and develop a fuller understanding of ecological health responses to environmental stressors. This campaign has also provided a good framework for designing a robust fish monitoring regime to allow the FCI to be tracked into the future.
 :::
 
 ## Objectives
+
+The specific objectives of this research study were to:
 
 1.  Customize the Fish Community Index (FCI) to the Peel-Harvey Estuary, and calculate an ecological health 'report card' (grades A--E) for all historical (1979--2014) and contemporary (2016--2018) fish community samples collected throughout the system.
 
@@ -80,19 +90,46 @@ It should be noted that while the fish communities of the Peel-Harvey Estuary ha
 #### Collection and collation of data
 
 ::: {.body-text width="100%"}
-All available fish community data for the Peel-Harvey Estuary were collated, comprising fish species abundances collected throughout the shallows and deeper waters of the basins and tidal rivers. These included historical data sets, collected by various Murdoch University researchers in select periods from 1979 to 2014, and those collected in the current study (2016--2018; Table 1, Fig. 2). Full details of the historical fish sampling regimes can be found in the published accounts of those studies (see Table 1). 
+All available fish community data for the Peel-Harvey Estuary were collated, comprising fish species abundances collected throughout the shallows and deeper waters of the basins and tidal rivers. These included historical data sets, collected by various Murdoch University researchers in select periods from 1979 to 2014, and those collected in the current study (2016--2018; Fig. \@ref(fig:fish-ecology-pic4)). Full details of the historical and current fish sampling regimes can be found in the published accounts of those studies (see Table \@ref(tab:fishdata)). 
 
 In the current study, fish were sampled throughout the estuary in eight consecutive seasons from autumn 2016 to summer 2018, typically in the middle month of each season. In the nearshore shallow waters (\<1.5 m deep), fish were collected using a 21.5 m long seine net during the day, while in the deeper waters (typically \>1.5 m deep), they were collected using multi-mesh gill nets at night. The dimensions and mesh sizes of these nets [see @hallett2012method for details] were consistent with those used in several of the historical studies. All fish were immediately either identified to species or placed in an ice slurry and taken to the laboratory for subsequent identification. The total number of individuals belonging to each species in each sample was recorded. 
 
 For historical samples collected using different seine net types to that used in the current study, all data were standardised [using a generalised linear modelling method as detailed in @hallett2012equivalence]to minimize the effects of varying net lengths and mesh sizes, and converted to number of fish 100 m^−2^. For samples collected with gill nets, all data were converted to equivalent catch rates (fish hr^−1^). Note that whilst these standardizations minimized (as far as possible) the effects of different sampling gear on fish abundances, some biases may remain [@hallett2012equivalence].
 :::
 
+```{r fishdata, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+library(rmarkdown)
+theSheet <- read_excel('tables/peel_tables_fish.xlsx', sheet="fishdata")
+theSheetGroups <- unique(theSheet$Group)
+
+kbl(theSheet[,2:NCOL(theSheet)], caption = "<small>Summary of the historical (1979–2014) and contemporary (2016–2018) fish species abundance data sets collected across the Peel-Harvey Estuary in (a) shallow waters and (b) deeper waters. Large time gaps (>2 years) when there was no fish sampling are shaded in grey. See published studies listed in the ‘reference’ column for more details on historical fish sampling regimes. Key limitations of these previous regimes (with respect to their use in the current study) are in italics. Regions: SH, southern Harvey Estuary; NH, northern Harvey Estuary; MC, Mandurah Channel; WP, western Peel Inlet; EP, eastern Peel Inlet; SR, Serpentine River; LM, lower Murray River; UM, upper Murray River.</small>", align = "c",) %>%
+  pack_rows(theSheetGroups[1],
+            min(which(theSheet$Group == theSheetGroups[1])),
+            max(which(theSheet$Group == theSheetGroups[1])),
+            background = '#ebebeb') %>%
+  pack_rows(theSheetGroups[2],
+            min(which(theSheet$Group == theSheetGroups[2])),
+            max(which(theSheet$Group == theSheetGroups[2])),
+            background = '#ebebeb') %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  kable_styling(full_width = F,font_size = 11) %>%
+  column_spec(2, width_min = "7em") %>%
+  column_spec(4, width_min = "12em") %>%
+  scroll_box(width = "41em",
+             fixed_thead = FALSE)
+```
+
+<br>
+
 #### Calculating the FCI for the Peel-Harvey Estuary
 
 ::: {.body-text width="100%"}
-Independent versions of the FCI were developed for assessing the condition of shallow and deeper waters to account for the marked differences in their fish faunas and the methods used to sample them [@hallett2019fish]. The metrics which comprise the FCI, and which are known to provide a robust basis for quantifying estuarine ecological health in south-western Australia [e.g. @hallett2016review], are listed in Table 2. Figure 3 summarizes the process for calculating the FCI, which has been described extensively elsewhere [@hallett2012method; @hallett2014quantile]. The following subsections briefly outline this process, emphasizing the modifications used to customize the FCI for the Peel-Harvey Estuary.
+Independent versions of the FCI were developed for assessing the condition of shallow and deeper waters to account for the marked differences in their fish faunas and the methods used to sample them [@hallett2019fish]. The metrics which comprise the FCI, and which are known to provide a robust basis for quantifying estuarine ecological health in south-western Australia [e.g. @hallett2016review], are listed in Table \@ref(tab:fishmetrics)). Figure \@ref(fig:fish-ecology-pic5)) summarizes the process for calculating the FCI, which has been described extensively elsewhere [@hallett2012method; @hallett2014quantile]. The following subsections briefly outline this process, emphasizing the modifications used to customize the FCI for the Peel-Harvey Estuary.
 
-Firstly, all fish species in the collated and standardised data sets (section 4.1.1) were assigned to functional groups ('guilds') that reflected their habitat, feeding mode and use of the estuary (see Appendix 1). Values for each fish metric (Table 2) were then calculated for every fish sample collected in the shallow and deeper waters between 1979 and 2018. 
+Firstly, all fish species in the collated and standardised data sets (section 9.4.1.1) were assigned to functional groups ('guilds') that reflected their habitat, feeding mode and use of the estuary (see Supplementary Material S9.1). Values for each fish metric (Table \@ref(tab:fishmetrics)) were then calculated for every fish sample collected in the shallow and deeper waters between 1979 and 2018. 
 
 ```{r fish-ecology-pic4, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Map of the sites at which fish communities were sampled in the Peel-Harvey Estuary from 1979–2018."}
 
