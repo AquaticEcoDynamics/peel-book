@@ -1,3 +1,4 @@
+fig:introduction-pic1
 fig:summary-pic3
 fig:summary-pic6
 fig:summary-pic9
@@ -127,6 +128,7 @@ fig:economic-competitiveness-pic3
 fig:economic-competitiveness-pic4
 fig:scenarios-pic2
 preface
+editors-note
 acknowledgements
 acknowledgements-1
 synthesis
