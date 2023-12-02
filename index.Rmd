@@ -63,18 +63,20 @@ If you would like to cite an individual chapter of this book, please use this fo
 > <small>Hipsey, M.R. and P. Huang. (2023) XXXXXX. <u>In</u>:  Valesini, F., Hipsey, M. R., Cronin O’Reilly, S., & Huang, P. (Eds.) (2023). Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia. The University of Western Australia.  https://doi.org/10.26182/ymst-gz83.</small>
 
 
-## Copyright and License {-}
+## Accompanying data assets {-}
+
+The work contained herein served to compile a diverse data-set spanning many disciplines, decades, and data-types. In the spirit of fostering future continuation of the analyses, and uptake of the model tools developed in this work, the book includes an accompanying data asset with digital object identifier (DOI). Specific chapters explain aspects of the data and model tools. Users of the data-set and models can use the following citation:
+
+> <small> .........  https://doi.org/10.26182/ymst-gz83.</small>
+
+
+## Copyright and license {-}
 
 <br>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"/></a> This book is licensed to you under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 
-The model and data stes associated with this book are licensed under [Creative Commons CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/), i.e. public domain, unless otherwise identified.
+The model and data sets associated with this book are licensed under [Creative Commons CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/), i.e. public domain, unless otherwise identified.
 
 <br>
 
-## Accompanying Data Assets {-}
-
-<br>
-
-The work contained herein served to compile a diverse da=ta-set sapnnign many disciplines, decades, and data-types. In the spirit of fostering future continuation of the analyses  
 

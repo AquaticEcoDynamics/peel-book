@@ -1,9 +1,9 @@
-# Synthesis
+# Synthesis & Overview
 
 <br>
 
 ::: {.chapter-authors width="100%"}
-**Fiona Valesini^1^, Matthew Hipsey^2^, Brad Eyre^3^, Kieryn Kilminster^4^, Paul Plummer^3^, Mike Elliott^5^, Chris Hallett^1^, Peisheng Huang^2^, Brendan Busch^2^, Naomi Wells^3^, Karl Hennig^4^, Sorcha Cronin-O'Reilly^1^, Mustefa Reshid^3^, Oliver Krumholz^1^, Julia Horsley^2^, Jill Trinh^1,2^**
+**Fiona Valesini^1^, Matthew R. Hipsey^2^, Brad Eyre^3^, Kieryn Kilminster^4^, Paul Plummer^3^, Mike Elliott^5^, Chris Hallett^1^, Peisheng Huang^2^, Brendan Busch^2^, Naomi Wells^3^, Karl Hennig^4^, Sorcha Cronin-O'Reilly^1^, Mustefa Reshid^3^, Oliver Krumholz^1^, Julia Horsley^2^, Jill Trinh^1,2^**
 :::
 
 ::: {.author-info width="100%"}
@@ -16,9 +16,12 @@ knitr::include_graphics("images/summary_report/picture1.webp")
 
 ```
 
+::: {.author-info width="100%"}
+Cover image: ...).
+:::
+
 <br>
 
-## Executive Summary
 
 ::: {.body-text width="100%"}
 This document summarises findings from a multi-disciplinary research project funded by the Australian Research Council (ARC; LP15010045) and delivered by nine linkage partners, led by Murdoch University. Undertaken from 2016 to 2019 within the Peel-Harvey region in south-western Australia, we sought to develop an evidence-based approach to understand the links and trade-offs between regional catchment development (economic resilience) and the health of the receiving estuary (environmental and ecological resilience). Given the Peel-Harvey’s particular history of fundamental ecosystem shifts through both chronic decline and an acute engineered ‘recovery,’ combined with its current and forecast climate and development stressors, there is an urgent need for a holistic view of this important socio-ecological system that can be used to inform sustainable development.
@@ -206,7 +209,7 @@ knitr::include_graphics("images/summary_report/picture11.webp")
 ```
 :::
 
-## Main Findings
+## Results & Findings
 
 ### Learning from the past and understanding the present 
 
@@ -253,7 +256,7 @@ To reinforce the links between different sectors and the estuary health, the sta
 Socially, a Peel community that was environmentally-focused (e.g. ‘behaviour change towards environmentally sustainable practices’; ‘better community engagement/education in improving estuarine health’; ‘waterwise community’) and had good amenity to the estuary (e.g. ‘the estuary looks nice’; ‘good waterway recreation’; ‘good wildlife watching’) was highly valued, with supporting highly-ranked goal statements (e.g. ‘mandatory water sensitive urban design’; ‘mandatory nutrient testing programs’). From an economic perspective, better employment opportunities (e.g. ‘higher and/or more diverse employment’; ‘increased work skills’; ‘increased youth employment’) and sustaining key industries (e.g. ‘high growth/export industries’; ‘strong fishing/eco-tourism industries’) were also identified as being important to stakeholders. These results clearly highlight a community that supports sustainable development rather than “development at all costs”. 
 :::
 
-### A future Peel-Harvey 
+### Preparing for a future Peel-Harvey 
 
 > *The projected future drying climate is expected to have an overwhelming influence on water flows to the estuary, concentrating poor water quality and ecological problems in the rivers*
 
@@ -277,7 +280,7 @@ knitr::include_graphics("images/summary_report/picture12.webp")
 ```
 :::
 
-## Recommendations
+## Recommendations for policy-makers
 
 > *Increase the scale and diversity of catchment and estuary management - the time for adaptation to growing stressors is now*
 
@@ -310,12 +313,3 @@ knitr::include_graphics("images/summary_report/picture12.webp")
 - Beyond the catchment and estuary model tools, we have also developed a new conceptual framework for linking local and regional drivers, policies and management activities, with the multiple dimensions of estuary and economic health. The framework can be used as a transparent means for assessing new ideas and challenges on the health of the region. Through this framework, it is proposed the estuaries key ecosystem services are seen as critical assets and a risk-management approach is required to prevent their decline. This can be advanced through a collaborative governance model.
 - The DSS is among the first of its kind in Australia, and so has chartered considerable new territory. As such, there are various aspects of the current framework that would benefit from further development and continued investment and improvement. This can be achieved through establishing ongoing partnerships with end-users to support the housing, servicing and interrogation of the DSS, as well as the regular integration of new environmental, ecological and economic data streams.
 
-## Main Project Outputs
-
-
-
-## Acknowledgements
-
-::: {.body-text width="100%"}
-We are indebted to our Industry Partners for their support, trust and engagement in our Linkage Project, not only during its funding period, but during the many prior discussions that helped shape its development and bring it to fruition. We are also indebted to the Australian Research Council and the collaborating research institutions for their funding and operational support. We extend a particular not of gratitude to Steve Fisher and the Peel-Harvey Catchment Council team for their support in organising and facilitating our many stakeholder meetings, and advocating for the research. 
-:::
