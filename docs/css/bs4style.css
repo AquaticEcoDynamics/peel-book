@@ -151,11 +151,14 @@ a:hover .header-section-number {
 /* RHS TOC */
 nav[data-toggle="toc"] .nav > li > a:hover {
   text-decoration: none;
+  font-size: 0.75em;
+
 }
 .header-section-number {
   padding-right: .2em;
   font-weight: normal;
   color: #5f543f;
+  font-size: 0.9em;
 }
 
 /* Mobile TOC */
@@ -221,7 +224,8 @@ nav[data-toggle="toc"] .nav > li > a:hover {
 }
 
 .body-text {
-text-align: justify;
+  text-align: justify;
+  font-size: 0.95em;
 }
 
 /* Images */

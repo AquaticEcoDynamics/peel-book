@@ -46,7 +46,7 @@ Finally, when FCI scores were statistically correlated with a suite of environme
 
 ```{r fish-ecology-pic2, echo = FALSE, out.width='100%', class = "text-image"}
 
-knitr::include_graphics("images/fish_ecology/picture2.webp")
+knitr::include_graphics("images/fish_ecology/Photo 9.1_SCR.png")
 
 ```
 :::
@@ -91,7 +91,16 @@ The specific objectives of this research study were to:
 
 ::: {.body-text width="100%"}
 All available fish community data for the Peel-Harvey Estuary were collated, comprising fish species abundances collected throughout the shallows and deeper waters of the basins and tidal rivers. These included historical data sets, collected by various Murdoch University researchers in select periods from 1979 to 2014, and those collected in the current study (2016--2018; Fig. \@ref(fig:fish-ecology-pic4)). Full details of the historical and current fish sampling regimes can be found in the published accounts of those studies (see Table \@ref(tab:fishdata)). 
+:::
 
+
+```{r fish-ecology-pic4, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Map of the sites at which fish communities were sampled in the Peel-Harvey Estuary from 1979–2018."}
+
+knitr::include_graphics("images/fish_ecology/picture4.webp")
+
+```
+
+::: {.body-text width="100%"}
 In the current study, fish were sampled throughout the estuary in eight consecutive seasons from autumn 2016 to summer 2018, typically in the middle month of each season. In the nearshore shallow waters (\<1.5 m deep), fish were collected using a 21.5 m long seine net during the day, while in the deeper waters (typically \>1.5 m deep), they were collected using multi-mesh gill nets at night. The dimensions and mesh sizes of these nets [see @hallett2012method for details] were consistent with those used in several of the historical studies. All fish were immediately either identified to species or placed in an ice slurry and taken to the laboratory for subsequent identification. The total number of individuals belonging to each species in each sample was recorded. 
 
 For historical samples collected using different seine net types to that used in the current study, all data were standardised [using a generalised linear modelling method as detailed in @hallett2012equivalence]to minimize the effects of varying net lengths and mesh sizes, and converted to number of fish 100 m^−2^. For samples collected with gill nets, all data were converted to equivalent catch rates (fish hr^−1^). Note that whilst these standardizations minimized (as far as possible) the effects of different sampling gear on fish abundances, some biases may remain [@hallett2012equivalence].
@@ -118,7 +127,7 @@ kbl(theSheet[,2:NCOL(theSheet)], caption = "<small>Summary of the historical (19
   kable_styling(full_width = F,font_size = 11) %>%
   column_spec(2, width_min = "7em") %>%
   column_spec(4, width_min = "12em") %>%
-  scroll_box(width = "41em",
+  scroll_box(width = "40em",
              fixed_thead = FALSE)
 ```
 
@@ -127,15 +136,32 @@ kbl(theSheet[,2:NCOL(theSheet)], caption = "<small>Summary of the historical (19
 #### Calculating the FCI for the Peel-Harvey Estuary
 
 ::: {.body-text width="100%"}
-Independent versions of the FCI were developed for assessing the condition of shallow and deeper waters to account for the marked differences in their fish faunas and the methods used to sample them [@hallett2019fish]. The metrics which comprise the FCI, and which are known to provide a robust basis for quantifying estuarine ecological health in south-western Australia [e.g. @hallett2016review], are listed in Table \@ref(tab:fishmetrics)). Figure \@ref(fig:fish-ecology-pic5)) summarizes the process for calculating the FCI, which has been described extensively elsewhere [@hallett2012method; @hallett2014quantile]. The following subsections briefly outline this process, emphasizing the modifications used to customize the FCI for the Peel-Harvey Estuary.
+Independent versions of the FCI were developed for assessing the condition of shallow and deeper waters to account for the marked differences in their fish faunas and the methods used to sample them [@hallett2019fish]. The metrics which comprise the FCI, and which are known to provide a robust basis for quantifying estuarine ecological health in south-western Australia [e.g. @hallett2016review], are listed in Table \@ref(tab:fishmetrics). Figure \@ref(fig:fish-ecology-pic5) summarizes the process for calculating the FCI, which has been described extensively elsewhere [@hallett2012method; @hallett2014quantile]. The following subsections briefly outline this process, emphasizing the modifications used to customize the FCI for the Peel-Harvey Estuary.
 
 Firstly, all fish species in the collated and standardised data sets (section 9.4.1.1) were assigned to functional groups ('guilds') that reflected their habitat, feeding mode and use of the estuary (see Supplementary Material S9.1). Values for each fish metric (Table \@ref(tab:fishmetrics)) were then calculated for every fish sample collected in the shallow and deeper waters between 1979 and 2018. 
 
-```{r fish-ecology-pic4, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Map of the sites at which fish communities were sampled in the Peel-Harvey Estuary from 1979–2018."}
 
-knitr::include_graphics("images/fish_ecology/picture4.webp")
-
+```{r fishmetrics, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmetrics")
+  kable(Diff_tab[,1:2],"html", escape = F, align = "c"
+        , caption = "<small>Metrics comprising the Fish Community Index (FCI) for shallow and deeper waters of the Peel-Harvey Estuary. Predicted metric responses to ecological degradation are shown in parentheses; positive metrics (+) increase with increasing degradation, whilst negative (−) metrics decrease as the ecosystem becomes more degraded.</small>",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+    
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_min = "20em" ,color="black",bold = F) %>%
+  column_spec(2, width_min = "20em" ,color="black") %>%
+  # column_spec(3, width_min = "15em" ,color="black") %>%
+  # row_spec(1:2, background = 'white')  %>%
+ scroll_box(width = "40em",fixed_thead = FALSE)
 ```
+
+<br>
 
 ```{r fish-ecology-pic5, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Overview of the process for calculating the Fish Community Index."}
 

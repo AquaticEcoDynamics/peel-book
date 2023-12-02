@@ -107,8 +107,9 @@ fig:BMI-pic15
 fig:BMI-pic16
 fig:BMI-pic17
 fig:fish-ecology-pic3
-tab:fishdata
 fig:fish-ecology-pic4
+tab:fishdata
+tab:fishmetrics
 fig:fish-ecology-pic5
 fig:fish-ecology-pic6
 fig:fish-ecology-pic7
@@ -127,7 +128,6 @@ fig:economic-competitiveness-pic2
 fig:economic-competitiveness-pic3
 fig:economic-competitiveness-pic4
 fig:scenarios-pic2
-acknowledgements
 synthesis
 executive-summary
 background

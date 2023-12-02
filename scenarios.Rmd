@@ -1,4 +1,4 @@
-# (PART)  Decision Suppport System & 2050 Scenarios {-} 
+# (PART)  Decision Suppport System & Scenarios {-} 
 
 # Estuarine and societal health trade-offs for the Peel-Harvey under 2050 scenarios 
 
@@ -7,7 +7,7 @@
 <!-- ::: -->
 
 ::: {.chapter-authors width="100%"}
-**Matthew Hipsey^3^, Karl Hennig^2^, Fiona Valesini^1^, Kieryn Kilminster^2^, Peisheng Huang^3^, Brendan Busch^3^, Paul Plummer^3^, Michael Elliott^4^**
+**Matthew R. Hipsey^3^, Karl Hennig^2^, Fiona Valesini^1^, Kieryn Kilminster^2^, Peisheng Huang^3^, Brendan Busch^3^, Paul Plummer^3^, Michael Elliott^4^**
 :::
 
 ::: {.author-info width="100%"}

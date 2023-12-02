@@ -1,16 +1,10 @@
 
 
 # Welcome {-} 
-<!-- {style="color:#5f543f"}-->
+<!-- {style="color:#5f543f"} -->
 
 ::: {.body-text width="100%"}
 
-![](cover.png){.cover width="550"} 
-
-*Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia.*
-<br>
-<br>
-ISBN: 978-1-74052-939-6
 <br>
 <br>
 <br>
