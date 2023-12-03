@@ -148,7 +148,7 @@ library(readxl)
   options(knitr.kable.NA = "")
 Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmetrics")
   kable(Diff_tab[,1:2],"html", escape = F, align = "c"
-        , caption = "<small>Metrics comprising the Fish Community Index (FCI) for shallow and deeper waters of the Peel-Harvey Estuary. Predicted metric responses to ecological degradation are shown in parentheses; positive metrics (+) increase with increasing degradation, whilst negative (−) metrics decrease as the ecosystem becomes more degraded.</small>",bootstrap_options = "hover")%>%
+        , caption = "<small>Metrics comprising the Fish Community Index (FCI) for shallow and deeper waters of the Peel-Harvey Estuary. Predicted metric responses to ecological degradation are shown in parentheses; positive metrics (+) increase with increasing degradation, whilst negative (−) metrics decrease as the ecosystem becomes more degraded. </small>",bootstrap_options = "hover")%>%
    kable_styling(Diff_tab, bootstrap_options = "hover",
                 full_width = T, position = "left",
                 font_size = 11) %>% 
@@ -159,8 +159,23 @@ Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmetrics")
   # column_spec(3, width_min = "15em" ,color="black") %>%
   # row_spec(1:2, background = 'white')  %>%
  scroll_box(width = "40em",fixed_thead = FALSE)
-```
 
+  
+```
+<tfoot>
+<tr><td style="padding: 0; " colspan="100%">
+<sup>a</sup> <small> A measure of species biodiversity</small></td></tr>
+<tr><td style="padding: 0; " colspan="100%">
+<sup>b</sup> <small> Species with specialist feeding requirements (e.g. those that only eat small invertebrates)</small></td></tr>
+<tr><td style="padding: 0; " colspan="100%">
+<sup>c</sup> <small> Species that are omnivorous or opportunistic feeders</small></td></tr>
+<tr><td style="padding: 0; " colspan="100%">
+<sup>d</sup> <small> Species that eat detritus (decomposing organic material)</small></td></tr>
+<tr><td style="padding: 0; " colspan="100%">
+<sup>e</sup> <small> Species that live on, or are closely associated with, the estuary bed</small></td></tr>
+<tr><td style="padding: 0; " colspan="100%">
+<sup>f</sup> <small> The Blue-spot or Swan River goby, a tolerant, omnivorous species that often inhabits silty habitats and is used as an ‘indicator’</small></td></tr>
+</tfoot>
 <br>
 
 ```{r fish-ecology-pic5, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Overview of the process for calculating the Fish Community Index."}
@@ -169,10 +184,33 @@ knitr::include_graphics("images/fish_ecology/picture5.webp")
 
 ```
 
-Values for each metric in each fish sample were then converted to scaled (0--10) scores, based on their deviation away from established benchmark values ('reference conditions'). *Note that these reference conditions were defined for each estuary region and season to account for natural spatial and seasonal variations in metric values* [@hallett2012development]. To derive the reference conditions, the best value recorded for each metric across all fish samples collected between 1979 and 2017 (hereafter referred to as the 'training data set'), were used. Note that the data from the second year of contemporary sampling (2017--2018) was retained as a 'validation data set' for independent testing of the relationships between FCI condition grades and modelled environmental outputs (see section 4.2). 
+Values for each metric in each fish sample were then converted to scaled (0--10) scores, based on their deviation away from established benchmark values ('reference conditions'). *Note that these reference conditions were defined for each estuary region and season to account for natural spatial and seasonal variations in metric values* [@hallett2012development]. To derive the reference conditions, the best value recorded for each metric across all fish samples collected between 1979 and 2017 (hereafter referred to as the 'training data set'), were used. Note that the data from the second year of contemporary sampling (2017--2018) was retained as a 'validation data set' for independent testing of the relationships between FCI condition grades and modelled environmental outputs (see section \@ref(relating)). 
 
-Scaled metric scores were then combined to produce an index score (0--100) for each sample. Each index score was then compared to threshold values (Table 3), derived statistically from the distributions of all index scores in the training data sets [after @hallett2014quantile]. This enabled the corresponding ecological health grade (A, very good, to E, very poor) to be determined for each sample. Intermediate grades (*e.g.* B/C, good-fair, or C/B, fair-good) were awarded if the sample index score was within one point of a grade threshold.
+Scaled metric scores were then combined to produce an index score (0--100) for each sample. Each index score was then compared to threshold values (Table \@ref(tab:fishthresh)), derived statistically from the distributions of all index scores in the training data sets [after @hallett2014quantile]. This enabled the corresponding ecological health grade (A, very good, to E, very poor) to be determined for each sample. Intermediate grades (*e.g.* B/C, good-fair, or C/B, fair-good) were awarded if the sample index score was within one point of a grade threshold.
 :::
+
+
+```{r fishthresh, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishthresh")
+  kable(Diff_tab[,1:3],"html", escape = F, align = "c"
+        , caption = "<small>Fish Community Index (FCI) score thresholds defining each of the five ecological health grades (A–E) for both shallow and deeper waters of the Peel-Harvey Estuary. </small>",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+    
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_min = "20em" ,color="black",bold = F) %>%
+  column_spec(2, width_min = "20em" ,color="black") %>%
+  column_spec(3, width_min = "15em" ,color="black") %>%
+  # row_spec(1:2, background = 'white')  %>%
+ scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
 
 #### Exploring trends in the FCI
 
@@ -182,28 +220,28 @@ To explore broad, long-term trends in the ecological health of the estuary, the 
 To explore the current (2016--2018) ecological condition of the estuary in more detail, a series of maps were constructed showing the mean FCI in each region and season in the shallow and deeper waters. Note that this period included a large and unseasonal rainfall event in February 2017, which brought large amounts of organic matter and sediment into the estuary, followed by a sustained period of low to no dissolved oxygen in autumn 2017 that particularly impacted the upper Murray River region.
 :::
 
-### Relating estuary condition to modelled environmental changes
+### Relating estuary condition to modelled environmental changes {#relating}
 
 ::: {.body-text width="100%"}
-We aimed to identify the key environmental drivers of estuarine ecological health (as assessed by the FCI) and, in particular, the environmental stressor thresholds that best 'explain' each of the ecological health classes (*i.e.* A, very good, to E, very poor).
+We aimed to identify the key environmental drivers of estuarine ecological health (as assessed by the FCI) and, in particular, the environmental stressor thresholds that best 'explain' each of the ecological health classes (*i.e.* A, excellent, to E, very poor).
 
-Generalised additive models (GAMs) were used to relate observed FCI scores from 1978--2017 to a range of ***environmental stressor metrics*** derived from the coupled estuary response model developed in other parts of the Linkage project [@huang2019changing; @huang2019integrated]. These metrics included various water quality parameters (e.g. temperature, salinity and dissolved oxygen concentration) as well as measures of the frequency, severity, extent and/or persistence of stressors such as hypoxia, harmful algal blooms and ammonium concentrations. A detailed list of these stressors, which were calculated at both the site and estuary region scales, is given in Appendix 2.
+Generalised additive models (GAMs) were used to relate observed FCI scores from 1978--2017 to a range of ***environmental stressor metrics*** derived from the coupled estuary response model developed in other parts of the research project (see Chapters \@ref(model-hydrology) & \@ref(model-water-quality)). These metrics included various water quality parameters (e.g. temperature, salinity and dissolved oxygen concentration) as well as measures of the frequency, severity, extent and/or persistence of stressors such as hypoxia, harmful algal blooms and ammonium concentrations. A detailed list of these stressors, which were calculated at both the site and estuary region scales, is given in Supplementary Materials S11.2.
 
-The GAMs analyses were conducted separately for the shallow and deep waters of the basins and the rivers. In each case, a suite of models were tested using many combinations of environmental metrics to determine the 'best-fit' model, or that which best 'explained' observed trends in the FCI scores. 
+The GAMs analyses were conducted separately for the shallow and deep waters of the basins and the rivers. In each case, a suite of models was tested using many combinations of environmental metrics to determine the 'best-fit' model, or that which best 'explained' observed trends in the FCI scores. 
 
 The above best-fit models were then used to ***predict FCI scores and condition grades*** based on known or modelled environmental data, ***allowing the ecological condition of the estuary to be estimated under any future environmental scenario***. The reliability of these GAM predictions was tested by (i) predicting FCI scores for all sampling occasions in a validation data set (i.e. the FCI data recorded in autumn 2017--summer 2018), based on the modelled environmental stressor data, and (ii) comparing the predicted FCI grades with those calculated directly from the corresponding fish species abundance data.
 :::
 
-## Main Findings
+## Results & Findings
 
 ### Broad long-term (1979-2018) trends in estuary condition
 
 > *The ecological health of the shallows has improved from poor to fair in the rivers, but has remained fair in the basins over the last 40 years*
 
 ::: {.body-text width="100%"}
-Plots of the mean FCI in each sampling season and year from 1979--2018 showed that, on average, the ecological condition of the shallow nearshore waters has improved slightly over time in the rivers (from poor, grade D, to fair, grade C), but has remained fair in the basins (Fig. 4a). As a result, the health of the shallows across the whole estuary has also apparently improved (Fig. 4b). 
+Plots of the mean FCI in each sampling season and year from 1979--2018 showed that, on average, the ecological condition of the shallow nearshore waters has improved slightly over time in the rivers (from poor, grade D, to fair, grade C), but has remained fair in the basins (Fig. \@ref(fig:fishscorea)). As a result, the health of the shallows across the whole estuary has also apparently improved (Fig. \@ref(fig:fishscoreb)). 
 
-Examination of the shallow water fish communities in both the basins and rivers shows that there has been a notable shift in the dominant species over time, and especially between the 1970s-1980s and later periods (see the shadeplots in Appendices 3 and 4; simply, the darker the shading, the more abundant the fish species). Whereas several species with freshwater affinities were abundant in the earliest period (e.g. River garfish *Hyporhamphus regularis* in both the rivers and basins, and Perth herring *Nematalosa vlaminghi* and Southwestern goby *Afurcagobius suppositus* in the rivers), they were either not recorded or were caught far less consistently in later periods. Instead, a relatively restricted suite of species, several of which have marine affinities or can withstand very high and variable salinities, have dominated the fauna from the mid-1990s onwards. In the rivers, these included the Elongate hardyhead *Atherinosoma elongata*, Wallace's hardyhead *Leptatherina wallacei*, Weeping toadfish *Torquigener pleurogramma* and, in some seasons, Sandy sprat *Hyperlophus vittatus* (Appendix 4), while in the basins they included Weeping toadfish, Long-finned goby *Favonigobius lateralis*, Silverfish *Leptatherina presbyteroides* andElongate hardyhead. This 'marinisation' of the fish fauna, which was also reported by @potter2016decadal, almost certainly reflects the increased tidal flushing brought about by the Dawesville Cut, combined with a drying climate. These factors have interacted to produce more stable, saline conditions that have pushed further upstream into the estuary over time [@huang2019changing]. A similar marinisation trend has also occurred in the shallows of the Swan-Canning Estuary between the late 1970s and recent decades [@valesini2017interdecadal]. Another notable finding in the shallows of the basins, which was also identified by @potter2016decadal and further corroborated by the additional fish data collected in the Linkage study, is the return of abundant catches of various 'weed-associated' marine species since 2008, i.e. Western gobbleguts, *Ostorhinchus rueppellii*, Soldier fish *Gymnapistes marmoratus* and Western striped grunter *Pelates octolineatus* (Appendix 3). These species were also abundant in 1979-1983 when large blooms of green macroalgae blanketed Peel Inlet [@potter1983abundance; @loneragan1986spatial]. Their return in recent decades is likely to be related to the increases in seagrass and, in the southern Harvey Estuary, green macroalgae, that have been recorded over the same time frame [@valesini2019seagrass].
+Examination of the shallow water fish communities in both the basins and rivers shows that there has been a notable shift in the dominant species over time, and especially between the 1970s-1980s and later periods (see the shadeplots in Supplementary Materials S9.3 and S9.4; simply, the darker the shading, the more abundant the fish species). Whereas several species with freshwater affinities were abundant in the earliest period (e.g. River garfish *Hyporhamphus regularis* in both the rivers and basins, and Perth herring *Nematalosa vlaminghi* and Southwestern goby *Afurcagobius suppositus* in the rivers), they were either not recorded or were caught far less consistently in later periods. Instead, a relatively restricted suite of species, several of which have marine affinities or can withstand very high and variable salinities, have dominated the fauna from the mid-1990s onwards. In the rivers, these included the Elongate hardyhead *Atherinosoma elongata*, Wallace's hardyhead *Leptatherina wallacei*, Weeping toadfish *Torquigener pleurogramma* and, in some seasons, Sandy sprat *Hyperlophus vittatus* (Supplementary Materials S9.4), while in the basins they included Weeping toadfish, Long-finned goby *Favonigobius lateralis*, Silverfish *Leptatherina presbyteroides* andElongate hardyhead. This 'marinisation' of the fish fauna, which was also reported by @potter2016decadal, almost certainly reflects the increased tidal flushing brought about by the Dawesville Cut, combined with a drying climate. These factors have interacted to produce more stable, saline conditions that have pushed further upstream into the estuary over time (Chapter \@ref(model-hydrology)). A similar marinisation trend has also occurred in the shallows of the Swan-Canning Estuary between the late 1970s and recent decades [@valesini2017interdecadal]. Another notable finding in the shallows of the basins, which was also identified by @potter2016decadal and further corroborated by the additional fish data collected in the Linkage study, is the return of abundant catches of various 'weed-associated' marine species since 2008, i.e. Western gobbleguts, *Ostorhinchus rueppellii*, Soldier fish *Gymnapistes marmoratus* and Western striped grunter *Pelates octolineatus* (Supplementary Materials S9.3). These species were also abundant in 1979-1983 when large blooms of green macroalgae blanketed Peel Inlet [@potter1983abundance; @loneragan1986spatial]. Their return in recent decades is likely to be related to the increases in seagrass and, in the southern Harvey Estuary, green macroalgae, that have been recorded over the same time frame (Chapter \@ref(macrophytes)).
 
 With respect to how these changes in the fish community have impacted the ecological health of the estuary, the main drivers of the improved FCI in the shallows of the rivers over the last few decades are the feeding, habitat and estuary usage guilds of the most dominant fish species (see the shadeplot of the FCI metric scores in Fig. 5, where green to white shades indicate better scores and red to black shades indicate poorer scores). Since the mid-2000s, more of the species that now dominate the fish assemblage (e.g. the hardyheads *L. wallacei* and *A. elongata*; Appendix 4) have specialist feeding strategies and/or are able to spawn in the estuary (i.e. metric trends which lead to increases in the FCI; see Table 2). In contrast, several of the more abundant species in the late 1970s (e.g. Perth herring and Yellowtail grunter *Amniataba caudavittata*) have generalist or opportunistic feeding strategies, or feed mainly on detritus (i.e. metric trends which lead to decreases in the FCI). Interestingly, however, some metrics showed a tendency to decline in health from the late 1970s to more recent periods. These included the prevalence of bottom-dwelling (benthic) fish, both in terms of the number of species and proportion of fish in the assemblage (although the latter also performed poorly in the early 1980s), as well as the overall number of fish species (Fig. 5).
 

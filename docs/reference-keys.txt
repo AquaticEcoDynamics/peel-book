@@ -111,6 +111,7 @@ fig:fish-ecology-pic4
 tab:fishdata
 tab:fishmetrics
 fig:fish-ecology-pic5
+tab:fishthresh
 fig:fish-ecology-pic6
 fig:fish-ecology-pic7
 fig:fish-ecology-pic8
@@ -278,11 +279,11 @@ applying-the-fci-to-the-peel-harvey-estuary
 collection-and-collation-of-data
 calculating-the-fci-for-the-peel-harvey-estuary
 exploring-trends-in-the-fci
-relating-estuary-condition-to-modelled-environmental-changes
-main-findings-5
+relating
+results-findings-3
 broad-long-term-1979-2018-trends-in-estuary-condition
 current-ecological-condition-of-the-peel-harvey-estuary-2016-18
-relating-estuary-condition-to-modelled-environmental-changes-1
+relating-estuary-condition-to-modelled-environmental-changes
 proposed-fish-monitoring-regime-for-the-peel-harvey-estuary
 conclusions-7
 acknowledgements-8
@@ -294,7 +295,7 @@ approach-8
 local-competitive-advantage-the-ability-to-create-jobs-locally
 comparative-advantage-local-economic-specialization-and-interregional-trade-patterns
 classifying-industrial-activities
-main-findings-6
+main-findings-5
 conclusions-8
 estuarine-and-societal-health-trade-offs-for-the-peel-harvey-under-2050-scenarios
 executive-summary-5
@@ -308,7 +309,7 @@ follow-up-stakeholder-workshop
 setting-up-model-drivers-defining-future-conditions
 assessing-futute-estuarine-health-under-2050-scenarios
 assessing-future-economic-health-under-2050-scenarios
-main-findings-7
+main-findings-6
 key-stakeholder-values-and-2050-scenarios
 model-drivers-for-each-scenario
 catchment-model-scenario-outputs
