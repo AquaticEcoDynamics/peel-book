@@ -5,6 +5,7 @@ date: "`r format(Sys.time(), 'the %dth of %B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography:  ["references/references.bib", "references/BMI_refs.bib", "references/all_refs.bib"]
+csl: "references/elsevier-harvard_edited.csl"
 biblio-style: apalike
 link-citations: yes
 description: "The online Peel book"
