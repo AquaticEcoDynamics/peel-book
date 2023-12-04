@@ -339,6 +339,13 @@ background-color: #EEEEEE !important;
 color: black!important;
 }
 
+/* REFERENCES */
+#refs {
+  font-size: 12px;
+}
+
+
+
 /*
 .sidebar-book {
   overflow: hidden !important;

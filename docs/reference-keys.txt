@@ -116,8 +116,6 @@ fig:fish-ecology-pic6
 fig:fish-ecology-pic7
 fig:fish-ecology-pic8
 fig:fish-ecology-pic9
-fig:fish-ecology-pic10
-fig:fish-ecology-pic11
 fig:fish-ecology-pic12
 fig:fish-ecology-pic13
 fig:fish-ecology-pic14
@@ -125,6 +123,9 @@ fig:fish-ecology-pic15
 fig:fish-ecology-pic16
 fig:fish-ecology-pic17
 fig:fish-ecology-pic18
+tab:fishmonit
+fig:fish-ecology-pic19
+tab:fishmonit2
 fig:economic-competitiveness-pic2
 fig:economic-competitiveness-pic3
 fig:economic-competitiveness-pic4
@@ -285,6 +286,12 @@ broad-long-term-1979-2018-trends-in-estuary-condition
 current-ecological-condition-of-the-peel-harvey-estuary-2016-18
 relating-estuary-condition-to-modelled-environmental-changes
 proposed-fish-monitoring-regime-for-the-peel-harvey-estuary
+proposed-options-for-a-fish-and-fci-monitoring-regime-in-the-peel-harvey-estuary
+option-1-optimal-spatial-and-temporal-replication
+option-2-reduced-spatial-replication
+option-3-reduced-temporal-replication
+other-potential-modifications-to-the-proposed-monitoring-regime
+broad-overview-of-reporting-approach
 conclusions-7
 acknowledgements-8
 understanding-local-economic-competitiveness-for-the-peel-harvey-identifying-key-and-strategic-industries-2006-2016
