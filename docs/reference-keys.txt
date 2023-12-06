@@ -163,7 +163,7 @@ flows-and-loads-to-the-peel-harvey-estuary
 source-of-nutrients
 conclusions
 data-availability-supplementary-materials
-acknowledgements-1
+acknowledgements
 model-hydrology
 abstract-1
 introduction-1
@@ -179,7 +179,7 @@ past-and-future-hotspots-of-water-retention
 increasing-salinity-and-changing-patterns-of-stratification
 implications-for-estuary-management
 conclusions-1
-acknowledgements-2
+acknowledgements-1
 model-water-quality
 executive-summary
 background-1
@@ -199,7 +199,7 @@ tn-and-tp-response
 oxygen-response
 maximum-phytoplankton-biomass-response
 conclusions-2
-acknowledgements-3
+acknowledgements-2
 the-what-where-when-and-why-of-nutrient-transport-to-the-peel-harvey-estuary
 abstract-2
 introduction-background
@@ -226,7 +226,7 @@ sources-1
 processes
 why-both-natural-streams-and-artificial-drains-remove-significant-quantities-of-nitrogen-during-transport-towards-the-estuary
 conclusions-3
-acknowledgements-4
+acknowledgements-3
 sediment-condition-in-the-peel-harvey-estuary
 executive-summary-1
 background-2
@@ -241,7 +241,7 @@ main-findings-2
 evaluating-the-rapid-assessment-protocol-for-sediment-condition
 identifying-zones-of-chronic-vs-acute-nutrient-enrichment-via-sediment-isotopes
 conclusions-4
-acknowledgements-5
+acknowledgements-4
 macrophytes
 executive-summary-2
 background-3
@@ -258,7 +258,7 @@ main-findings-3
 long-term-19782018-trends-in-macrophyte-communities-and-their-drivers-1
 current-trends-in-macroalgae-and-seagrass-species-composition-201718
 conclusions-5
-acknowledgements-6
+acknowledgements-5
 bmi
 executive-summary-3
 background-4
@@ -270,7 +270,7 @@ data-analyses-2
 building-an-index-of-benthic-ecological-health
 main-findings-4
 conclusions-6
-acknowledgements-7
+acknowledgements-6
 assessing-the-health-of-the-peel-harvey-estuary-through-its-fish-communities
 abstract-3
 introduction-2
@@ -293,7 +293,7 @@ option-3-reduced-temporal-replication
 other-potential-modifications-to-the-proposed-monitoring-regime
 broad-overview-of-reporting-approach
 conclusions-7
-acknowledgements-8
+acknowledgements-7
 understanding-local-economic-competitiveness-for-the-peel-harvey-identifying-key-and-strategic-industries-2006-2016
 executive-summary-4
 background-5
@@ -324,4 +324,4 @@ estuary-health-trajectories
 economic-resilience
 balancing-trade-offs-between-economic-and-environmental-health
 conclusions-9
-acknowledgements-9
+acknowledgements-8
