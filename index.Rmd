@@ -4,7 +4,7 @@ author: "Fiona Valesini, Matthew R. Hipsey, Sorcha Cronin-O’Reilly, Peisheng H
 date: "`r format(Sys.time(), 'the %dth of %B, %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography:  ["references/references.bib", "references/BMI_refs.bib", "references/all_refs_test.bib"]
+bibliography:  ["references/references.bib", "references/BMI_refs.bib", "references/all_refs_test.bib","references/Chapter3_Ref.bib"]
 csl: "references/elsevier-harvard_edited.csl"
 biblio-style: apalike
 link-citations: yes
