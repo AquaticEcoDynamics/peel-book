@@ -1,6 +1,6 @@
 # (PART)  Economic Health {-} 
 
-# Understanding Local Economic Competitiveness for the Peel-Harvey: Identifying Key and Strategic Industries, 2006-2016
+# Understanding Local Economic Competitiveness for the Peel-Harvey: Identifying Key and Strategic Industries, 2006-2016 {#econ}
 
 <!-- ::: {.title_matter width="100%"} -->
 <!-- [***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"} -->

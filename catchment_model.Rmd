@@ -13,7 +13,7 @@
 :::
 
 ::: {.author-info width="100%"}
-Department of Water and Environmental Regulation, Government of Western Australia, Perth, Australia.
+Department of Water and Environmental Regulation, Government of Western Australia, Perth, Australia
 :::
 
 ```{r catchment-model-pic1, echo = FALSE, out.width='100%', class = "title-image"}
