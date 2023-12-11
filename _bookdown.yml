@@ -16,5 +16,6 @@ rmd_files: ["index.Rmd",
             "fish_ecology.Rmd",
             "economic_competitiveness.Rmd",
             "scenarios.Rmd",
-            "references.Rmd"]
+            "references.Rmd",
+            "supplementary.Rmd"]
 new_session: no

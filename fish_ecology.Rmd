@@ -51,6 +51,8 @@ knitr::include_graphics("images/fish_ecology/Photo 9.1_SCR.png")
 ```
 :::
 
+<br>
+
 ## Introduction
 
 ::: {.body-text width="100%"}
@@ -71,7 +73,7 @@ In this study, we ***aimed to adapt and apply the FCI to the Peel-Harvey Estuary
 It should be noted that while the fish communities of the Peel-Harvey Estuary have been studied periodically since the late 1970s, these surveys have typically differed in their sampling methods. Not only have different net types been used over time, but the fish communities in the tidal rivers and deeper waters of the estuary have been poorly studied. This study therefore involved an extensive fish sampling campaign to expand the collective fish data set for this system, and develop a fuller understanding of ecological health responses to environmental stressors. This campaign has also provided a good framework for designing a robust fish monitoring regime to allow the FCI to be tracked into the future.
 :::
 
-## Objectives
+### Objectives
 
 The specific objectives of this research study were to:
 
@@ -536,6 +538,14 @@ Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmonit2")
 -   Given the evidence presented in this report that the ecological health of the estuary is under stress, it is imperative that a consistent and regular fish monitoring program is continued to better assess its ongoing health into the future. 
 
 -   Various options for such a fish monitoring program, which can be tailored to suit, are provided in section 11 of this report.
+
+
+## Data availability & supplementary materials
+
+Data used for the model scenario simualtions and supporting the conclusions of this analysis are available in the Peel ARC Linkage Project Github repository [@busch2023]. SPECIFICALLY THE FISH DATA
+
+[Supplementary materials](supplementary) for this chapter are available.
+
 
 ## Acknowledgements
 

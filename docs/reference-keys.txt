@@ -179,7 +179,7 @@ approach-2
 development-of-a-high-resolution-hydrodynamic-model
 data-review-and-model-simulations
 model-evaulation-and-sensitivity-tests
-main-findings
+results-findings-2
 model-reconstruction-of-historical-conditions
 incomplete-mixing-and-changes-in-water-rentention-times
 past-and-future-hotspots-of-water-retention
@@ -195,7 +195,7 @@ objectives-2
 approach-3
 data-review-and-compliation
 the-peel-harvey-estuary-response-model-pherm
-results-findings-2
+results-findings-3
 synoptic-view-of-long-term-water-quality-changes
 reduction-in-catchment-nutrient-loading
 pherm-performance-in-reconstructing-the-water-quality-changes
@@ -222,7 +222,7 @@ sources
 forms
 where-and-when-identify-nitrogen-removal-hot-spots-and-hot-moments-objective-3
 why-quantify-implications-for-nitrogen-export-budgets-objective-4
-results-findings-3
+results-findings-4
 what-the-majority-of-nitrogen-in-the-peel-harvey-is-in-organic-forms
 what-nutrients-originating-from-soils-and-groundwaters-will-be-difficult-to-track-but-rain-provides-a-distinct-inorganic-nitrogen-source
 fertilisers
@@ -246,7 +246,7 @@ sample-collection-1
 rapid-assessment-of-sediment-condition-characteristics
 quantitative-assessment-of-sediment-enrichment-and-other-parameters
 data-analyses
-main-findings-1
+main-findings
 evaluating-the-rapid-assessment-protocol-for-sediment-condition
 identifying-zones-of-chronic-vs-acute-nutrient-enrichment-via-sediment-isotopes
 conclusions-4
@@ -263,7 +263,7 @@ data-analyses-1
 long-term-macrophyte-trends-and-links-with-water-quality
 macrophyte-condition-index
 current-trends-in-macroalgae-and-seagrass-biomass-201718
-main-findings-2
+main-findings-1
 long-term-19782018-trends-in-macrophyte-communities-and-their-drivers-1
 current-trends-in-macroalgae-and-seagrass-species-composition-201718
 conclusions-5
@@ -277,7 +277,7 @@ characterizing-the-benthic-invertebrate-community-and-the-benthic-environment
 field-and-laboratory-methods-1
 data-analyses-2
 building-an-index-of-benthic-ecological-health
-main-findings-3
+main-findings-2
 conclusions-6
 acknowledgements-6
 assessing-the-health-of-the-peel-harvey-estuary-through-its-fish-communities
@@ -290,7 +290,7 @@ collection-and-collation-of-data
 calculating-the-fci-for-the-peel-harvey-estuary
 exploring-trends-in-the-fci
 relating
-results-findings-4
+results-findings-5
 broad-long-term-1979-2018-trends-in-estuary-condition
 current-ecological-condition-of-the-peel-harvey-estuary-2016-18
 relating-estuary-condition-to-modelled-environmental-changes
@@ -302,6 +302,7 @@ option-3-reduced-temporal-replication
 other-potential-modifications-to-the-proposed-monitoring-regime
 broad-overview-of-reporting-approach
 conclusions-7
+data-availability-supplementary-materials-1
 acknowledgements-7
 econ
 executive-summary-3
@@ -311,7 +312,7 @@ approach-8
 local-competitive-advantage-the-ability-to-create-jobs-locally
 comparative-advantage-local-economic-specialization-and-interregional-trade-patterns
 classifying-industrial-activities
-main-findings-4
+main-findings-3
 conclusions-8
 healthscenarios
 abstract-5
@@ -325,7 +326,7 @@ follow-up-stakeholder-workshop
 setting-up-model-drivers-defining-future-conditions
 assessing-futute-estuarine-health-under-2050-scenarios
 assessing-future-economic-health-under-2050-scenarios
-results-findings-5
+results-findings-6
 key-stakeholder-values-and-2050-scenarios
 model-drivers-for-each-scenario
 catchment-model-scenario-outputs
@@ -333,5 +334,6 @@ estuary-health-trajectories
 economic-resilience
 balancing-trade-offs-between-economic-and-environmental-health
 conclusions-9
-data-availability-supplementary-materials-1
+data-availability-supplementary-materials-2
 acknowledgements-8
+supp

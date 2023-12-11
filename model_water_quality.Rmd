@@ -72,7 +72,7 @@ knitr::include_graphics("images/model_water_quality/picture2.webp")
 ### The Peel Harvey Estuary Response Model (PHERM)
 
 ::: {.body-text width="100%"}
-An estuary water quality response model was developed to gain insights into the nutrient budgeting and regional water quality response to changing environmental inputs. The water quality response model consists of a 3D hydrodynamic model TUFLOW-FV (as described in [@huang2019changing]), which is dynamically coupled with the AED2 water quality model to simulate the nutrient cycling and key biogeochemical processes [@hipsey2022]. The AED2 water quality modules were configured to simulate the C, N, P, and DO budgets, including resolving the inorganic nutrients and organic matter fractions, and primary production (Table 1; Fig. \@ref(fig:model-water-quality-pic2)). Spatial variation and sediment quality and benthic properties (including biomass of seagrass, macroalgae and bivalves) was also included.
+An estuary water quality response model was developed to gain insights into the nutrient budgeting and regional water quality response to changing environmental inputs. The water quality response model consists of a 3D hydrodynamic model TUFLOW-FV (as described in @huang2019changing), which is dynamically coupled with the AED2 water quality model to simulate the nutrient cycling and key biogeochemical processes [@hipsey2022]. The AED2 water quality modules were configured to simulate the C, N, P, and DO budgets, including resolving the inorganic nutrients and organic matter fractions, and primary production (Table 1; Fig. \@ref(fig:model-water-quality-pic2)). Spatial variation and sediment quality and benthic properties (including biomass of seagrass, macroalgae and bivalves) was also included.
 
 Key modelled chemical and biological processes include:
 :::
@@ -244,7 +244,7 @@ The changes in the key water quality attributes and nutrient budgets of Peel-Har
 ## Data availability
 
 ::: {.body-text width="100%"}
-Data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. The full set of model input files of the Peel-Harvey Estuary Response Model are archived at LINK. To run the simulation requires the AED software package, available from [@hipsey2022], and TUFLOW-FV, available from [@wbm2023tuflowb].
+Data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. The full set of model input files of the Peel-Harvey Estuary Response Model are archived at LINK. To run the simulation requires the AED software package, available from @hipsey2022, and TUFLOW-FV, available from @wbm2023tuflowb.
 :::
 
 ## Acknowledgements
