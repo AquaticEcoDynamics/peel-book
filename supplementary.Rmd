@@ -5,9 +5,19 @@
 
 ::: {.body-text width="100%"}
 
-Supporting materials for the chapters 3-11 are available for download:
+Supporting materials for the Chapters 3-11 are available for download:
 
-<br>
+ - S2.1 : Hydrological model bias correction
+
+ - sks
+ 
+ - S8.1 Invertebrate taxa
+ 
+ - S8.2 Invertebrate PERMANOVA analysis
+ 
+ 
+ 
+
 <br>
 <br>
 <br>

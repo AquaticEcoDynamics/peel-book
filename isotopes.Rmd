@@ -13,7 +13,9 @@
 :::
 
 ::: {.author-info width="100%"}
-^1^ Centre of Coastal Biogeochemistry, Southern Cross University, East Lismore, NSW <br> ^2^ Department of Water and Environmental Regulation, Perth, WA <br> ^3^ British Geological Survey, Wallingford, Oxfordshire, United Kingdom
+^1^ Centre of Coastal Biogeochemistry, Southern Cross University, Lismore, Australia <br> 
+^2^ Department of Water and Environmental Regulation, Government of Western Australia, Perth, Australia <br> 
+^3^ British Geological Survey, Wallingford, Oxfordshire, United Kingdom
 :::
 
 ```{r isotopes-pic1, echo = FALSE, out.width='100%', class = "title-image"}
@@ -34,17 +36,17 @@ We then developed isotope-based indicators for the biological transformations th
 Together, these findings lay the foundation for improved catchment-estuary nutrient modelling, as well as some directions around drain management that could help maximise nutrient removal, rather than simply water removal.
 :::
 
-## Introduction & Background
+## Introduction
 
 ::: {.body-text width="100%"}
 There is a long history of concern about excess nutrients leading to the over-enrichment of organic matter (eutrophication) in the Peel Harvey Estuary [@bradby1997peel; @mccomb1981eutrophication]. However, relatively little is known about how the nutrients (nitrogen and phosphorus) that cause this over-enrichment to reach the estuary. Understanding how, why, where, and when nitrogen (N) and phosphorus (P) move from sources like agricultural soils and wastewater treatment plants to the estuary, is a critical (but complex) step in being able to effectively manage eutrophication in this system. This complexity stems, from the fact that microbes and vegetation can remove up to 100%, or as little as 0%, of excess nitrogen as it's transported downstream from the catchment and/or atmospheric sources.
 
-This component of the ARC Linkage Project aims to improve knowledge of nutrient transport and transformations across the Peel Harvey system by measuring changes in the isotopic composition of different N and P forms. This approach is based on the knowledge that both the different nutrient pollution sources and the biological processes that limit nutrient transport downstream will impart unique isotopic 'fingerprints', or signatures. Characterising the fingerprints for the different sources and processes could enable us to measure how efficiently nutrients moved through different portions of the catchment to the estuary. This type of isotope tracing approach has been successfully used in other temperate waterways to determine the extent of their eutrophication [@gooddy2016multi] or the particular nitrogen sources most responsible for driving this eutrophication [@xue2012use].
+This research study aimed to improve knowledge of nutrient transport and transformations across the Peel Harvey system by measuring changes in the isotopic composition of different N and P forms. This approach is based on the knowledge that both the different nutrient pollution sources and the biological processes that limit nutrient transport downstream will impart unique isotopic 'fingerprints', or signatures. Characterising the fingerprints for the different sources and processes could enable us to measure how efficiently nutrients moved through different portions of the catchment to the estuary. This type of isotope tracing approach has been successfully used in other temperate waterways to determine the extent of their eutrophication [@gooddy2016multi] or the particular nitrogen sources most responsible for driving this eutrophication [@xue2012use].
 
 Detailed information on the origin, form and fate of nutrients across the Peel-Harvey catchment generated through this component of the ARC Linkage Project is designed to fill gaps in the catchment nutrient export model [presented in the complementary ARC Linkage report @killminster2019modelling], and set the scene for future targeted work to improve ecosystem health in the identified 'at risk' zones [@oreilly2019assessing; @hallett2019rapid].
 :::
 
-## Objectives
+### Objectives
 
 1.  Identify the dominant sources and forms of nutrients moving through the Peel-Harvey catchment and estuary.
 
@@ -209,7 +211,7 @@ We carried out the same isotope and dissolved gas measurements over both winter 
 Current nutrient monitoring in the Peel-Harvey system (and thus the models based on this data) do not measure biological removal ('attenuation') processes that could occur as N is moved from catchment soils and/or rainfall sources to the waterways. A key aim of our isotope data was therefore to generate independent attenuation calculations that could be used to validate and improve the coupled catchment-estuary model being developed in other components of the current Linkage Project [@huang2019changing; @huang2019integrated; @killminster2019modelling]. Isotope-based calculations provide a measure of N removal that integrates N removal during *transport to* the sampled system and N removal *within* the sampled system. This approach will provide unique insight into the complex and poorly understood processes that occur as N is transported from land to water. 
 :::
 
-## Results & Findings
+## Results & findings
 
 ### 'What': The majority of nitrogen in the Peel-Harvey is in organic forms
 
@@ -410,6 +412,13 @@ Future work should focus on identifying the characteristics of these small water
 
 ::: {.body-text width="100%"}
 The detailed assessments of nitrogen turnover in the shallow drains and estuary also highlight a major limitation to our current ability to track this pollutant. Namely, how can we distinguish zones where inorganic nitrogen concentrations are zero due to eutrophication (e.g. overgrowth of macrophytes in the Peel Estuary) vs zones where inorganic nitrogen concentrations are zero due to a lack of pollution? We need to develop multi-proxy systems for determining the extent of nitrogen pollution that are able to identify both zones like the Peel Estuary, which both receives and retains high inorganic nitrogen loads (low concentrations in the water), and the Murray River, which receives and exports high inorganic nitrogen loads (high concentrations in the water). 
+:::
+
+
+## Data availability
+
+::: {.body-text width="100%"}
+Data used are available in the Peel ARC Linkage Project Github repository [@busch2023]. SPECIFICALLY THE ISO DATA
 :::
 
 ## Acknowledgements

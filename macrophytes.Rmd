@@ -7,7 +7,7 @@
 <!-- ::: -->
 <!-- <link href="css/zoom.css" rel="stylesheet"> -->
 <!-- <script src="js/zoom-vanilla.min.js"></script> -->
-
+<br>
 
 ::: {.chapter-authors width="100%"}
 **Fiona Valesini, Oliver Krumholz, Chris Hallett, Halina Kobryn**
@@ -23,8 +23,9 @@ knitr::include_graphics("images/macrophytes/picture1.webp")
 
 ```
 
+<br>
 
-## Executive Summary
+## Abstract
 
 ::: {.body-text width="100%"}
 Seagrass and macroalgal communities ('macrophytes') play key roles in the function of estuaries and the societal benefits they provide. Over more recent history, the macrophytes of the Peel-Harvey, and especially the green macroalgae, have been a major focus due to the massive blooms that occurred from the 1960s--1980s and the ecological and societal issues that resulted. Opening of the Dawesville Cut in 1994 to help alleviate these problems led to a major step change in the estuary's hydrology and nutrient levels. There have also been other more gradual shifts in the estuarine environment from catchment development and climate change effects, particularly in recent decades.
@@ -47,7 +48,7 @@ A more detailed study of the macrophytes across the estuary in spring 2017 and a
 To better assess the ongoing health and environmental drivers of this macrophyte community, and if its recent move towards seagrass domination reflects a stable shift, it is imperative that a consistent and regular macrophyte monitoring program is implemented, alongside other environmental monitoring of the estuary. The broad monitoring regime we have proposed can be tailored to suit resourcing.
 :::
 
-## Background
+## Introduction
 
 ::: {.body-text width="100%"}
 Macroalgal and seagrass communities are one of the most visual elements of the Peel-Harvey biota. These submerged plant communities (collectively referred to as 'macrophytes') play pivotal roles in estuarine ecosystems and are key indicators of environmental condition. Healthy macrophyte communities provide many ecosystem services, including *supporting functions* such as primary production and carbon sequestration, *provisioning functions* such as food and habitat for many fauna, and *regulating functions* such as sediment and shoreline stabilisation. These, in turn, support many *societal values* such as productive fisheries, wildlife watching opportunities and safer coastal environments that better mitigate threats such as bank erosion and flooding. Macrophytes are also good indicators of water quality, reflecting key aspects such as nutrient availability, salinity and turbidity. Seagrass-dominated communities, as opposed to those which are algal-dominated (and particularly by fast-growing green algae), typically reflect healthier estuarine ecosystems [e.g. @macreadie2017seagrasses].
@@ -57,7 +58,7 @@ The Peel-Harvey became iconic throughout the 1960s--1980s for its extreme nutrie
 This study has collated existing long-term monitoring data of macrophyte biomass across the estuary basins, and undertaken new surveys of the macrophyte community, to produce a data set spanning four decades from 1978 to 2018. While there are several gaps in the monitoring record, this data provides a rare opportunity to explore how the seagrass and macroalgal communities of the Peel-Harvey have changed over the last 40 years, covering periods in the height of the macroalgal bloom issues, those just before and after the Cut, then more recent ones. Although some previous studies have examined changes in these plant communities in select years, e.g. before (1985--1991) and after (1994--1999) the Cut [@wilson1999macrophyte], and in 2009 [@pedretti2011snapshot], this is the ***first to examine changes over the full sampling record, as well as statistically explore their environmental drivers.*** We also develop a simple ***index of macrophyte condition ('health')***, and propose a ***monitoring plan*** for the future. The specific objectives are as follows.
 :::
 
-## Objectives
+### Objectives
 
 1.  Characterise the long-term (1978--2018) shifts in the macrophyte community in the Peel-Harvey Estuary, and determine any key water quality drivers.
 
@@ -152,7 +153,7 @@ The current macrophyte community was sampled in both spring 2017 and autumn 2018
 In contrast to the long-term macrophyte data set, the data analysis approach for the current data set focused equally on exploring the nature and extent of any differences in species biomass composition among estuarine *regions, water depths* and *seasons*. The same software as described in section 4.1.3 were used for these analyses. Full details of these analyses are given in @krumholz2019macrophyte.
 :::
 
-## Main Findings
+## Results & findings
 
 ### Long-term (1978--2018) trends in macrophyte communities and their drivers
 
@@ -295,6 +296,12 @@ knitr::include_graphics("images/macrophytes/picture17.webp")
 -   To better assess the ongoing health and environmental drivers of this macrophyte community, and determine if its recent move towards seagrass domination reflects a stable shift, it is *imperative that a consistent and regular macrophyte monitoring program is continued into the future*.
 
 -   A broad program for future monitoring of the Peel-Harvey seagrass and macroalgal communities is proposed in Table 2. *This program is purposely broad, outlining the main macrophyte components to be monitored and suggested methods*. Finer details for implementing this program will need to be determined, following clarity in level of interest in uptake and resourcing.
+
+## Data availability
+
+::: {.body-text width="100%"}
+Data used are available in the Peel ARC Linkage Project Github repository [@busch2023]. SPECIFICALLY THE MAC DATA
+:::
 
 ## Acknowledgements
 

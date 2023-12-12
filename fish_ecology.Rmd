@@ -542,7 +542,7 @@ Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmonit2")
 
 ## Data availability & supplementary materials
 
-Data used for the model scenario simualtions and supporting the conclusions of this analysis are available in the Peel ARC Linkage Project Github repository [@busch2023]. SPECIFICALLY THE FISH DATA
+Data used are available in the Peel ARC Linkage Project Github repository [@busch2023]. SPECIFICALLY THE FISH DATA
 
 [Supplementary materials][Supplementary Materials] for this chapter are available.
 
