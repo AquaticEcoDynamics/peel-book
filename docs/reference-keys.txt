@@ -295,7 +295,7 @@ broad-long-term-1979-2018-trends-in-estuary-condition
 current-ecological-condition-of-the-peel-harvey-estuary-2016-18
 relating-estuary-condition-to-modelled-environmental-changes
 proposed-fish-monitoring-regime-for-the-peel-harvey-estuary
-proposed-options-for-a-fish-and-fci-monitoring-regime-in-the-peel-harvey-estuary
+option
 option-1-optimal-spatial-and-temporal-replication
 option-2-reduced-spatial-replication
 option-3-reduced-temporal-replication
@@ -336,4 +336,3 @@ balancing-trade-offs-between-economic-and-environmental-health
 conclusions-9
 data-availability-supplementary-materials-2
 acknowledgements-8
-supp

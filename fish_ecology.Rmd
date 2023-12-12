@@ -46,7 +46,7 @@ Finally, when FCI scores were statistically correlated with a suite of environme
 
 ```{r fish-ecology-pic2, echo = FALSE, out.width='100%', class = "text-image"}
 
-knitr::include_graphics("images/fish_ecology/Photo 9.1_SCR.png")
+knitr::include_graphics("images/photos/CH9.1 Alan, Chris and Steve.png")
 
 ```
 :::
@@ -297,7 +297,7 @@ Although our data standardization methods can adjust for the effects of net bias
 ::: {.body-text width="100%"}
 More detailed analysis of the FCI in each region and sampling season between autumn 2016 and summer 2018 showed that, on average, the overall health of the estuary in both the shallow and deeper waters was fair to poor (C--D; see grades in larger circles in Figs \@ref(fig:fish-ecology-pic12 and \@ref(fig:fish-ecology-pic13)). Overall estuary condition was consistently best during autumn in both years and water depths (grade C), while the poorest grades were found in winter 2016 and spring 2017 in both water depths (grade D).
 
-In general, health grades were typically better in several of the basin regions than they were in one or more of the river regions. However, this was not a consistent trend, with regional patterns varying considerably among sampling occasions and water depths. For example, the shallow upper Murray River was in good to very good health (A--B) in autumn and spring 2017 and summer 2018, while the rest of the estuary was in fair to very poor health (C--E; Fig. \@ref(fig:fish-ecology-pic12).
+In general, health grades were typically better in several of the basin regions than they were in one or more of the river regions. However, this was not a consistent trend, with regional patterns varying considerably among sampling occasions and water depths. For example, the shallow upper Murray River was in good to very good health (A--B) in autumn and spring 2017 and summer 2018, while the rest of the estuary was in fair to very poor health (C--E; Fig. \@ref(fig:fish-ecology-pic12)).
 
 Further exploration of the complexity of these patterns in both the shallow and deeper waters is given below. Accompanying shadeplots of the metric scores in each region and sampling occasion are also provided for the shallows in Fig. \@ref(fig:fish-ecology-pic14 and deeper waters in Fig. \@ref(fig:fish-ecology-pic15).
 :::
@@ -317,7 +317,7 @@ The condition of the deeper waters of the upper Murray region was poor (D) in si
 
 The poor ecological health of the deeper waters in the upper Murray likely reflects their susceptibility to stratification of the water column, and the persistent low dissolved oxygen conditions that develop as a result. The high levels of organic matter that accumulate in the deeper waters of this region [@hallett2019fish] also accelerate the biological consumption of oxygen in the bottom waters. From summer to winter 2017 and again in summer 2018, the salinity at the water surface was 12-24 units fresher than at the bottom, and there was close to no dissolved oxygen in the bottom waters (concentrations of  \<1 mg L^‑1^) on all four sampling occasions. 
 
-<img src="images/fish_ecology/Photo 9.2_SCR.png" class="cover" width="384" /> A major fish kill event (\>10,000 fish) occurred in the Murray River during this period (summer 2017), triggered by an unseasonally high rainfall event and the extensive hypoxia/anoxia that developed as a result (see below). While the most visible impact of these events is on larger fish (with many dead Black bream observed; C. Hallett, pers. obs., and photo above), the impacts on earlier life stages and small fish are less obvious. In the case of Black bream, given that its typical spawning period [late spring-summer, @sarre1999comparisons] coincides not only with the acute episode in summer 2017, but also with the chronic stratification and hypoxia that develops at that time of year, it is very possible that its decline in the Peel-Harvey is due to the mortality of its eggs and/or young larvae under these conditions.  
+<img src="images/photos/CH9.2 Dead black bream.png" class="cover" width="384" /> A major fish kill event (\>10,000 fish) occurred in the Murray River during this period (summer 2017), triggered by an unseasonally high rainfall event and the extensive hypoxia/anoxia that developed as a result (see below). While the most visible impact of these events is on larger fish (with many dead Black bream observed; C. Hallett, pers. obs., and photo above), the impacts on earlier life stages and small fish are less obvious. In the case of Black bream, given that its typical spawning period [late spring-summer, @sarre1999comparisons] coincides not only with the acute episode in summer 2017, but also with the chronic stratification and hypoxia that develops at that time of year, it is very possible that its decline in the Peel-Harvey is due to the mortality of its eggs and/or young larvae under these conditions.  
 
 In contrast to the deeper waters, the ecological health of the shallow upper Murray was good to very good in several seasons (autumn and spring 2017 and summer 2018; Fig. \@ref(fig:fish-ecology-pic12), which often reflected a prevalence of species with specialist feeding strategies, low contributions by detritivores, and low contributions by the indicator species *Pseudogobius olorum* (Fig. \@ref(fig:fish-ecology-pic14). These good metric scores were mainly driven by several smaller fish species that feed on small animals near the sediment surface (i.e. zoobenthivores), most of which have freshwater affinities, e.g. Southwestern goby *A. suppositus*, Western minnow *Galaxias occidentalis*, Western pygmy perch *Edelia vittata*, Mosquito fish *Gambusia holbrooki* (shadeplots not shown). 
 
@@ -327,7 +327,7 @@ Also in contrast to the deeper upper Murray, the deeper waters of the Serpentine
 > *The FCI successfully tracked the ecological impacts of the summer 2017 flood event*
 
 ::: {.body-text width="100%"}
-<img src="images/fish_ecology/picture11.webp" class="cover" width="384" /> On the 10^th^ of February 2017, the Perth Metro area received a daily total of 114.4 mm of rain, its second highest daily fall for any month from records going back to 1876 [@bom2017special]. The high river flows that followed created fresh conditions throughout the Murray River and delivered an enormous quantity of organic matter from the surrounding catchments into the estuary (see adjacent photo). This was evident as a 10cm-thick layer of organic-rich silt and cow faeces during fish sampling in the lower Murray River on 16 February 2017 (pers. obs.). The combination of this organic loading and the highly stratified water column that became established in the following weeks and months led to severe hypoxia throughout the Murray River. 
+<img src="images/photos/CH9.3 Freshwater plume.png" class="cover" width="384" /> On the 10^th^ of February 2017, the Perth Metro area received a daily total of 114.4 mm of rain, its second highest daily fall for any month from records going back to 1876 [@bom2017special]. The high river flows that followed created fresh conditions throughout the Murray River and delivered an enormous quantity of organic matter from the surrounding catchments into the estuary (see adjacent photo). This was evident as a 10cm-thick layer of organic-rich silt and cow faeces during fish sampling in the lower Murray River on 16 February 2017 (pers. obs.). The combination of this organic loading and the highly stratified water column that became established in the following weeks and months led to severe hypoxia throughout the Murray River. 
 
 During this period, both the shallow and deeper waters of the lower Murray region were in poor to very poor health, reflecting that either no fish were caught at all (deeper waters), or that the fish fauna contained only a limited number of species with ecological traits that decreased the FCI (shallows). Indeed the slightly higher grades in the shallows appeared to be artificially inflated by some larger species which normally inhabit the deeper waters of the lower Murray coming up on the banks to seek refuge (e.g. Tarwhine), and some species which normally occupy the more upstream river reaches being flushed down (e.g. the Southwestern goby). Another goby species which was relatively abundant in the shallows was the Blue-spot goby, which can tolerate silty substrates and survive hypoxic conditions through its capacity to 'breathe air' at the water surface [@gee1991reactions]. This 'indicator' species represents two metrics in the shallow-water FCI (Table \@ref(tab:fishmetrics), and its relative abundance would have contributed to the poor ecological health recorded in summer 2017.
 
@@ -402,7 +402,7 @@ Various options for a consistent fish monitoring regime to track the ongoing eco
 :::
 
 
-### Proposed options for a fish and FCI monitoring regime in the Peel Harvey Estuary 
+### Proposed options for a fish and FCI monitoring regime in the Peel Harvey Estuary {#option}
 
 ::: {.body-text width="100%"}
 Three options are presented below for a future fish and FCI monitoring regime in the Peel-Harvey Estuary, based on the outcomes of the current study and informed by the design of a comparable, ongoing monitoring regime in the Swan-Canning Estuary (Hallett and Valesini, 2012). These options are summarized in Table 9.3 and Fig. 9.7.1, and are accompanied by indicative costs of implementation (i.e. time, resources and funding, based on an assumption that all field sampling and laboratory processing would be conducted by personnel from within the university sector). Note that  estimated costs are based on approximate multipliers of those for the FCI monitoring and reporting program in the Swan-Canning Estuary, and should be considered indicative only; Fully costed budgets would be required before implementing any of these monitoring options.
@@ -537,14 +537,14 @@ Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmonit2")
 
 -   Given the evidence presented in this report that the ecological health of the estuary is under stress, it is imperative that a consistent and regular fish monitoring program is continued to better assess its ongoing health into the future. 
 
--   Various options for such a fish monitoring program, which can be tailored to suit, are provided in section 11 of this report.
+-   Various options for such a fish monitoring program, which can be tailored to suit, are provided in section \@ref(option) of this report.
 
 
 ## Data availability & supplementary materials
 
 Data used for the model scenario simualtions and supporting the conclusions of this analysis are available in the Peel ARC Linkage Project Github repository [@busch2023]. SPECIFICALLY THE FISH DATA
 
-[Supplementary materials](supplementary) for this chapter are available.
+[Supplementary materials][Supplementary Materials] for this chapter are available.
 
 
 ## Acknowledgements
