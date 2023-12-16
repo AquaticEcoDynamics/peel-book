@@ -238,7 +238,7 @@ This analysis unpacks the growth experience of the Peel-Harvey region, consider 
 
 ## Data availability & supplementary materials
 
-Data used are available from the Australian Bureau of Statistics.
+Data used in this study was sourced from the Australian Bureau of Statistics.
 
 [Supplementary materials][Supplementary Materials] for this chapter are available.
 
