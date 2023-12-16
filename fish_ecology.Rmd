@@ -111,7 +111,7 @@ library(rmarkdown)
 theSheet <- read_excel('tables/peel_tables_fish.xlsx', sheet="fishdata")
 theSheetGroups <- unique(theSheet$Group)
 
-kbl(theSheet[,2:NCOL(theSheet)], caption = "<small>Summary of the historical (1979–2014) and contemporary (2016–2018) fish species abundance data sets collected across the Peel-Harvey Estuary in (a) shallow waters and (b) deeper waters. See published studies listed in the ‘reference’ column for more details on historical fish sampling regimes. Key limitations of these previous regimes (with respect to their use in the current study) are in italics. Regions: SH, southern Harvey Estuary; NH, northern Harvey Estuary; MC, Mandurah Channel; WP, western Peel Inlet; EP, eastern Peel Inlet; SR, Serpentine River; LM, lower Murray River; UM, upper Murray River.</small>", align = "c",) %>%
+kbl(theSheet[,2:NCOL(theSheet)], caption = "Summary of the historical (1979–2014) and contemporary (2016–2018) fish species abundance data sets collected across the Peel-Harvey Estuary in (a) shallow waters and (b) deeper waters. See published studies listed in the ‘reference’ column for more details on historical fish sampling regimes. Key limitations of these previous regimes (with respect to their use in the current study) are in italics. Regions: SH, southern Harvey Estuary; NH, northern Harvey Estuary; MC, Mandurah Channel; WP, western Peel Inlet; EP, eastern Peel Inlet; SR, Serpentine River; LM, lower Murray River; UM, upper Murray River.", align = "c",) %>%
   pack_rows(theSheetGroups[1],
             min(which(theSheet$Group == theSheetGroups[1])),
             max(which(theSheet$Group == theSheetGroups[1])),
@@ -120,9 +120,11 @@ kbl(theSheet[,2:NCOL(theSheet)], caption = "<small>Summary of the historical (19
             min(which(theSheet$Group == theSheetGroups[2])),
             max(which(theSheet$Group == theSheetGroups[2])),
             background = '#ebebeb') %>%
-  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  kable_classic(full_width = T) %>%
   kable_styling(full_width = F,font_size = 11) %>%
-  column_spec(2, width_min = "7em") %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_min = "8em",bold = TRUE) %>%
+  column_spec(2, width_max = "7em") %>%
   column_spec(4, width_min = "12em") %>%
   scroll_box(width = "40em",
              fixed_thead = FALSE)
@@ -147,34 +149,23 @@ library(readxl)
   options(knitr.kable.NA = "")
 Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmetrics")
   kable(Diff_tab[,1:2],"html", escape = F, align = "c"
-        , caption = "<small>Metrics comprising the Fish Community Index (FCI) for shallow and deeper waters of the Peel-Harvey Estuary. Predicted metric responses to ecological degradation are shown in parentheses; positive metrics (+) increase with increasing degradation, whilst negative (−) metrics decrease as the ecosystem becomes more degraded. </small>",bootstrap_options = "hover")%>%
+        , caption = "Metrics comprising the Fish Community Index (FCI) for shallow and deeper waters of the Peel-Harvey Estuary. Predicted metric responses to ecological degradation are shown in parentheses; positive metrics (+) increase with increasing degradation, whilst negative (−) metrics decrease as the ecosystem becomes more degraded.",bootstrap_options = c("hover","condensed") )%>%
+   kable_classic(full_width = T) %>%
    kable_styling(Diff_tab, bootstrap_options = "hover",
                 full_width = T, position = "left",
-                font_size = 11) %>% 
+                font_size = 12) %>% 
     
   row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
   column_spec(1, width_min = "20em" ,color="black",bold = F) %>%
   column_spec(2, width_min = "20em" ,color="black") %>%
   # column_spec(3, width_min = "15em" ,color="black") %>%
   # row_spec(1:2, background = 'white')  %>%
- scroll_box(width = "40em",fixed_thead = FALSE)
+  footnote(alphabet = c("A measure of species biodiversity","Species with specialist feeding requirements (e.g. those that only eat small invertebrates)","Species that are omnivorous or opportunistic feeders","Species that eat detritus (decomposing organic material)","Species that live on, or are closely associated with, the estuary bed","The Blue-spot or Swan River goby, a tolerant, omnivorous species that often inhabits silty habitats and is used as an ‘indicator’"))   %>%
+   scroll_box(width = "40em",fixed_thead = FALSE)
 
   
 ```
-<tfoot>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>a</sup> A measure of species biodiversity</font></td></tr>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>b</sup> Species with specialist feeding requirements (e.g. those that only eat small invertebrates)</font></td></tr>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>c</sup> Species that are omnivorous or opportunistic feeders</font></td></tr>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>d</sup> Species that eat detritus (decomposing organic material)</font></td></tr>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>e</sup> Species that live on, or are closely associated with, the estuary bed</font></td></tr>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>f</sup> The Blue-spot or Swan River goby, a tolerant, omnivorous species that often inhabits silty habitats and is used as an ‘indicator’</font></td></tr>
-</tfoot>
+
 <br>
 
 ```{r fish-ecology-pic5, echo = FALSE, out.width='75%', class = "text-image", fig.cap = "Overview of the process for calculating the Fish Community Index."}
@@ -197,15 +188,16 @@ library(readxl)
   options(knitr.kable.NA = "")
 Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishthresh")
   kable(Diff_tab[,1:3],"html", escape = F, align = "c"
-        , caption = "<small>Fish Community Index (FCI) score thresholds defining each of the five ecological health grades (A–E) for both shallow and deeper waters of the Peel-Harvey Estuary. </small>",bootstrap_options = "hover")%>%
-   kable_styling(Diff_tab, bootstrap_options = "hover",
+        , caption = "Fish Community Index (FCI) score thresholds defining each of the five ecological health grades (A–E) for both shallow and deeper waters of the Peel-Harvey Estuary.",bootstrap_options = "hover")%>%
+  kable_classic(full_width = T) %>%
+  kable_styling(Diff_tab, bootstrap_options = "hover",
                 full_width = T, position = "left",
-                font_size = 11) %>% 
+                font_size = 12) %>% 
     
   row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
-  column_spec(1, width_min = "20em" ,color="black",bold = F) %>%
   column_spec(2, width_min = "20em" ,color="black") %>%
   column_spec(3, width_min = "15em" ,color="black") %>%
+  column_spec(1, width_min = "17em", color = "white", background = c("darkgreen","green","yellow","orange","red")) %>%
   # row_spec(1:2, background = 'white')  %>%
  scroll_box(width = "40em",fixed_thead = FALSE)
 
@@ -437,29 +429,24 @@ library(readxl)
   options(knitr.kable.NA = "")
 Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmonit")
   kable(Diff_tab[,1:4],"html", escape = F, align = "c"
-        , caption = "<small>Options for a proposed Fish Community Index monitoring regime. Estuary regions: SH - Southern Harvey, NH - Northern Harvey, MC - Mandurah Channel, WP - Western Peel, EP - Eastern Peel, SR - Serpentine River, LM - Lower Murray, UM - Upper Murray.</small>",bootstrap_options = "hover")%>%
-   kable_styling(Diff_tab, bootstrap_options = "hover",
+        , caption = "Options for a proposed Fish Community Index monitoring regime. Estuary regions: SH - Southern Harvey, NH - Northern Harvey, MC - Mandurah Channel, WP - Western Peel, EP - Eastern Peel, SR - Serpentine River, LM - Lower Murray, UM - Upper Murray.",bootstrap_options = "hover")%>%
+  kable_classic(full_width = T) %>%
+  kable_styling(Diff_tab, bootstrap_options = "hover",
                 full_width = T, position = "left",
                 font_size = 11) %>% 
     
   row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
-  column_spec(1, width_min = "10em" ,color="black",bold = F) %>%
+  column_spec(1, width_min = "11em" ,color="black",bold = F) %>%
   column_spec(2, width_min = "15em" ,color="black") %>%
   column_spec(3, width_min = "15em" ,color="black") %>%
   column_spec(4, width_min = "15em" ,color="black") %>%
   # row_spec(1:2, background = 'white')  %>%
- scroll_box(width = "40em",fixed_thead = FALSE)
+  footnote(alphabet = c("Sampling of Mandurah Channel region excludes offshore sites, as gill netting is considered to be unsafe given the extent and movements of boat traffic in this region","Based on a maximum of three gill nets being set in any one night, due to safety and logistical considerations (i.e. need to move between and check nets)","These estimated costs are based on approximate multipliers of those for the FCI monitoring and reporting program in the Swan-Canning Estuary, and should be considered indicative only. Fully costed budgets are required before implementing any of these monitoring options"))   %>%
+  scroll_box(width = "40em",fixed_thead = FALSE)
 
   
 ```
-<tfoot>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>1</sup> Sampling of Mandurah Channel region excludes offshore sites, as gill netting is considered to be unsafe given the extent and movements of boat traffic in this region.</font></td></tr>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>2</sup> Based on a maximum of three gill nets being set in any one night, due to safety and logistical considerations (i.e. need to move between and check nets).</font></td></tr>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>3</sup> These estimated costs are based on approximate multipliers of those for the FCI monitoring and reporting program in the Swan-Canning Estuary, and should be considered indicative only. Fully costed budgets are required before implementing any of these monitoring options.</font></td></tr>
-</tfoot>
+
 <br>
 
 ```{r fish-ecology-pic19, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Maps of indicative sampling sites under each of the three proposed options for a future FCI monitoring regime in the Peel-Harvey Estuary. Estuary regions: SH – Southern Harvey, NH – Northern Harvey, MC – Mandurah Channel, WP – Western Peel, EP – Eastern Peel, SR – Serpentine River, LM – Lower Murray, UM – Upper Murray. Circles denote shallow (red) and deeper (yellow) sampling sites."}
@@ -485,7 +472,8 @@ library(readxl)
   options(knitr.kable.NA = "")
 Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmonit2")
   kable(Diff_tab[,1:3],"html", escape = F, align = "c"
-        , caption = "<small>Potential modifications to the proposed monitoring options, and their associated benefits and costs.</small>",bootstrap_options = "hover")%>%
+        , caption = "Potential modifications to the proposed monitoring options, and their associated benefits and costs.",bootstrap_options = c("hover","condensed") )%>%
+   kable_classic(full_width = T) %>%
    kable_styling(Diff_tab, bootstrap_options = "hover",
                 full_width = T, position = "left",
                 font_size = 11) %>% 
@@ -535,9 +523,17 @@ Diff_tab <- read_xlsx('tables/peel_tables_fish.xlsx', sheet="fishmonit2")
 
 ## Data availability & supplementary materials
 
-Data used are available in the Peel ARC Linkage Project Github repository [@busch2023]. SPECIFICALLY THE FISH DATA
+The data collected during this study are available on request, with details provided in the *Fish* [data folder](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Data/Fish) of Peel ARC Linkage Project Github repository [@busch2023].
 
-[Supplementary materials][Supplementary Materials] for this chapter are available.
+The following supplementary materials are also available in the [Supplementary Material][Supplementary Materials] chapter:
+
+ -	S9.1. List of fish species caught in the Peel-Harvey Estuary during historical (1979–2014) and/or contemporary (2016–2018) studies.
+ -	S9.2. Environmental variables derived from the estuary response models that were related to observed Fish Community Index grades from 1979-2018 using GAMs to identify key environmental drivers of estuary condition.
+ -	S9.3. Shadeplot of the average abundance of the most prevalent fish species recorded in the shallow waters of the basins in each sampling period and season.
+ - 	S9.4. Shadeplot of the average abundance of the most prevalent fish species recorded in the shallow waters of the rivers in each sampling period and season.
+ -	S9.5. Shadeplot of the average abundance of the most prevalent fish species recorded in the deeper waters of the basins in each sampling period and season.
+ -	S9.6. Shadeplot of the average abundance of the most prevalent fish species recorded in the deeper waters of the rivers in each sampling period and season.
+ -	S9.7. The best-fit GAM model for each major estuarine region and water depth.
 
 
 ## Acknowledgements

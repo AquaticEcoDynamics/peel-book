@@ -109,7 +109,8 @@ library(readxl)
   options(knitr.kable.NA = "")
 Diff_tab <- read_xlsx('tables/peel_tables_bmi.xlsx', sheet="bmised")
   kable(Diff_tab[,1:3],"html", escape = F, align = "c"
-        , caption = "<small>Characteristics of the sediment measured at each benthic invertebrate sampling site, including whether the sediment attributes were considered to represent the effects of anthropogenically-driven stressors that impact sediment condition, or whether they are more reflective of natural drivers.</small>",bootstrap_options = "hover")%>%
+        , caption = "Characteristics of the sediment measured at each benthic invertebrate sampling site, including whether the sediment attributes were considered to represent the effects of anthropogenically-driven stressors that impact sediment condition, or whether they are more reflective of natural drivers.",bootstrap_options = "hover")%>%
+   kable_classic(full_width = T) %>%
    kable_styling(Diff_tab, bootstrap_options = "hover",
                 full_width = T, position = "left",
                 font_size = 11) %>% 
@@ -169,7 +170,7 @@ library(rmarkdown)
 theSheet <- read_excel('tables/peel_tables_bmi.xlsx', sheet="bmiebci")
 theSheetGroups <- unique(theSheet$Group)
 
-kbl(theSheet[,2:NCOL(theSheet)], caption = "<small>A list of the 16 invertebrate community metrics tested for inclusion in the Estuarine Benthic Community Index. * indicates metrics that best responded to a gradient of sediment condition, and were included in the EBCI. ‘Negative’ metrics (denoted by ↓) are those that are expected to decrease with declining benthic condition, while ‘positive’ metrics (↑) are expected to increase.</small>", align = "c",) %>%
+kbl(theSheet[,2:NCOL(theSheet)], caption = "A list of the 16 invertebrate community metrics tested for inclusion in the Estuarine Benthic Community Index.", align = "c",) %>%
   pack_rows(theSheetGroups[1],
             min(which(theSheet$Group == theSheetGroups[1])),
             max(which(theSheet$Group == theSheetGroups[1])),
@@ -182,10 +183,12 @@ kbl(theSheet[,2:NCOL(theSheet)], caption = "<small>A list of the 16 invertebrate
             min(which(theSheet$Group == theSheetGroups[3])),
             max(which(theSheet$Group == theSheetGroups[3])),
             background = '#ebebeb') %>%
+  kable_classic(full_width = T) %>%
   row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
-  kable_styling(full_width = F,font_size = 11) %>%
+  kable_styling(full_width = F,font_size = 11,bootstrap_options = c("hover", "condensed")) %>%
   column_spec(2, width_min = "7em") %>%
   column_spec(3, width_min = "12em") %>%
+   footnote(alphabet = c("indicates metrics that best responded to a gradient of sediment condition, and were included in the EBCI. ‘Negative’ metrics (denoted by ↓) are those that are expected to decrease with declining benthic condition, while ‘positive’ metrics (↑) are expected to increase"))   %>%
   scroll_box(width = "40em",
              fixed_thead = FALSE)
 ```
@@ -355,8 +358,9 @@ library(readxl)
   options(knitr.kable.NA = "")
 Diff_tab <- read_xlsx('tables/peel_tables_bmi.xlsx', sheet="bmimon")
   kable(Diff_tab[,1:5],"html", escape = F, align = "c"
-        , caption = "<small>Proposed future monitoring regime for the benthic invertebrate communities in the Peel-Harvey Estuary. Finer details on this broad approach will be tailored to uptake and resourcing.</small>",bootstrap_options = "hover")%>%
-   kable_styling(Diff_tab, bootstrap_options = "hover",
+        , caption = "Proposed future monitoring regime for the benthic invertebrate communities in the Peel-Harvey Estuary. Finer details on this broad approach should be tailored to uptake and resourcing.",bootstrap_options = "hover") %>%
+       kable_classic(full_width = T) %>%
+       kable_styling(Diff_tab, bootstrap_options = "hover",
                 full_width = T, position = "left",
                 font_size = 11) %>% 
     
@@ -369,25 +373,25 @@ Diff_tab <- read_xlsx('tables/peel_tables_bmi.xlsx', sheet="bmimon")
   row_spec(2, background = "#FAF8F3", color = "gray") %>%
   row_spec(3, background = "#D9D2C6", color = "black") %>%
   row_spec(4, background = "#FAF8F3", color = "gray") %>%
+  footnote(alphabet = c("A sediment condition monitoring regime has also been proposed (Chapter 6). If both this regime and the invertebrate monitoring regime are adopted, then it is suggested that the sampling sites and frequency of both regimes are aligned as closely possible to maximise efficient use of resources"))   %>%
   # row_spec(1:2, background = 'white')  %>%
  scroll_box(width = "40em",fixed_thead = FALSE)
 
   
 ```
-<tfoot>
-<tr><td style="padding: 0; " colspan="100%">
-<font size="1"><sup>a</sup> A sediment condition monitoring regime has also been proposed (Chapter 6). If both this regime and the invertebrate monitoring regime are adopted, then it is suggested that the sampling sites and frequency of both regimes are aligned as closely possible to maximise efficient use of resources</font></td></tr>
-</tfoot>
 
 
 ## Data availability & supplementary materials
 
 ::: {.body-text width="100%"}
-The data described in this chapter are available via the online Peel ARC Linkage Project Github repository [@busch2023].
+The data collected during this study are available on request, with details provided in the *Benthic Macroinvertebrate* [data folder](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Data/Benthic%20Macroinvertebrate) of Peel ARC Linkage Project Github repository [@busch2023].
+
+The following supplementary materials are also available in the [Supplementary Material][Supplementary Materials] chapter:
+
+ - S8.1. List of benthic macroinvertebrate taxa recorded in all regions of the Peel-Harvey Estuary during winter 2017 and summer 2018.
+ - S8.2. Three-way crossed PERMANOVA (Permutational MANOVA and ANOVA) of the species composition of the Peel-Harvey benthic macroinvertebrate community.
 :::
  
-[Supplementary materials][Supplementary Materials] for this chapter are available.
-
 ## Acknowledgements
 
 ::: {.body-text width="100%"}

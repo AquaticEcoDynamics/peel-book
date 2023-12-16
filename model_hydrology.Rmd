@@ -19,6 +19,7 @@ knitr::include_graphics("images/model_hydrology/picture1.webp")
 ```
 
 <br>
+<br>
 
 ## Abstract
 
@@ -29,35 +30,36 @@ Shallow microtidal lagoons like the Peel-Harvey Estuary system are particularly 
 ## Introduction
 
 ::: {.body-text width="100%"}
-Hydrologic features such as water circulation, retention and the pattern of saline water intrusion are critical in shaping estuarine ecosystems and health. The interactions of pulses of freshwater runoff with ocean water inputs can create complex hydrodynamics that subsequently structures the biogeochemical processes, including the distribution of nutrients and hotspots of primary productivity [@cauwet1994eutrophication; @kasai2010saltwedge; @watanabe2014influence;e.g. @cloern2017ecosystem]. In particular, salt intrusion can increase lagoon salinity and drive a difference between surface and bottom salinity (salinity stratification). In highly seasonal systems, like in southern Australia, this effect leads to notable oxygen depletion and establishes hypoxia in the bottom boundary layer [@bruce2014hydrodynamic; @cottingham2014marked; @huang2018assessing], and can raise the likelihood of hypersalinity during the long dry summer and autumn months [@potter2010concept]. More generally, the time-scales associated with water transportation and retention are often related to the long-term trophic state and ensuing phytoplankton dynamics in coastal systems [@knoppers1991trophic;e.g. @ferreira2005does; @paerl2006anthropogenic; @zhu2017effects]. Therefore, understanding and predicting hydrologic changes is critical to underpin our understanding of estuary water quality and approaches to management. 
+Hydrologic features such as water circulation, retention and the pattern of saline water intrusion are critical in shaping estuarine ecosystems and health. The interactions of pulses of freshwater runoff with ocean water inputs can create complex hydrodynamics that subsequently structures the biogeochemical processes, including the distribution of nutrients and hotspots of primary productivity [e.g., @cauwet1994eutrophication; @kasai2010saltwedge; @watanabe2014influence; @cloern2017ecosystem]. In particular, salt intrusion can increase lagoon salinity and drive a difference between surface and bottom salinity (salinity stratification). In highly seasonal systems, like in southern Australia, this effect leads to notable oxygen depletion and establishes hypoxia in the bottom boundary layer [@bruce2014hydrodynamic; @cottingham2014marked; @huang2018assessing], and can raise the likelihood of hypersalinity during the long dry summer and autumn months [@potter2010concept]. More generally, the time-scales associated with water transportation and retention are often related to the long-term trophic state and ensuing phytoplankton dynamics in coastal systems [e.g., @knoppers1991trophic; @ferreira2005does; @paerl2006anthropogenic; @zhu2017effects]. Therefore, understanding and predicting hydrologic changes is critical to underpin our understanding of estuary water quality and approaches to management. 
 
-In systems undergoing hydrologic change, it remains an ongoing challenge to attribute changes in river flows, meteorological and ocean conditions to changes in estuary function, also bearing in mind coastal engineering developments. The impacts of climate change on estuarine hydrology have been widely reported and shown to significantly affect the water quantity and quality of many estuaries [e.g. @ducharne2007; @liu2016; @whitehead2009review]. One of these effects is the reduction of precipitation, which subsequently leads to reduction of streamflow to estuaries [@graham2004royal; @silberstein2012; @smith2014past] and increases the water retention time (τ). Aside from climate change, the hydrodynamics of an estuary is also often modified by engineering projects associated with dredging and coastal management, or through the creation of artificial channels built to enhance hydrologic connectivity to the ocean, and increase nutrient export [@brearley2005ernest; @manda2014influence; @prestrelo2016beforeafter]. However, the combined effects of introducing an artificial channel in conjunction with the climate change trend is not necessarily easy to predict. For example, the opening of an artificial channel and a drying climate can both introduce more ocean intrusion into an estuary. On the other hand, the drying climate enhances water residence time, which may cancel out the effect of the artificial channel. The combined effects are further complicated in large lagoon-type estuaries with complex morphology.
+In systems undergoing hydrologic change, it remains an ongoing challenge to attribute changes in river flows, meteorological and ocean conditions to changes in estuary function, also bearing in mind coastal engineering developments. The impacts of climate change on estuarine hydrology have been widely reported and shown to significantly affect the water quantity and quality of many estuaries [e.g., @ducharne2007; @liu2016; @whitehead2009review]. One of these effects is the reduction of precipitation, which subsequently leads to reduction of streamflow to estuaries [@graham2004royal; @silberstein2012; @smith2014past] and increases the water retention time (τ). Aside from climate change, the hydrodynamics of an estuary is also often modified by engineering projects associated with dredging and coastal management, or through the creation of artificial channels built to enhance hydrologic connectivity to the ocean, and increase nutrient export [@brearley2005ernest; @manda2014influence; @prestrelo2016beforeafter]. However, the combined effects of introducing an artificial channel in conjunction with the climate change trend is not necessarily easy to predict. For example, the opening of an artificial channel and a drying climate can both introduce more ocean intrusion into an estuary. On the other hand, the drying climate enhances water residence time, which may cancel out the effect of the artificial channel. The combined effects are further complicated in large lagoon-type estuaries with complex morphology.
 
-The Peel-Harvey Estuary (PHE) is one such system experiencing both a severe drying climate and the opening of large artificial channel to enhance ocean flushing and nutrient export. The impact on water resources of recent climate trends has been particularly acute in the PHE catchment, and the IPCC AR4 identified this region as one that has experienced amongst the greatest impact on divertible water resources in the world [@bates2008key; @hennessy2007]. From the 1970s, rainfall has decreased by 16% and stream flows have declined by more than 50%, a trend which has appeared to accelerate since the 2000s [@silberstein2012]. The “Dawesville Cut” (hereafter referred as “the Cut”), was built in 1994 with the purpose of increasing the flushing of the lagoons and thus reducing nutrient levels. Observations have shown that the water nutrient and phytoplankton concentrations have been successfully reduced by the construction of the channel [@brearley2005ernest], yet long-term river gauged data have shown a clear trend of decreasing runoff to the estuary, which has caused concerns to the catchment and estuary managers. A series of water quality improvement plans [@authority2008water; @rogers2010science; @kelsey2011hydrological] have been set to achieve a healthier aquatic system, which requires knowledge of how the hydrology changes with time in this estuary.
+The Peel-Harvey Estuary (PHE) is one such system experiencing both a severe drying climate and the opening of large artificial channel to enhance ocean flushing and nutrient export. The impact on water resources of recent climate trends has been particularly acute within the catchment (Chapter \@ref(catmodel)), and the IPCC AR4 identified this region as one that has experienced amongst the greatest impact on divertible water resources in the world [@bates2008key; @hennessy2007]. From the 1970s, rainfall has decreased by 16% and stream flows have declined by more than 50%, a trend which has appeared to accelerate since the 2000s [@silberstein2012]. The “Dawesville Cut” (hereafter referred as “the Cut”), was built in 1994 with the purpose of increasing the flushing of the lagoons and thus reducing nutrient levels. Observations have shown that the water nutrient and phytoplankton concentrations have been successfully reduced by the construction of the channel [@brearley2005ernest], yet long-term river gauged data have shown a clear trend of decreasing runoff to the estuary, which has caused concerns to the catchment and estuary managers. A series of water quality improvement plans [@authority2008water; @rogers2010science; @kelsey2011hydrological] have been set to achieve a healthier aquatic system, which requires knowledge of how the hydrology changes with time in this estuary.
 :::
 
 ### Objectives
 
 ::: {.body-text width="100%"}
 This study sought to unravel how the hydrology of this shallow, choked estuary is influenced by the drying climate and the Cut opening, separately and jointly, over decadal time periods. This was achieved using a 3D hydrodynamic model, with the main objectives to:
-:::
 
 1)    Investigate the general trends of key hydrologic features (water age, τ, and salinity) corresponding to the drying climate;
 2)    Assess the interacting impacts of the artificial channel with climate change on τ and salinity;
 3)    Consider the implications of these hydrologic changes in the context of estuarine ecosystem management.
+
+:::
 
 ## Approach
 
 ### Development of a high-resolution hydrodynamic model
 
 ::: {.body-text width="100%"}
-The TUFLOW-FV package [@wbm2023tuflowa] was used for this investigation as a 3D flexible-mesh (finite volume) hydrodynamic model that accounts for variations in water level, horizontal salinity distribution and vertical density stratification in response to tides, inflows and surface thermodynamics. The mesh consists of triangular and quadrilateral elements of different size that are suited to simulating areas of complex estuarine morphometry. To meet accuracy requirements, a fine-grid resolution (mean mesh area ~12000 m^2^) was used within the lagoons and coarse resolution was implemented towards the ocean boundary. The vertical mesh discretization adopted a hybrid sigma-z coordinate allowing multiple surface Lagrangian layers to respond to tidal elevation changes. The layer thickness was 0.2 m at depths of 1.0–5.0 m that gradually increased to 0.5 m in deeper water, and then five uniformly-distributed sigma layers were added above the fixed-thickness layers. The finite volume numerical scheme solves the conservative integral form of the nonlinear shallow water equations in addition to the advection and transport of scalar constituents such as salinity and temperature. The equations are solved in 3D with baroclinic coupling from both salinity and temperature using the UNESCO equation of state [@fofonoff1983algorithms]. 
+The 3D flexible-mesh (finite volume) hydrodynamic model TUFLOW-FV [@wbm2023tuflowa] was used for this investigation. It accounts for variations in water level, horizontal salinity distribution and vertical density stratification in response to tides, inflows and surface thermodynamics. The mesh consists of triangular and quadrilateral elements of different size that are suited to simulating areas of complex estuarine morphometry. To meet accuracy requirements, a fine-grid resolution (mean mesh area ~12000 m^2^) was used within the lagoons and coarse resolution was implemented towards the ocean boundary. The vertical mesh discretization adopted a hybrid sigma-z coordinate allowing multiple surface Lagrangian layers to respond to tidal elevation changes. The layer thickness was 0.2 m at depths of 1.0–5.0 m that gradually increased to 0.5 m in deeper water, and then five uniformly-distributed sigma layers were added above the fixed-thickness layers. The finite volume numerical scheme solves the conservative integral form of the nonlinear shallow water equations in addition to the advection and transport of scalar constituents such as salinity and temperature. The equations are solved in 3D with baroclinic coupling from both salinity and temperature using the UNESCO equation of state [@fofonoff1983algorithms]. 
 
 The model computes water transportation time-scales using the concept of water age, which is defined as the time the water has spent since entering the estuary through boundaries (either the ocean or river). The water age in each computational cell, $\tau$, was computed as a conservative tracer subject to a constant increase with time (i.e. $d\tau⁄dt=1$).
 
 Surface momentum exchange and heat dynamics are solved internally within TUFLOW- FV. In the current application, turbulent mixing of momentum and scalars has been calculated using the Smagorinsky scheme in the horizontal plane and through coupling with the General Ocean Turbulence Model (GOTM) for vertical mixing with option of second-order $k-\varepsilon$ turbulence closure. The bottom shear stress was calculated using a roughness-length relationship assuming a rough-turbulent logarithmic velocity profile in the lowest model layer. The roughness length z0 settings were based on the area type (e.g. coast, rivers, and estuary) and the estimated biomass of aquatic vegetation within the estuary. For the purpose the modelling domain was categorized into eight zones (Fig. \@ref(fig:model-hydrology-pic2)b) where the benthic character and associated $z_0$ in each zone are specified. While the setting of $z_0$ affected the water advection and uncertainty remains in the spatial (and temporal) variability in the $z_0$, it is important to note that the modelled $\tau$ and salinity do not change fundamentally over a reasonable range of $z_0$, as shown in the results of the model sensitivity tests described later.
 
-```{r model-hydrology-pic2, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Model domain of the Peel-Harvey Estuary and three main rivers: Serpentine River, Murray River, and Harvey River. The colours indicate the water depths of the study domain; the black crosses indicated the 6 monitoring sites, and the red polygons indicate the areas for result analysis. The three sub-plots are: a) location of the Peel-Harvey Estuary and its catchment in the Western Australia; b) b)	Zonal categorization of the model domain according to the area and aquatic vegetation biomass (see Table 1); and c)	a zoom-in view of the artificial channel Dawesville Cut, constructed in 1994 aiming at improving the ocean flushing."}
+```{r model-hydrology-pic2, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Model domain of the Peel-Harvey Estuary and three main rivers: Serpentine River, Murray River, and Harvey River. The colours indicate the water depths of the study domain; the black crosses indicated the 6 monitoring sites, and the red polygons indicate the areas for result analysis. The three sub-plots are: a) location of the Peel-Harvey Estuary and its catchment in the Western Australia; b) 	Zonal categorization of the model domain according to the area and aquatic vegetation biomass (see Table 3.1); and c)	a zoom-in view of the artificial channel Dawesville Cut, constructed in 1994 aiming at improving the ocean flushing."}
 knitr::include_graphics("images/model_hydrology/picture2.webp")
 ```
 :::
@@ -78,13 +80,34 @@ For the modelling years after 1994, when the artificial channel was constructed,
 Where gauged data wasn’t available, the outputs of the catchment model were used. Weather conditions over the period were set based on a combination of weather station data and model outputs from the regional WRF model. A summary of all historical simulations and future scenarios is provided in Table 1. The total inflow into the estuary of the chosen simulation years shows a general decrease from past to future, except for the year 1978 when the total inflow rate was less than that in 1985 and 1990. This was due to an exceptionally low inflow rate at the Harvey River, produced from the catchment model output, which had an effect mostly on the Harvey Estuary. We still include this year to show the historical evolution during the past decades.
 :::
 
-### Model evaulation and sensitivity tests
+### Model evaluation and sensitivity tests
 
 ::: {.body-text width="100%"}
 The model accuracy in reproducing the key hydrologic features was assessed by using the salinity and temperature data measured at six monitoring stations along the estuary (Fig. \@ref(fig:model-hydrology-pic2)). For each variable, we evaluated the model quantitatively against the monitored data using three skill metrics: correlation coefficient (r), mean absolute error (MAE), and model skill score (SS). Comprehensive evaluation was conducted for all the simulation years, except for 1970 when the long term monitoring had not started yet. The evaluation focused on the salinity and water temperature at the surface and bottom water of 6 monitoring stations along the estuary. Surface elevation records obtained from two gauged stations in the centre of Peel Inlet and Harvey Estuary were also used, when they were available, to validate the modelled surface elevation.
 
 The current study focused on the impact of reduced inflow, due to drying climate and the Cut, on the estuary hydrology. However, the perturbations of environmental factors such as air temperature, tide elevation, and benthic vegetation could also affect the local hydrology, therefore their influence to the modelling results was explored. To do this, the sensitivity of the modelled τ and salinity to the changes of: (1) air temperature (±1 degree, representing 100 year change of local air temperature); (2) tidal elevation (±0.15m, representing 100 year change of local tide record); and (3) bed roughness length (±50%, representing 50% change of bed roughness). The ranges of these environmental factors were carefully selected based on the historical records. Two years, 1998 and 1990, representing a year with the Cut opening and another year without the Cut, respectively, were selected for the model sensitivity tests.
 :::
+
+<br>
+
+```{r modelstat, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+  Diff_tab <- read_xlsx('tables/peel_tables_model.xlsx', sheet="modelstat")
+
+  kbl(Diff_tab[,1:9], caption = "Summary of total annual runoff entering the PHE, annual mean sea level in the selected simulating years and the average model performance statistics at 6 monitoring stations (indicated as dark crosses in Fig. 3.1).", align = "c" ,) %>%
+  add_header_above(c(" " = 3, "Model performance of salinity (mean±std)" = 3, "Model performance of temperature (mean±std)" = 3)) %>%
+  kable_classic(full_width = T) %>%
+  kable_styling(full_width = T,font_size = 10,bootstrap_options = c("hover", "condensed")) %>%
+  scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
+
+<br>
+
 
 ## Results & findings
 
@@ -93,17 +116,41 @@ The current study focused on the impact of reduced inflow, due to drying climate
 ::: {.body-text width="100%"}
 The monitored and modelled salinity and temperature within the two lagoons in the year of 1990 (a ‘pre-Cut’ year, the year before the Cut constructed) and year of 1998 (a ‘post-Cut year’, the year after the Cut constructed) demonstrate the ability of the model to accurately capture the seasonal cycle in response to the catchment inflows (Fig. \@ref(fig:model-hydrology-pic4)). In summer and early autumn the flow rates were low, followed by high salinity and weak salinity stratification in the two lagoons. In contrast, there were large inflows to the estuary in winter and early spring. The peaks of the inflows occurred in winter (July–September), followed by a significant drop in the salinity in the estuary due to the freshwater flushing. However, differences in the salinity response to freshwater flushing can be observed between the pre-Cut year (1990, left column of Fig. \@ref(fig:model-hydrology-pic4)) and the post-Cut year (1998, right column of Fig. \@ref(fig:model-hydrology-pic4)). In 1990 when the estuary had limited connection without the opening of the Cut, the salinity stratification was small in the Harvey Estuary. The salinity dropped to below 5 psu, indicating the hydrology of Harvey Estuary was mainly dominated by the Harvey River flushing. Whilst during 1998, with greater ocean connection due to the opening of the Cut, stronger salinity stratification was observed in the Harvey Estuary, and the minimum salinity was lifted to over 10 psu due to more seawater intrusion from the Cut. The water temperature also presented a clear seasonal signal, ranging from about 10 °C in winters to 30 °C in summers. The differences in the water temperature observed in the centres of two lagoons, and between the surface and bottom waters, were small.
 
-The opening of the Cut also affected the surface elevations of the estuary (Fig. \@ref(fig:model-hydrology-pic5)). The tide elevations in the ocean showed similar characteristics in 1990 and 1998 in terms of the annual mean sea level (−0.079 m and −0.027 m in 1990 and 1998, respectively) and tidal range (both < 1m). However, the surface elevation measured at the centre of the estuary had significantly different characteristics in these two years. The estuary surface elevation in 1998 had a much wider range of −0.6 m to 0.8 m compared to that in 1990 of −0.4 m to 0.4 m, indicating higher magnitude of water exchange between the estuary and the ocean due to the opening of the Cut.
-
-In general, the model reproduced the temporal variations of salinity and temperature in both the surface and water well (Table 2). The mean regression coefficient r for the salinity from six monitoring sites is above 0.81, and for the water temperature is above 0.85 except in the year 1970, when a mean r of 0.72 was obtained, which may have been due to poor boundary forcing for this year. The model skill scores are generally higher than 0.61 for both salinity and temperature in all historical years, suggesting the model has captured the major features of the hydrologic response to the external forcing of tide and freshwater inputs.
-
-```{r model-hydrology-pic4, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Annual variation in 1990 (left column, a) and 1998 (right column, b) of (1) inflow rate of the three main rivers; (2) monitored and modelled surface and bottom salinity at the centre of Peel Inlet (site PH7 at Fig. 1); (3) monitored and modelled surface and bottom water temperature at the centre of Peel Inlet; (4) monitored and modelled surface and bottom salinity at the centre of Harvey Estuary (site PH1 at Fig. 1); (3) monitored and modelled surface and bottom water temperature at the centre of Harvey Estuary."}
+```{r model-hydrology-pic4, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Annual variation in 1990 (left column, a) and 1998 (right column, b) of (1) inflow rate of the three main rivers; (2) monitored and modelled surface and bottom salinity at the centre of Peel Inlet (site PH7 at Fig. 3.1); (3) monitored and modelled surface and bottom water temperature at the centre of Peel Inlet; (4) monitored and modelled surface and bottom salinity at the centre of Harvey Estuary (site PH1 at Fig. 3.1); (3) monitored and modelled surface and bottom water temperature at the centre of Harvey Estuary."}
 knitr::include_graphics("images/model_hydrology/picture4.webp")
 ```
 
-```{r model-hydrology-pic5, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Sea level variation in 1990 and 1998; (b) modelled vs. measured surface elevation in the centre of Peel Inlet in 1990 (r=0.9795), the grey line indicates the 1:1 ratio; and (c) same as figure b except for year 1998 (r=0.9841). The colour from blue to red in figure b and c indicate the data density from minimum to maximum."}
+The opening of the Cut also affected the surface elevations of the estuary (Fig. \@ref(fig:model-hydrology-pic5)). The tide elevations in the ocean showed similar characteristics in 1990 and 1998 in terms of the annual mean sea level (−0.079 m and −0.027 m in 1990 and 1998, respectively) and tidal range (both < 1m). However, the surface elevation measured at the centre of the estuary had significantly different characteristics in these two years. The estuary surface elevation in 1998 had a much wider range of −0.6 m to 0.8 m compared to that in 1990 of −0.4 m to 0.4 m, indicating higher magnitude of water exchange between the estuary and the ocean due to the opening of the Cut.
+
+```{r model-hydrology-pic5, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "(a) Sea level variation in 1990 and 1998; (b) modelled vs. measured surface elevation in the centre of Peel Inlet in 1990 (r=0.9795), the grey line indicates the 1:1 ratio; and (c) same as figure b except for 1998 (r=0.9841). The colour from blue to red in figure b and c indicate the data density from minimum to maximum."}
 knitr::include_graphics("images/model_hydrology/picture5.webp")
 ```
+
+In general, the model reproduced the temporal variations of salinity and temperature in both the surface and water well (Table \@ref(tab:modelscen)). The mean regression coefficient r for the salinity from six monitoring sites is above 0.81, and for the water temperature is above 0.85 except in the year 1970, when a mean r of 0.72 was obtained, which may have been due to poor boundary forcing for this year. The model skill scores are generally higher than 0.61 for both salinity and temperature in all historical years, suggesting the model has captured the major features of the hydrologic response to the external forcing of tide and freshwater inputs.
+
+<br>
+
+```{r modelscen, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+  Diff_tab <- read_xlsx('tables/peel_tables_model.xlsx', sheet="modelscen")
+
+  kbl(Diff_tab[,1:7], caption = "Summary of simulated scenarios and their annual precipitation, catchment runoff, mean sea level, and Cut-opening information.", align = "c" ,) %>%
+    kable_classic(full_width = T) %>%
+    kable_styling(full_width = T,font_size = 10, bootstrap_options = c("hover", "condensed")) %>%
+    row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+    row_spec(1:4, background = "#D9D2C6", color = "black") %>%
+    row_spec(5:8, background = "#FAF8F3", color = "black") %>% 
+    row_spec(9:12, background = "#D9D2C6", color = "black") %>%
+    row_spec(13:16, background = "#FAF8F3", color = "black") %>%
+    scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
+
+<br>
 
 The sensitivities of modelled salinity and $\tau$ to air temperature, tide elevation, and bed roughness are shown in Fig. \@ref(fig:model-hydrology-pic6). The changes in the air temperature of ±1 degree have minor effects on both the salinity and $\tau$ in both years of 1990 and 1998. The influence of air temperature on the hydrology was mostly through evaporation, and resulted in changes in salinity of less than 0.9 psu, and 0.5 days changes in $\tau$. Secondly, the changes in the mean tide elevation of ±0.15 m led to changes in salinity of up to 2.2 psu and 8.4 days in $\tau$. This is not surprising because the changes in the mean tide elevation were theoretically equal to changing the volume of this shallow estuary, where 0.15 m is significant when compared to the mean estuary depth of ~1.4 m. Thirdly, the bed friction also had a noteworthy impact on the salinity and $\tau$ by modifying the water movement and therefore benthic layer mixing at near-bed level. The presence of benthic vegetation was shown to impact salinity by up to 2.8 psu in the Harvey Estuary, while a maximum change in the $\tau$ of 8.6 days was observed in the same location.
 
@@ -111,13 +158,15 @@ The sensitivities of modelled salinity and $\tau$ to air temperature, tide eleva
 knitr::include_graphics("images/model_hydrology/picture6.webp")
 ```
 
+<br>
+
 In summary, the modelled salinity and $\tau$ were more sensitive to the changes in the sea level variation and bottom vegetation presence, but the effects of these environmental factors were still small when compared to that caused by the reduced flow over the past decade and the Cut opening. For example, the maximum change in $\tau$ observed in the sensitivity test runs was 8.6 days, caused by the enhanced bottom roughness in the 1990 scenario, compared to the magnitude of 20–100 days caused by the reduced flow from 1970 to 2016 (see more details below). The maximum changes in the salinity observed in the sensitivity test runs was 2.8 psu, caused by the reduction of tide level in the Harvey Estuary, compared to the magnitude of 10–30 psu changes in the salinity caused by the reduced flows from 1970 to 2016 (see more details below).
 :::
 
 ### Incomplete mixing and changes in water rentention times
 
 ::: {.body-text width="100%"}
-Water retention time in tidal lagoons is sometimes confusing because various definitions that are used (flushing time, water age, and residence time) [@monsen2002comment;e.g. @jouon2006calculations]. The flushing time is the most popular concept and has been used in many aquatic systems, including the PHE, in the early 90s [@lord1998dawesville] as it is convenient as an indicator of water transportation relative to the time scales of nutrient inputs or biogeochemical processes. The flushing time is “a bulk or integrative parameter that describes the general exchange characteristics of a waterbody without identifying the underlying physical processes, the relative importance of those processes, or their spatial distribution” [@monsen2002comment], which can be numerically represented as [@sheldon2006calculation]:
+Water retention time in tidal lagoons is sometimes confusing because various definitions that are used (flushing time, water age, and residence time) [e.g., @monsen2002comment; @jouon2006calculations]. The flushing time is the most popular concept and has been used in many aquatic systems, including the PHE, in the early 90s [@lord1998dawesville] as it is convenient as an indicator of water transportation relative to the time scales of nutrient inputs or biogeochemical processes. The flushing time is “a bulk or integrative parameter that describes the general exchange characteristics of a waterbody without identifying the underlying physical processes, the relative importance of those processes, or their spatial distribution” [@monsen2002comment], which can be numerically represented as [@sheldon2006calculation]:
 :::
 
 $$
@@ -131,7 +180,7 @@ where $\tau_{f}$ is the bulk flushing time of the estuary, $V$ is the estuary vo
 
 Both the mean $\tau$ from the hydrodynamic model and the $\tau_{f}$ bulk approximation show significant reduction of retention time in summertime and wintertime due to the Cut opening (Fig. \@ref(fig:model-hydrology-pic7)). Yet the $\tau_{f}$ is about 5–50% lower than the average modelled water age in the Cut-closed scenarios and 68–82% lower in the Cut-open scenarios, indicating the seawater fluxes are considerably over-estimated with the bulk flushing time method, especially after the Cut construction. The flushing time method assumes the estuary is fully mixed as a box model, which is not the case given the shallow and complex morphometry of the PHE system. These changes suggest strong incomplete mixing of the ocean flushing, which results in a lower tidal exchange ratio [@sheldon2006calculation]. Therefore the concept of flushing time is not appropriate in this large shallow lagoon and heterogeneity in the water age distribution needs to be considered from the model results. It also has implications since incomplete mixing will lead to area-specific retention of nutrients, and therefore affect local biogeochemistry such as pelagic denitrification and P burial rates [@almrothrosell2016modelling].
 
-```{r model-hydrology-pic7, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Comparison of average water age ($\tau$) and bulk flushing time ($\tau_{f}$) in (a) summertime and (b) wintertime in the PHE."}
+```{r model-hydrology-pic7, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Comparison of average water age (τ) and bulk flushing time (τ~f~) in (a) Summer time and (b) Winter time in the PHE."}
 knitr::include_graphics("images/model_hydrology/picture7.webp")
 ```
 :::
@@ -141,7 +190,7 @@ knitr::include_graphics("images/model_hydrology/picture7.webp")
 ::: {.body-text width="100%"}
 Water retention is highly dynamic depending on seasonal flows, tidal conditions, and different regions of the estuary. The evolution of water age, $\tau$, over time has shown a general increase from 1970 to the present, superimposed on the effect of the Cut, however, with some considerable variation across the two lagoons (Fig. \@ref(fig:model-hydrology-pic8)). Firstly, wet season (winter and spring) conditions were more sensitive to the changes in the drying climate. In the “no-Cut” scenarios (assuming the artificial channel was not constructed), it was predicted that τ would have increased in the Peel Inlet from about 50 days in 1970 to nearly double in 2016 and increased from approximately 50 days in 1970 to nearly 150 days in 2016 in the Harvey Estuary, solely due to the drying climate trend. In contrast, the dry season (summer and autumn) conditions did not show as significant changes over time in most parts of the estuary, except in the south Harvey Estuary, which is furthest from the channels. These effects are masked by the effects of opening of the Cut, which had a prominent effect by reducing the $\tau$ by about 20–45 days in the Peel Inlet, and more profoundly by 50–100 days in the Harvey Estuary. Yet the drying climate has largely canceled out the flushing effect by the Cut on the water age in some regions. The increases in $\tau$ from 1998 to 2016, due to reduced inflows, are in the same magnitudes of that reduced by the Cut opening. For example, the Cut opening reduced the $\tau$ by 28 days in the west Peel Inlet in 1998, yet the $\tau$ increased by 27 days from 1998 to 2016 due to the reduced flows. Lastly, the Harvey Estuary was most influenced by the climate changes and the Cut opening. North Harvey Estuary, directly connected to the Cut, was most impacted by the Cut opening with the $\tau$ was reduced by more than 110 days. The south Harvey Estuary, which is furthest from both the channels, was more sensitive to climate change, showing greatest variation over the past decades.
 
-```{r model-hydrology-pic8, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Mean water retention time in east Peel Inlet, west Peel Inlet, north Harvey Estuary, and south Harvey Estuary (see Fig. 1 for their domain definition). The data were categorized into four seasons: spring (September, October, November), summer (December, January, February), autumn (March, April, May), and winter (June, July, August)."}
+```{r model-hydrology-pic8, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Mean water retention time in east Peel Inlet, west Peel Inlet, north Harvey Estuary, and south Harvey Estuary (see Fig. 3.1 for their domain definition). The data were categorized into four seasons: spring (September, October, November), summer (December, January, February), autumn (March, April, May), and winter (June, July, August)."}
 knitr::include_graphics("images/model_hydrology/picture8.webp")
 ```
 :::
@@ -155,15 +204,15 @@ Hypersalinity was often observed in summer and autumn in the Peel Inlet from bot
 
 The magnitude of salinity stratification (salinity difference between the bottom and surface water) in winter and spring has shown a declining trend with the drying climate, while the variations are small in summer and autumn (Fig. \@ref(fig:model-hydrology-pic11)). The opening of the Cut introduces more ocean water intrusion, which creates a stronger salt-stratification in the wet seasons when it interacts with the freshwater inflows. The salt-stratification in the Peel Inlet was enhanced by the Cut opening in the wet seasons but that has gradually diminished with the reduction if the inflows, and there is increasing stratification in wet season within the Murray River (Fig. \@ref(fig:model-hydrology-pic12)). The maximum mean salinity difference in spring time was over 10 psu in 1970, which then decreased to about 3 psu in 1998 and was mostly <1 psu in the 2060 projection scenario, indicating weaker stratification due to the reduced inflow. The Cut enhanced the stratification in the Harvey Estuary, especially the northern part, and it also has shown a declining trend with the reduction in inflows.
 
-```{r model-hydrology-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Same as Fig. 7, except for mean salinity evolution."}
+```{r model-hydrology-pic9, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Same as Fig. 3.7, except for mean salinity evolution."}
 knitr::include_graphics("images/model_hydrology/picture9.webp")
 ```
 
-```{r model-hydrology-pic10, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Maximum salinity recorded in March/April and the annual inflow in the hydrologic year (March to March) at 6 monitoring sites (see the site locations in Fig. 1)."}
+```{r model-hydrology-pic10, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Maximum salinity recorded in March/April and the annual inflow in the hydrologic year (March to March) at 6 monitoring sites (see the site locations in Fig. 3.1)."}
 knitr::include_graphics("images/model_hydrology/picture10.webp")
 ```
 
-```{r model-hydrology-pic11, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Same as Fig. 7, except for mean salinity-stratification."}
+```{r model-hydrology-pic11, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Same as Fig. 3.7, except for mean salinity-stratification."}
 knitr::include_graphics("images/model_hydrology/picture11.webp")
 ```
 
@@ -199,11 +248,20 @@ This chapter has sought to disentangle the effect of the recent climate change t
 ## Data availability
 
 ::: {.body-text width="100%"}
-Data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. The full set of model input files of the Peel-Harvey Estuary Response Model are archived in the [PHERM model repository folder](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Models/PHERM/Historical). To run the simulation requires the AED software package, available from @hipsey2022, and TUFLOW-FV, available from @wbm2023tuflowb.
+Meteorological and hydrological data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. This includes, the full set of model input files of the Peel-Harvey Estuary Response Model which are archived in the [PHERM model repository folder](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Models/PHERM/Historical). To run the simulation requires the AED software package [@hipsey2022], and TUFLOW-FV, available from @wbm2023tuflowb.
 :::
 
 ## Acknowledgements
 
 ::: {.body-text width="100%"}
-Some of the results presented in this chapter were published in Huang et al. (2020), to which readers are also referred.  We thank Dr. Jatin Kala and Dr. Julia Andrys for providing meteorological data from their Weather Research and Forecasting (WRF) model.
+Some of the results presented in this chapter were published in Huang et al. (2020), to which readers are also referred.  We thank Dr. Jatin Kala and Dr. Julia Andrys from Murdoch University for providing meteorological data from their Weather Research and Forecasting (WRF) model.
+:::
+
+
+<br>
+<br>
+<br>
+
+::: {.author-info width="100%"}
+Cover image: Aerial image of the Dawesville Cut. Image sourced from [Nearmap](nearmap.com).
 :::

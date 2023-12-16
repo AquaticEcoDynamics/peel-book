@@ -1,6 +1,6 @@
 # (PART)  Characterising the Environment {-} 
 
-# Modelling of the Peel-Harvey Catchment
+# Modelling of the Peel-Harvey Catchment {#catmodel}
 
 <!-- ::: {.title_matter width="100%"} -->
 <!-- [***Balancing estuarine and societal health in a changing environment***]{style="color:#5f543f"} -->
