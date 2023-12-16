@@ -3,7 +3,7 @@
 <br>
 
 ::: {.body-text width="100%"}
-The research presented in this document was generously supported by the Australian Research Council Linkage Program (LP150100451), together with our Industry Partners (Department of the Premier and Cabinet; Department of Water and Environmental Regulation; City of Mandurah; Shire of Murray; Peel-Harvey Catchment Council) and collaborating research institutions (Murdoch University; The University of Western Australia; Southern Cross University; University of Hull). We are indebted to our Industry Partners for their support, trust and engagement in this Linkage Project, not only during its funding period, but throughout the many prior discussions that helped shape its development and bring it to fruition. We extend a particular note of gratitude to the Peel-Harvey Catchment Council team for their support in organising and facilitating our many stakeholder meetings, and advocating for the research. We also acknowledge the Bindjareb people of the Noongar Nation as the Traditional Custodians of the land and waters on which this work was undertaken, and pay our respects to Elders past, present and emerging.
+The research presented in this document was generously supported by the Australian Research Council Linkage Program (LP150100451), together with our Industry Partners (Department of the Premier and Cabinet; Department of Water and Environmental Regulation; City of Mandurah; Shire of Murray; Peel-Harvey Catchment Council) and collaborating research institutions (Murdoch University; The University of Western Australia; Southern Cross University; University of Hull). We are indebted to our Partners for their support, trust and engagement in this Linkage Project, not only during its funding period, but throughout the many prior discussions that helped shape its development and bring it to fruition. We extend a particular note of gratitude to the Peel-Harvey Catchment Council team for their support in organising and  facilitating our many stakeholder meeting and advocating for the research. We also acknowledge the Bindjareb people of the Noongar Nation as the Traditional Custodians of the land and waters on which this work was undertaken, and pay our respects to Elders past, present and emerging.
 :::
 
 <br>
@@ -15,13 +15,18 @@ knitr::include_graphics("images/book/logoBanner.png")
 
 <br>
 
-```{r introduction-pic1, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Project investigators and industry partners at a workshop and tour hosted by the Peel-Harvey Catchment Council. Left to right – Bob Pond (Department of Water and Environmental Regulation-DWER); Peter Hick (Peel-Harvey Catchment Council-PHCC); Rob Summers (Department of Primary Industries and Regional Development-DPIRD/PHCC); Caroline Knight (City of Mandurah-CoM); Neil Carroll (CoM); Karl Hennig (DWER); Jan Star (PHCC); Chris Hallett (Murdoch University-MU); Frances D’Souza (DWER); Brett Brenchley (CoM); Steve Fisher (PHCC); Brad Eyre (Southern Cross University-SCU); Peta Kelsey (DWER); Dylan Pritchard (UWA); Kieryn Kilminster (DWER); Naomi Wells (SCU); Nancy Haddaden (UWA); Matt Hipsey (UWA); Fiona Valesini (MU); Peisheng Huang (UWA); Brett Flugge (Shire of Murray); Jane O’Malley (PHCC); Mustefa Reshid (SCU). Image courtesy of Peel-Harvey Catchment Council."}
+```{r introduction-pic1, echo = FALSE, out.width='100%', class = "text-image"}
 knitr::include_graphics("images/introduction/picture1.webp")
 ```
 
 
 <br>
 
+
+::: {.author-info width="100%"}
+Project investigators and partners at a workshop and tour hosted by the *Peel-Harvey Catchment Council*. Left to right – Bob Pond (Department of Water and Environmental Regulation-DWER); Peter Hick (Peel-Harvey Catchment Council-PHCC); Rob Summers (Department of Primary Industries and Regional Development-DPIRD/PHCC); Caroline Knight (City of Mandurah-CoM); Neil Carroll (CoM); Karl Hennig (DWER); Jan Star (PHCC); Chris Hallett (Murdoch University-MU); Frances D’Souza (DWER); Brett Brenchley (CoM); Steve Fisher (PHCC); Brad Eyre (Southern Cross University-SCU); Peta Kelsey (DWER); Dylan Pritchard (UWA); Kieryn Kilminster (DWER); Naomi Wells (SCU); Nancy Haddaden (UWA); Matt Hipsey (UWA); Fiona Valesini (MU); Peisheng Huang (UWA); Brett Flugge (Shire of Murray); Jane O’Malley (PHCC); Mustefa Reshid (SCU). Image courtesy of Peel-Harvey Catchment Council.
 :::
+
+<br>
 
 

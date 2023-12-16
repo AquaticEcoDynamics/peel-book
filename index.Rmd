@@ -36,17 +36,28 @@ knitr::knit_hooks$set(class = function(before, options, envir) {
 
 ## Welcome {-}
 
-<img src="images/book/cover1.png" class="cover" width="384" height="600"/> This is an online version of *Balancing estuarine and societal health in a changing environment* book, a summary of inter-disciplinary research studies completed as part of an Australian Research Council (ARC) project focused on the [Peel-Harvey Estuary](https://en.wikipedia.org/wiki/Peel-Harvey_Estuarine_System) and it's community, located in Western Australia. 
+<img src="images/book/cover1.png" class="cover" width="384" height="600"/> This online book entitled *Balancing estuarine and societal health in a changing environment*, is a summary of inter-disciplinary research studies completed as part of an Australian Research Council (ARC) project (LP15010045) focused on the [Peel-Harvey Estuary](https://en.wikipedia.org/wiki/Peel-Harvey_Estuarine_System) and it's community, located in south-western Australia. 
 
-Undertaken from 2016 to 2019, the research sought to develop an evidence-based approach to understand the links and trade-offs between regional catchment development (economic resilience) and the health of the receiving estuary (environmental and ecological resilience). Given the Peel-Harvey’s particular history of fundamental ecosystem shifts through both chronic decline and an acute engineered ‘recovery,’ combined with its current and forecast climate and development stressors, there has been an urgent need for a holistic view of this important socio-ecological system.
+Undertaken from 2016 to 2019, this research sought to develop an evidence-based approach to understand the links and trade-offs between regional catchment development scenarios (economic resilience) and the health of the receiving estuary (environmental and ecological resilience). Given the Peel-Harvey’s particular history of fundamental ecosystem shifts through both chronic decline and an acute engineered ‘recovery,’ combined with its current and forecast climate and development stressors, there is an urgent need for a holistic view of this important socio-ecological system.
 
-This book summarises a series of ten studies that together document the changing environmental conditions, ecosystem character and socio-economic priorities of the system, and provides insight into possible future trajectories that can be used to inform sustainable development. 
+This book summarises a series of ten studies that together document the changing environmental conditions, ecosystem character and socio-economic priorities of the catchment-estuary system, and provides insight into possible future trajectories that can be used to inform sustainable development for better coastal futures. 
+
+
+
 
 # <u>i</u> About {-}
 
 <br>
 
-This work was first published by the The University of Western Australia on XX^th^ December, 2023.
+```{r about-pic0, echo = FALSE, out.width='100%', class = "text-image"}
+knitr::include_graphics("images/photos/CH0.1 Wetlands.jpg")
+```
+
+
+<br>
+
+
+This work was first published by the The University of Western Australia on 20^th^ December, 2023.
 
 **ISBN**: 978-1-74052-939-6
 
@@ -56,19 +67,19 @@ This work was first published by the The University of Western Australia on XX^t
 
 Please cite this edited book as: 
 
-> <small>Valesini, F., Hipsey, M. R., Cronin O’Reilly, S., & Huang, P. (Eds.) (2023).*Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia*. The University of Western Australia. https://doi.org/10.26182/ymst-gz83.
+> <small>Valesini, F., Hipsey, M. R., Cronin O’Reilly, S., & Huang, P. (Eds.) (2023). *Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia*. The University of Western Australia. https://doi.org/10.26182/ymst-gz83.
 </small>
 
-If you would like to cite an individual chapter of this book, please use this format (example given here for Chapter X): 
+If you would like to cite an individual chapter of this book, please use this format (example given here for Chapter 9): 
 
-> <small>Hipsey, M.R. and P. Huang. (2023) XXXXXX. <u>In</u>:  Valesini, F., Hipsey, M. R., Cronin O’Reilly, S., & Huang, P. (Eds.) (2023). Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia. The University of Western Australia.  https://doi.org/10.26182/ymst-gz83.</small>
+> <small>Hallett, C.S., Valesini, F. and Yeoh, D. (2023) Assessing the health of the Peel-Harvey Estuary through its fish communities <u>In</u>:  Valesini, F., Hipsey, M. R., Cronin O’Reilly, S., & Huang, P. (Eds.) (2023). *Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia*. The University of Western Australia.  https://doi.org/10.26182/ymst-gz83.</small>
 
 
 ## Accompanying data assets {-}
 
-The work contained herein served to compile a diverse data-set spanning many disciplines, decades, and data-types. In the spirit of fostering future continuation of the analyses, and uptake of the model tools developed in this work, the book includes an accompanying data asset with digital object identifier (DOI). Specific chapters explain aspects of the data and model tools. Users of the data-set and models can use the following citation:
+The work contained herein served to compile a diverse data set spanning many disciplines, decades, and data-types. In the spirit of fostering future continuation of the analyses, and uptake of the model tools developed in this work, the book includes an accompanying data asset with a digital object identifier (DOI). Specific chapters explain aspects of the data and model tools. Users of the data-set and models can use the following citation:
 
-> <small> .........  https://doi.org/10.26182/ymst-gz83.</small>
+> <small>Busch, B., Hipsey, M.R., Huang, P., others, 2023. AquaticEcoDynamics/peel_ARC: Data, model & document repository [dataset]. https://doi.org/https://doi.org/10.5281/zenodo.**********</small>
 
 
 ## Copyright and license {-}
@@ -78,6 +89,14 @@ The work contained herein served to compile a diverse data-set spanning many dis
 
 The model and data sets associated with this book are licensed under [Creative Commons CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/), i.e. public domain, unless otherwise identified.
 
+
 <br>
+<br>
+<br>
+
+::: {.author-info width="100%"}
+Front Cover Image: Murdoch University researchers sampling the fish faunas of the Peel-Harvey Estuary to assess ecological health status. Image above: Wetlands within the Peel-Harvey Ramsar site. Images courtesy of *Peel-Harvey Catchment Council*
+:::
+
 
 

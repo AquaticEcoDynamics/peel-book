@@ -1,4 +1,3 @@
-fig:introduction-pic1
 fig:summary-pic3
 fig:summary-pic6
 fig:summary-pic9

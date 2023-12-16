@@ -2,6 +2,13 @@
 
 <br>
 
+```{r pref-pic0, echo = FALSE, out.width='100%', class = "text-image"}
+knitr::include_graphics("images/photos/CH0.2 Channel.jpg")
+```
+
+
+<br>
+
 ::: {.body-text width="100%"}
 Whatever way we choose to look at it, or words we might choose to describe it, it is a global truth that the health of people is inseparably linked to that of their environment. 
 
@@ -9,9 +16,9 @@ There are fewer places where this foundational relationship is more apparent, an
 
 The central thesis of this book aims to advance understanding of this fundamental question, working within the context of the largest estuarine system in south-western Australia, the Peel-Harvey. For reasons outlined in the following chapters, there are many reasons why this vast catchment-estuarine system makes an excellent case study for this purpose.
 
-The work we have collated here grew from a desire to understand more about the linkages that drive an estuarine-catchment system, originally from an environmental-ecological perspective which then evolved to include another fundamental component of the ecosystem – it’s people. Through making and modelling those links, conceptually then quantitatively, our intent became one of how we might get better at forecasting potential futures and what we could do differently now to steer towards a future we want, rather than staying a on a path we got better at understanding but did too little about.
+The work we have collated here grew from a desire to understand more about the linkages that drive an estuarine-catchment system, originally from an environmental-ecological perspective which then evolved to include another fundamental component of the ecosystem – it’s people. Through making and modelling those links, conceptually then quantitatively, our intent became one of how we might get better at forecasting potential futures and what we could do differently now to steer towards a future we want, rather than staying on a path we got better at understanding but did too little about.
 
-To this end, the following document, which embodies a series of interconnected yet stand-alone studies as individual chapters, has been organised into the following sections that represent our journey throughout this three-year research project. Following an overarching synthesis, the first section on Characterising the Environment unpacks the development of a sophisticated catchment-estuary model and the data, existing and new, needed to build and validate this central framework. From the depths of the estuarine sediment to the dynamics and chemistry of its overlying water - including tracing the catchment origins, pathways and destination of nutrients in the receiving estuary - we spent considerable time and effort attempting to recreate the complex environmental functioning of the Peel-Harvey, both for the present and over its checkered history since the 1970s. The section on Estuarine Ecological Health then delves into fundamental ecological components from the benthic to pelagic, spanning in-depth studies from the 1970s to the present on the Peel-Harvey’s seagrass and macroalgal communities, benthic infauna and fish fauna. Importantly, these ecological studies endeavored to not simply report changes in community composition over space and time, but to synthesise key signals of their structural and functional health into simple ‘report-card’ grades that were then linked to environmental drivers. The Economic Health section focused on building an economic model for the Peel-Harvey and characterizing the ability of the region to create jobs locally and specialise economically. And finally, we sought in the Decision Support System and 2050 Scenarios section to integrate all of the above into a predictive framework for exploring the consequences on both ecological and economic resilience of particular catchment development and management decisions, both under current climate conditions and those anticipated for the region in 2050. Our local partners and stakeholders crafted the future scenarios they most wanted to understand for this vast ecosystem as we developed this final part of our research.
+To this end, the following document, which embodies a series of interconnected yet stand-alone studies as individual chapters, has been organised into the following sections that represent our journey throughout this three-year research project. Following an overarching synthesis, the first section on *Characterising the Environment* unpacks the development of a sophisticated catchment-estuary model and the data, existing and new, needed to build and validate this central framework. From the depths of the estuarine sediment to the dynamics and chemistry of its overlying water - including tracing the catchment origins, pathways and destination of nutrients in the receiving estuary - we spent considerable time and effort attempting to recreate the complex environmental functioning of the Peel-Harvey, both for the present and over its checkered history since the 1970s. The section on *Estuarine Ecological Health* then delves into fundamental ecological components from the benthic to pelagic, spanning in-depth studies from the 1970s to the present on the Peel-Harvey’s seagrass and macroalgal communities, benthic infauna and fish fauna. Importantly, these ecological studies endeavored to not simply report changes in community composition over space and time, but to synthesise key signals of their structural and functional health into simple ‘report-card’ grades that were then linked to environmental drivers. The *Economic Health* section focused on building an economic model for the Peel-Harvey and characterizing the ability of the region to create jobs locally and specialise economically. And finally, we sought in the *Peel-Harvey Futures* section to integrate all of the above into a predictive framework for exploring the consequences on both ecological and economic resilience of particular catchment development and management decisions, both under current climate conditions and those anticipated for the region in 2050. Our local partners and stakeholders crafted the future scenarios they most wanted to understand for this vast ecosystem as we developed this final part of our research.
 
 This ambitious project certainly challenged us along the way. The diversity of disciplines and sectors it encompassed brought rich perspectives and vast capability, but also language barriers and ideological differences that needed to be navigated towards common ground. Data richness in some areas belied patchy or non-existent data in others, leading to innovations to sensibly deal with these data gaps or compromises where solutions could not be found. And more broadly, the difficulty of using data snapshots to capture enough of the complexity of these environments to reliably model their socio-ecological functions has since driven new innovations in other systems beyond this project, but which have borrowed heavily from the work we developed here.
 
@@ -23,9 +30,15 @@ Finally, this collation of inter-linked studies is not intended as a finished pr
 **Sorcha Cronin O'Reilly**, *Murdoch University* <br>
 **Peisheng Huang**, *The University of Western Australia* <br>
 <small>Perth, Australia</small> <br>
-<small>December 10, 2023</small>
+<small>December 20, 2023</small>
 
 <br>
+<br>
+<br>
+
+::: {.author-info width="100%"}
+Cover image courtesy of *Peel-Harvey Catchment Council*.
+:::
 
 
 # <u>iii</u>  Editors Note {-}
