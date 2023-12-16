@@ -126,6 +126,7 @@ fig:fish-ecology-pic18
 tab:fishmonit
 fig:fish-ecology-pic19
 tab:fishmonit2
+fig:economic-competitiveness-pic1
 fig:economic-competitiveness-pic2
 fig:economic-competitiveness-pic3
 fig:economic-competitiveness-pic4
@@ -313,11 +314,13 @@ abstract-8
 introduction-8
 objectives-8
 approach-8
+understanding-local-competitiveness-and-comparative-advantage
 local-competitive-advantage-the-ability-to-create-jobs-locally
 comparative-advantage-local-economic-specialization-and-interregional-trade-patterns
 classifying-industrial-activities
 results-findings-9
 conclusions-8
+data-availability-supplementary-materials-3
 healthscenarios
 abstract-9
 introduction-9
@@ -338,5 +341,5 @@ estuary-health-trajectories
 economic-resilience
 balancing-trade-offs-between-economic-and-environmental-health
 conclusions-9
-data-availability-supplementary-materials-3
+data-availability-supplementary-materials-4
 acknowledgements-8
