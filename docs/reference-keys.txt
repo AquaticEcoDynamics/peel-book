@@ -91,7 +91,6 @@ fig:macrophytes-pic16
 fig:macrophytes-pic17
 fig:BMI-pic3
 fig:BMI-pic4
-fig:BMI-pic5
 tab:bmised
 fig:BMI-pic6
 tab:bmiebci
@@ -106,6 +105,7 @@ fig:BMI-pic14
 fig:BMI-pic15
 fig:BMI-pic16
 fig:BMI-pic17
+tab:bmimon
 fig:fish-ecology-pic3
 fig:fish-ecology-pic4
 tab:fishdata
@@ -285,7 +285,7 @@ results-findings-7
 conclusions-6
 data-availability-supplementary-materials-1
 acknowledgements-6
-assessing-the-health-of-the-peel-harvey-estuary-through-its-fish-communities
+fish
 abstract-7
 introduction-7
 objectives-7
