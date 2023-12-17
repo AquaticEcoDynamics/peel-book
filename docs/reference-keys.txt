@@ -62,8 +62,8 @@ fig:isotopes-pic15
 fig:isotopes-pic16
 fig:isotopes-pic17
 fig:isotopes-pic18
-fig:sediment-pic2
 fig:sediment-pic3
+tab:sedrap
 fig:sediment-pic4
 fig:sediment-pic5
 fig:sediment-pic6
@@ -73,6 +73,7 @@ fig:sediment-pic9
 fig:sediment-pic10
 fig:sediment-pic11
 fig:sediment-pic12
+tab:sedmon
 fig:sediment-pic13
 fig:macrophytes-pic2
 fig:macrophytes-pic3
@@ -211,7 +212,7 @@ maximum-phytoplankton-biomass-response
 conclusions-2
 phermdata
 acknowledgements-2
-the-what-where-when-and-why-of-nutrient-transport-to-the-peel-harvey-estuary
+iso
 abstract-3
 introduction-3
 objectives-3
@@ -252,7 +253,7 @@ results-findings-5
 evaluating-the-rapid-assessment-protocol-for-sediment-condition
 identifying-zones-of-chronic-vs-acute-nutrient-enrichment-via-sediment-isotopes
 conclusions-4
-data-availability-2
+data-availability-and-supplementary-materials
 acknowledgements-4
 macrophytes
 abstract-5
@@ -270,7 +271,7 @@ results-findings-6
 long-term-19782018-trends-in-macrophyte-communities-and-their-drivers-1
 current-trends-in-macroalgae-and-seagrass-species-composition-201718
 conclusions-5
-data-availability-3
+data-availability-2
 acknowledgements-5
 bmi
 abstract-6
