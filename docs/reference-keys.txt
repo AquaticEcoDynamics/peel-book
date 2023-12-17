@@ -27,6 +27,7 @@ fig:model-hydrology-pic12
 fig:model-hydrology-pic13
 fig:model-hydrology-pic14
 fig:model-water-quality-pic2
+tab:modelvar
 fig:model-water-quality-pic3
 fig:model-water-quality-pic4
 fig:model-water-quality-pic5
@@ -210,7 +211,7 @@ tn-and-tp-response
 oxygen-response
 maximum-phytoplankton-biomass-response
 conclusions-2
-data-availability-1
+phermdata
 acknowledgements-2
 the-what-where-when-and-why-of-nutrient-transport-to-the-peel-harvey-estuary
 abstract-3
@@ -238,7 +239,7 @@ sources-1
 processes
 why-both-natural-streams-and-artificial-drains-remove-significant-quantities-of-nitrogen-during-transport-towards-the-estuary
 conclusions-3
-data-availability-2
+data-availability-1
 acknowledgements-3
 sediment
 abstract-4
@@ -254,7 +255,7 @@ results-findings-5
 evaluating-the-rapid-assessment-protocol-for-sediment-condition
 identifying-zones-of-chronic-vs-acute-nutrient-enrichment-via-sediment-isotopes
 conclusions-4
-data-availability-3
+data-availability-2
 acknowledgements-4
 macrophytes
 abstract-5
@@ -272,7 +273,7 @@ results-findings-6
 long-term-19782018-trends-in-macrophyte-communities-and-their-drivers-1
 current-trends-in-macroalgae-and-seagrass-species-composition-201718
 conclusions-5
-data-availability-4
+data-availability-3
 acknowledgements-5
 bmi
 abstract-6

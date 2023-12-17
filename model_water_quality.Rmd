@@ -20,6 +20,7 @@ knitr::include_graphics("images/model_water_quality/picture1.webp")
 
 ```
 
+<br>
 
 ## Abstract
 
@@ -27,21 +28,21 @@ knitr::include_graphics("images/model_water_quality/picture1.webp")
 Long-term monitoring data (from 1970 to 2018) and 3D modelling investigations (of selected years from 1979 to 2018) were integrated to study changes in the water quality and nutrient budgets within the Peel-Harvey Estuary (PHE) in response to varied environmental stressors, including catchment loading, a drying climate trend, and the Dawesville Cut construction. The results showed that (1) there was a declining trend of nutrient inputs from the catchment into the PHE, driven by a reduction in flows and nutrient management measures in the catchment; (2) the role of the PHE system in filtering catchment nutrient inputs has changed due to the opening of the Dawesville Cut (e.g., addition of the Cut on average improved the TN export from 50% to 71%, and TP export from 31% to 49% of annual catchment loading, and the nutrient export via the Cut is about 2–3 times of that through the Mandurah Channel); (3) the PHE system has a significant spatial heterogeneity in water quality in response to catchment loading; (4) the estuary response model well reproduced the nutrient pools and water quality evolution in PHE especially in the post-Cut period, suggesting in its current form it is suitable for assessing management scenarios associated with nutrient load management or climate change; and (5) estuary response functions were developed to simplify models and showed locations near the channels are less sensitive to the catchment inputs, as well as that the Harvey Estuary displays a stronger salinity and phytoplankton biomass response to the catchment inputs compared to the Peel Inlet.
 
 **Key findings:**
-:::
+
 
 -   A reconstruction of nutrient loads over time, including relative nutrient species partitioning, has shown the long-term reduction in load, but relative stability in flow-weighted inflow concentrations.
 -   Continual changes in water quality have occurred in the estuary over time, including following the Cut and as well as a long-term response following the reduced flows.
--   The high-resolution Peel-Harvey Estuary Response Model has been able to capture water quality variability across regions from rivers to lagoons and channels.
+-   The high-resolution *Peel-Harvey Estuary Response Model* has been able to capture water quality variability across regions from rivers to lagoons and channels.
 -   The model has allowed the reconstruction of spatiotemporal variability in key water quality attributes and processes impacting the nutrient load partitioning within the estuary.
 -   Zonal budgets were undertaken to identify local controls on carbon and nutrient metabolism, and to determine how these respond to changes in flow and catchment loading.
 -   The pattern of retention and export has changed over time, following the Cut in particular, but recent changes also due to the reduced inflows.
 -   The amount of retention is dependent on annual flow, and therefore maybe sensitive to forecast projections due to drying climate.
-
+:::
 
 ## Introduction
 
 ::: {.body-text width="100%"}
-The Peel-Harvey Estuary (PHE) system, located within the south-west Australian region, is surrounded by a large catchment of ~11,940 km2 [@kelsey2011hydrological], including the coastal city of Mandurah which is one of the fastest growing cities in the state. Like many other urban estuaries and coastal embayments around the world [@eyre205regional; @howarth2006nitrogen; @howarth2011coupled; @cloern2017ecosystem; @greening2014ecosystem], the PHE received excessive anthropogenic nutrient loading from the catchment and has exhibited signs of environmental stress due to eutrophication, such as fish kills, cyanobacteria and other algal blooms [@potter181decadal; @valesini2019peelharvey]. The severity of eutrophication in PHE led to the construction of an artificial channel, termed the “Dawesville Cut” (hereafter referred as “the Cut”), in 1994, with the purpose of enhancing ocean flushing therefore reducing nutrient levels within the estuary. Monitoring data has shown that the Cut was effective in reducing the water nutrient and phytoplankton concentrations [@brearley2005ernest], however, the PHE system is still under stress of catchment development and climate change. The population in Mandurah had increased more than double from 2006 to 2016 [@abs2018census]. At the same time, the Peel region experienced a drying climate followed by a rapid decline in runoff to the estuary [@silberstein2012; @valesini2019peelharvey]. While the changing status of the PHE ecosystem has been reported through analysis of water quality monitoring and ecological survey data [e.g. @brearley2005ernest; @pedretti2011snapshot; @johnston2014assessment; @valesini2019peelharvey; @hallett2012development], there remains uncertainty as to how the water quality changes have occurred in response to the varied environmental stresses the system has experienced. The changing hydrological patterns experienced by the system [@huang2019changing] has implications for the rates of nutrient retention and cycling, and manifestation of poor water quality (e.g. hypoxia, algal blooms).
+The Peel-Harvey Estuary (PHE) system, located within the south-west Australian region, is surrounded by a large catchment of ~11,940 km2 [@kelsey2011hydrological], including the coastal city of Mandurah which is one of the fastest growing cities in the state. Like many other urban estuaries and coastal embayments around the world [@eyre205regional; @howarth2006nitrogen; @howarth2011coupled; @cloern2017ecosystem; @greening2014ecosystem], the PHE received excessive anthropogenic nutrient loading from the catchment and has exhibited signs of environmental stress due to eutrophication, such as fish kills, cyanobacteria and other algal blooms [@potter181decadal; @valesini2019peelharvey]. The severity of eutrophication in PHE led to the construction of an artificial channel, termed the “Dawesville Cut” (hereafter referred as “the Cut”), in 1994, with the purpose of enhancing ocean flushing therefore reducing nutrient levels within the estuary. Monitoring data has shown that the Cut was effective in reducing the water nutrient and phytoplankton concentrations [@brearley2005ernest], however, the PHE system is still under stress of catchment development and climate change. The population in Mandurah had increased more than double from 2006 to 2016 [@abs2018census]. At the same time, the Peel region experienced a drying climate followed by a rapid decline in runoff to the estuary [@silberstein2012; @valesini2019peelharvey]. While the changing status of the PHE ecosystem has been reported through analysis of water quality monitoring and ecological survey data [e.g. @brearley2005ernest; @pedretti2011snapshot; @johnston2014assessment; @valesini2019peelharvey; @hallett2012development], there remains uncertainty as to how the water quality changes have occurred in response to the varied environmental stresses the system has experienced. The changing hydrological patterns experienced by the system (Chapter \@ref(model-hydrology)) has implications for the rates of nutrient retention and cycling, and manifestation of poor water quality (e.g. hypoxia, algal blooms).
 
 The need to effectively balance the water quality status with development opportunities to support economic and societal growth in the PHE region confronts managers as a ‘wicked problem’, and requires knowledge of the past and present state of the estuarine condition and an understanding of how it will responds to environmental stresses [@barnard201510tenets; @patterson2013understanding]. Water quality response models, integrated with the long term monitoring data, are particularly useful in this regard by linking hydrologic changes (e.g. changing water retention and flushing) with nutrient loading and in-estuary biogeochemical transformations, thereby allowing nutrient budgeting and regional water quality risk assessment [@huang199integrated]. The development of response models are also essential tools to support long-term and complex land-use planning decisions, climate change scenarios, and restoration measures [@hipsey2015predicting; @janssen2015exploring; @honti2017can]. To date, there has been no estuarine response model for the PHE, and therefore uncertainty as to how the system is responding to large scale changes in hydrology and catchment management.
 :::
@@ -72,7 +73,7 @@ knitr::include_graphics("images/model_water_quality/picture2.webp")
 ### The Peel Harvey Estuary Response Model (PHERM)
 
 ::: {.body-text width="100%"}
-An estuary water quality response model was developed to gain insights into the nutrient budgeting and regional water quality response to changing environmental inputs. The water quality response model consists of a 3D hydrodynamic model TUFLOW-FV (as described in @huang2019changing), which is dynamically coupled with the AED2 water quality model to simulate the nutrient cycling and key biogeochemical processes [@hipsey2022]. The AED2 water quality modules were configured to simulate the C, N, P, and DO budgets, including resolving the inorganic nutrients and organic matter fractions, and primary production (Table 1; Fig. \@ref(fig:model-water-quality-pic2)). Spatial variation and sediment quality and benthic properties (including biomass of seagrass, macroalgae and bivalves) was also included.
+An estuary water quality response model was developed to gain insights into the nutrient budgeting and regional water quality response to changing environmental inputs. The water quality response model consists of a 3D hydrodynamic model TUFLOW-FV (as described in @huang2019changing), which is dynamically coupled with the AED water quality model to simulate the nutrient cycling and key biogeochemical processes [@hipsey2022]. The AED water quality modules were configured to simulate the C, N, P, and DO budgets, including resolving the inorganic nutrients and organic matter fractions, and primary production (Table \@ref(tab:modelvar); Fig. \@ref(fig:model-water-quality-pic2)). Spatial variation in variables describing sediment quality and benthic properties (including biomass of seagrass, macroalgae and bivalves) was also included.
 
 Key modelled chemical and biological processes include:
 :::
@@ -86,15 +87,33 @@ Key modelled chemical and biological processes include:
 -   Feedback of chemical or biological attributes to physical properties of water (light extinction, drag, density)
 
 ::: {.body-text width="100%"}
-For more details of the AED model and its numerical methods the readers are referred to the AED science manual [@hipsey2022].
+For more details of the AED model algorithms and numerical methods readers are referred to the AED science manual [@hipsey2022].
 
-The model domain, mesh, and hydrodynamic settings (weather forcing, tide and inflows) in PHERM were updated from that presented in [@huang2019changing] to have improved resolution in selected areas of interest after consulting stakeholders. The sediment was separated into 24 zones based on their properties (sand/silt composition and N/P contents) based on the survey data presented in [@hallett2019sediment]. Water quality in the inflow waters were set based on the raw or daily infilled data from WIR, or from the catchment model [@hennig2023peel] where no gauged data was available.
+<br>
 
-The final version, PHERM v11, was run for 16 selected years from 1979 to 2017, including 6 years in the pre-Cut period and 10 years in the post-Cut period, spanning a range of hydrologic conditions for each. Model parameters were set initially in accordance with settings used in similar systems [@bruce2014hydrodynamic; @huang199integrated], but were then adjusted based on detailed comparisons with field data through a process or error assessment. All available data was compiled into 24 Estuary Response Zones (ERZs) and used to identify calibration issues specific to different regions (e.g. rivers vs lagoons). Generally, the model parameter-set was common across all simulations.
+```{r modelvar, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+  Diff_tab <- read_xlsx('tables/peel_tables_model.xlsx', sheet="modelvar")
+  kbl(Diff_tab[,1:4], caption = "Summary of monitored variables in various data sources that were used to inform,configure and validate the PHERM setup.", align = "c" ,) %>%
+    kable_classic(full_width = T) %>%
+    kable_styling(full_width = T,font_size = 10, bootstrap_options = c("hover", "condensed")) %>%
+    row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+    column_spec(1, width_min = "10em" ,color="black",bold = T) %>%
+    scroll_box(width = "40em",fixed_thead = FALSE)
+```
+
+<br>
+
+The model domain, mesh, and hydrodynamic settings (weather forcing, tide and inflows) in PHERM were updated from that presented in Chapter \@ref(model-hydrology) to have improved resolution in selected areas of interest after consulting stakeholders. The sediment was separated into 24 zones based on their properties (sand/silt composition and N/P contents) based on the survey data presented in Chapter \@ref(sediment). Water quality in the inflow waters were set based on the raw or daily infilled data from WIR, or from the catchment model (Chapter \@ref(catmodel)) where no gauged data was available.
+
+The final version, PHERM v11, was run for 16 selected years from 1979 to 2017, including 6 years in the pre-Cut period and 10 years in the post-Cut period, spanning a range of hydrologic conditions for each. Model parameters were set initially in accordance with settings used in similar systems [@bruce2014hydrodynamic; @huang199integrated], but were then adjusted based on detailed comparisons with field data through a process or error assessment. All available data was compiled into 24 Estuary Response Zones (ERZs) and used to identify calibration issues specific to different regions (e.g., rivers vs lagoons). Generally, the model parameter-set was common across all simulations.
 
 The models output all variables across the domain at 2-hourly internals for each of the 16 annual simulations, and these were also used for nutrient budgeting at the estuary scale, and also in each ERZ. The resultant predictions were also used to develop simpler Estuary Response Functions (ERFs) to illustrate typical patterns of water quality response to flow and nutrient input in different areas of the system.
 
-```{r model-water-quality-pic3, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "AED water quality model diagram summarising interactions captured with the PHERM."}
+```{r model-water-quality-pic3, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "AED water quality model diagram summarising interactions captured with the PHERM simulations."}
 knitr::include_graphics("images/model_water_quality/picture3.webp")
 ```
 :::
@@ -124,7 +143,7 @@ knitr::include_graphics("images/model_water_quality/picture5.webp")
 ### PHERM performance in reconstructing the water quality changes
 
 ::: {.body-text width="100%"}
-The performance of PHE water quality response model in reproducing the estuary states was extensively assessed against data from the regular monitoring sites and also event-based monitoring data, for all simulated water quality attributes (water temperature, salinity, oxygen (DO), total chlorophyll-a (TCHLA), TN, TP, turbidity, ammonium, nitrate, phosphate), and where possible surface and bottom values were individually assessed. The model validation were categorized into ‘site validation’ where the model results were validated against site measurement, and ‘estuary response validation’ where higher level trends in ecosystem response between the model and monitoring data were compared. Validation summaries at site are presented below relevant to nutrients, DO, and TCHLA. Full validation results are archived and can be viewed online through the [project data-report database](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Data).
+The performance of PHE water quality response model in reproducing the estuary states was extensively assessed against data from the regular monitoring sites and also event-based monitoring data, for all simulated water quality attributes (water temperature, salinity, oxygen (DO), total chlorophyll-a (TCHLA), TN, TP, turbidity, ammonium, nitrate, phosphate), and where possible surface and bottom values were individually assessed. The model validation were categorized into ‘site validation’ where the model results were validated against site measurement, and ‘estuary response validation’ where higher level trends in ecosystem response between the model and monitoring data were compared. Validation summaries at site are presented below relevant to nutrients, DO, and TCHLA. Full validation results are archived and can be viewed online through the [online data repository](phermdata).
 
 Site validation examples are shown in Figs. \@ref(fig:model-water-quality-pic6) and \@ref(fig:model-water-quality-pic7) for PH1 (center of Harvey Estuary) and site PH7 (center of Peel Inlet), respectively. The model was able to accurately reproduce salinity and temperature in the estuary, and captured well the variations in dissolved oxygen and variation the nutrient pools such as TN and TP, though some over-prediction was occurring in the nutrient pools in the latter years. The model performance is further illustrated in Fig. \@ref(fig:model-water-quality-pic8) where monthly changes in water quality are aggregated to pre- and post-Cut periods and compared to monitoring data. The model well re-produced the seasonal variations in salinity, temperature, and nutrient levels, especially in the post-Cut period. In the pre-Cut period, the model under-predicted the salinity and nutrient concentrations, possibly due to the poor boundary condition setting in these periods when the quantity and quality of weather and catchment forcing were poor and were subject to numerous in-filling assumptions. However, the monthly-mean and deviation in the post-Cut period from the model output well matched the monitoring data. More importantly, the model response of key water attributes to the environmental inputs are close to the observational data (Fig. \@ref(fig:model-water-quality-pic9)), suggesting that in its present form, the model is suitable for assessing management scenarios associated with nutrient load management or climate change.
 
@@ -160,7 +179,7 @@ knitr::include_graphics("images/model_water_quality/picture10.webp")
 knitr::include_graphics("images/model_water_quality/picture11.webp")
 ```
 
-The effect of the Cut construction on the water transportation is further illustrated in Fig. \@ref(fig:model-water-quality-pic12), which shows the TN/TP fluxes transported through interior transects within the PHE. In a selected pre-Cut hydrologic year, about 40% of TN and 27% of TP was exported to ocean. Much of the nutrients entering from the Harvey River were retained in the Harvey Estuary, due to the poor flushing in this region at this time. In a post-Cut year (2016) however, over 70% of nutrients from the Harvey River were exported out of the Harvey Estuary region. This result matches the analysis of the water retention in the hydrology analysis by [@huang2019changing] that the Cut-opening effectively improved the flushing effect, especially in the Harvey Estuary, therefore notably reducing the nutrient levels.
+The effect of the Cut construction on the water transportation is further illustrated in Fig. \@ref(fig:model-water-quality-pic12), which shows the TN/TP fluxes transported through interior transects within the PHE. In a selected pre-Cut hydrologic year, about 40% of TN and 27% of TP was exported to ocean. Much of the nutrients entering from the Harvey River were retained in the Harvey Estuary, due to the poor flushing in this region at this time. In a post-Cut year (2016) however, over 70% of nutrients from the Harvey River were exported out of the Harvey Estuary region. This results are consistent with analysis of the water retention in Chapter \@ref(model-hydrology), that the Cut-opening effectively improved the flushing and exchange, especially in the Harvey Estuary, therefore notably reducing the nutrient levels.
 
 ```{r model-water-quality-pic12, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "Whole estuary view of annual TN/TP fluxes transported by currents through the system comparing 1979 (left) and 2016 (right). The size of the arrow indicates the flux rates relative to the inputs. Note the large Murray River in put in the 2016 hydrologic year is attributable to the Feb 2017 summer flood event."}
 knitr::include_graphics("images/model_water_quality/picture12.webp")
@@ -176,7 +195,7 @@ knitr::include_graphics("images/model_water_quality/picture13.webp")
 ### Regional water quality response to catchment inputs
 
 ::: {.body-text width="100%"}
-PHE presents high heterogeneity in the distributions of both hydrology such as salinity and water retention time (see [@huang2019changing] for the hydrology analysis), and for water quality attributes making it difficult to make broad statements about water quality response to changing conditions. It is therefore warranted to undertake a “regional” analysis of local water quality changes to catchment inputs, in addition to the whole estuary nutrient budgeting and water quality analysis described above. This approach breaks the system into Estuary Response Zones and seeks to identify how water quality in (selected) zones is impacted by changing environmental drivers.
+PHE presents high heterogeneity in the distributions of both hydrology such as salinity and water retention time (see Chapter @\ref(model-hydrology) for the hydrology analysis), and for water quality attributes making it difficult to make broad statements about water quality response to changing conditions. It is therefore warranted to undertake a “regional” analysis of local water quality changes to catchment inputs, in addition to the whole estuary nutrient budgeting and water quality analysis described above. This approach breaks the system into Estuary Response Zones and seeks to identify how water quality in (selected) zones is impacted by changing environmental drivers.
 :::
 
 #### Salinity response
@@ -241,14 +260,22 @@ knitr::include_graphics("images/model_water_quality/picture19.webp")
 The changes in the key water quality attributes and nutrient budgets of Peel-Harvey Estuary were analysed through integration of long-term monitoring data and a high-resolution water quality response model. The analysis validated in detail the model performance against the available data from 1979–2018 and the estuary response to climate change, catchment loading, and Dawesville Cut construction was assessed. The water quality presents present clear seasonal and interannual shifts following the Mediterranean climate and a drying trend. The reconstruction of nutrient load and its relative nutrient species partitioning over time shows reduction in load due to decreasing inflows and slight decreases in the flow-weighted nutrient concentrations. The high-resolution water quality response model, termed PHERM) is shown to capture variability across regions from rivers to lagoons and channels, and reproduce the spatiotemporal variability in key water quality attributes and processes. Nutrient budgeting analysis within the estuary was resolved with the water response model, which shows pattern of retention and export has changed over time, following cut in particular, and also the drying climate. The opening of the Dawesville Cut effectively improved the ocean flushing and, on average, improved the TN and TP export efficiency, with the nutrient export via the Cut now about 2–3 times of that via the Mandurah Channel. The results have shown that the amount of nutrient retention is dependent on the annual flow volume the estuary receives, and therefore maybe sensitive to forecast projections due to drying climate. Zonal response models were used to identify local controls on metabolism, which showed locations near the channels were less sensitive to the catchment inputs, whilst the Harvey Estuary response displayed a stronger salinity and phytoplankton biomass response to the catchment inputs compared to Peel Inlet.
 :::
 
-## Data availability
+## Data availability {#phermdata}
 
 ::: {.body-text width="100%"}
-Data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. The full set of model input files of the Peel-Harvey Estuary Response Model are archived at LINK. To run the simulation requires the AED software package, available from @hipsey2022, and TUFLOW-FV, available from @wbm2023tuflowb.
+Data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. This includes, the full set of model input files of the Peel-Harvey Estuary Response Model which are archived in the [PHERM model repository folder](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Models/PHERM/Historical). To run the simulation requires the AED software package [@hipsey2022], and TUFLOW-FV, available from @wbm2023tuflowb.
 :::
 
 ## Acknowledgements
 
 ::: {.body-text width="100%"}
-The authors acknowledge the Casper Boon from UWA and the NCRIS Nectar cloud computing infrastructure for supporting the model computational requirements. We are also thankful to Fiona Valesini, Naomi Wells, Kieryn Kilminster and Chris Hallett for supporting the mode data requirements, model conceptualisation and parameterisation.
+The authors acknowledge technical support from Casper Boon (UWA) and the Australian Government's NCRIS Nectar cloud computing infrastructure for supporting the model computational requirements. We are also thankful to Fiona Valesini, Naomi Wells, Kieryn Kilminster and Chris Hallett for supporting the model data requirements, model conceptualisation and parameterisation.
+:::
+
+<br>
+<br>
+<br>
+
+::: {.author-info width="100%"}
+Cover image: View of the PHERM numerical model domain, indicating the rivers and estauries in blue and the catchment drainage netwrok through key land-use areas.
 :::
