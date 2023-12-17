@@ -46,11 +46,9 @@ fig:model-water-quality-pic17
 fig:model-water-quality-pic18
 fig:model-water-quality-pic19
 fig:isotopes-pic2
-tab:sampletable
 fig:isotopes-pic3
+tab:sampletable
 fig:isotopes-pic4
-fig:isotopes-pic5
-fig:isotopes-pic6
 tab:ntable
 fig:isotopes-pic7
 fig:isotopes-pic8
@@ -221,9 +219,8 @@ approach-4
 conceptual-model-isotope-fate-and-transport
 sample-collection
 isotope-analyses
-what-characterize-the-sources-and-forms-of-catchment-nutrientsobjectives-1-and-2
-sources
-forms
+analysis-to-resolve-the-what-where-and-when
+what-characterize-the-sources-and-forms-of-catchment-nutrients-objectives-1-and-2
 where-and-when-identify-nitrogen-removal-hot-spots-and-hot-moments-objective-3
 why-quantify-implications-for-nitrogen-export-budgets-objective-4
 results-findings-4

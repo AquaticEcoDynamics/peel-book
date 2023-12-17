@@ -36,7 +36,7 @@ knitr::knit_hooks$set(class = function(before, options, envir) {
 
 ## Welcome {-}
 
-<img src="images/book/cover1.png" class="cover" width="384" height="600"/> This online book entitled *Balancing estuarine and societal health in a changing environment*, is a summary of inter-disciplinary research studies completed as part of an Australian Research Council (ARC) project (LP15010045) focused on the [Peel-Harvey Estuary](https://en.wikipedia.org/wiki/Peel-Harvey_Estuarine_System) and it's community, located in south-western Australia. 
+<img src="images/book/cover1.png" class="cover" width="384" height="600"/> This online book entitled *Balancing estuarine and societal health in a changing environment*, is a summary of inter-disciplinary research studies completed as part of an Australian Research Council (ARC) project (LP150100451) focused on the [Peel-Harvey Estuary](https://en.wikipedia.org/wiki/Peel-Harvey_Estuarine_System) and it's community, located in south-western Australia. 
 
 Undertaken from 2016 to 2019, this research sought to develop an evidence-based approach to understand the links and trade-offs between regional catchment development scenarios (economic resilience) and the health of the receiving estuary (environmental and ecological resilience). Given the Peel-Harvey’s particular history of fundamental ecosystem shifts through both chronic decline and an acute engineered ‘recovery,’ combined with its current and forecast climate and development stressors, there is an urgent need for a holistic view of this important socio-ecological system.
 
