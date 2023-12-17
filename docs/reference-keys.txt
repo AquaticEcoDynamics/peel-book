@@ -75,7 +75,6 @@ fig:sediment-pic11
 fig:sediment-pic12
 tab:sedmon
 fig:sediment-pic13
-fig:macrophytes-pic2
 fig:macrophytes-pic3
 fig:macrophytes-pic4
 fig:macrophytes-pic5
@@ -86,7 +85,6 @@ fig:macrophytes-pic9
 fig:macrophytes-pic10
 fig:macrophytes-pic11
 fig:macrophytes-pic12
-fig:macrophytes-pic13
 fig:macrophytes-pic14
 fig:macrophytes-pic15
 fig:macrophytes-pic16
@@ -271,7 +269,7 @@ results-findings-6
 long-term-19782018-trends-in-macrophyte-communities-and-their-drivers-1
 current-trends-in-macroalgae-and-seagrass-species-composition-201718
 conclusions-5
-data-availability-2
+data-availability-and-supplementary-materials-1
 acknowledgements-5
 bmi
 abstract-6

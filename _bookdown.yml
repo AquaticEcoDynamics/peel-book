@@ -2,7 +2,6 @@ book_filename: Balancing estuarine and societal health in a changing environment
 output_dir: docs
 delete_merged_file: true
 rmd_files: ["index.Rmd",
-           #"cover.Rmd",
             "preface.Rmd",
             "acknowledgements.Rmd",
             "synthesis.Rmd",

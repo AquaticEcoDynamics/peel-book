@@ -326,13 +326,13 @@ The data collected during this study are available on request, with details prov
 The following supplementary materials are also available in the [Supplementary Material][Supplementary Materials] chapter:
 
  - S6.1 Proportions of the variation in Rapid Assessment Protocol (RAP) sediment condition scores.
-
 :::
 
 ## Acknowledgements
 
 ::: {.body-text width="100%"}
 We are very grateful to Marta Sánchez-Alarcón, Helen Nice, Frances D’Souza and particularly Alan Cottingham for assistance with fieldwork; Graham Lancaster, Iain Alexander, Natasha Carlson-Perret and colleagues at the Environmental Analysis Laboratory and the Centre for Coastal Biogeochemistry Research, Southern Cross University, for laboratory processing of sediment samples, and Malcolm Robb for helpful discussions and advice. We also greatly appreciate the funding and logistical support provided for this project by the Regional Estuaries Initiative, a Western Australian government program led by the Department of Water and Environmental Regulation.
+:::
 
 <br>
 <br>
@@ -342,4 +342,3 @@ We are very grateful to Marta Sánchez-Alarcón, Helen Nice, Frances D’Souza a
 Cover image: Sediment coring in the Peel-Harvey Estuary (left) and example cores of oxygenated, coarse sediments of good condition on the left, fair sediments that are partially oxygenated in the middle, and anoxic, sulfide rich, black sediments of poor condition on the right (right). Photo credits *C Hallett*.
 :::
 
-:::
