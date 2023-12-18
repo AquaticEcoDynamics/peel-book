@@ -166,7 +166,7 @@ In summary, the modelled salinity and $\tau$ were more sensitive to the changes 
 ### Incomplete mixing and changes in water rentention times
 
 ::: {.body-text width="100%"}
-Water retention time in tidal lagoons is sometimes confusing because various definitions that are used (flushing time, water age, and residence time) [e.g., @monsen2002comment; @jouon2006calculations]. The flushing time is the most popular concept and has been used in many aquatic systems, including the PHE, in the early 90s [@lord1998dawesville] as it is convenient as an indicator of water transportation relative to the time scales of nutrient inputs or biogeochemical processes. The flushing time is “a bulk or integrative parameter that describes the general exchange characteristics of a waterbody without identifying the underlying physical processes, the relative importance of those processes, or their spatial distribution” [@monsen2002comment], which can be numerically represented as [@sheldon2006calculation]:
+Water retention time in tidal lagoons is sometimes confusing because various definitions that are used (flushing time, water age, and residence time) [@monsen2002comment; @jouon2006calculations]. The flushing time is the most popular concept and has been used in many aquatic systems, including the PHE, in the early 90s [@lord1998dawesville] as it is convenient as an indicator of water transportation relative to the time scales of nutrient inputs or biogeochemical processes. The flushing time is “a bulk or integrative parameter that describes the general exchange characteristics of a waterbody without identifying the underlying physical processes, the relative importance of those processes, or their spatial distribution” [@monsen2002comment], which can be numerically represented as [@sheldon2006calculation]:
 :::
 
 $$
@@ -248,7 +248,7 @@ This chapter has sought to disentangle the effect of the recent climate change t
 ## Data availability
 
 ::: {.body-text width="100%"}
-Meteorological and hydrological data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. This includes, the full set of model input files of the Peel-Harvey Estuary Response Model which are archived in the [PHERM model repository folder](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Models/PHERM/Historical). To run the simulation requires the AED software package [@hipsey2022], and TUFLOW-FV, available from @wbm2023tuflowb.
+Meteorological and hydrological data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. This includes the full set of model input files of the Peel-Harvey Estuary Response Model which are archived in the [PHERM model repository folder](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Models/PHERM/Historical). To run the simulation requires the AED software package [@hipsey2022], and TUFLOW-FV, available from @wbm2023tuflowb.
 :::
 
 ## Acknowledgements
