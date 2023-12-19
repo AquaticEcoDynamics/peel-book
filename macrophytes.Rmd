@@ -295,6 +295,38 @@ knitr::include_graphics("images/macrophytes/picture17.webp")
 
 -   A broad program for future monitoring of the Peel-Harvey seagrass and macroalgal communities is proposed in Table \@ref(tab:macmon). *This program is purposely broad, outlining the main macrophyte components to be monitored and suggested methods*. Finer details for implementing this program will need to be determined, following clarity in level of interest in uptake and resourcing.
 
+
+
+```{r macmon, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables.xlsx', sheet="macmon")
+  kable(Diff_tab[,1:5],"html", escape = F, align = "c"
+        , caption = "Proposed future monitoring regime for the macrophyte communities in the Peel-Harvey Estuary. Finer details on this broad approach will be tailored to uptake and resourcing.",bootstrap_options = "hover") %>%
+       kable_classic(full_width = T) %>%
+       kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+    
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_min = "8" ,color="black",bold = F) %>%
+  column_spec(3, width_min = "8" ,color="black") %>%
+  column_spec(4, width_min = "8" ,color="black") %>%
+  column_spec(5, width_min = "8" ,color="black") %>%
+  row_spec(1, background = "#D9D2C6", color = "black") %>%
+  row_spec(2, background = "#FAF8F3", color = "gray") %>%
+  row_spec(3, background = "#D9D2C6", color = "black") %>%
+  row_spec(4, background = "#FAF8F3", color = "gray") %>%
+  row_spec(5, background = "#D9D2C6", color = "black") %>%
+  row_spec(6, background = "#FAF8F3", color = "gray") %>%
+  # row_spec(1:2, background = 'white')  %>%
+ scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
+
 ## Data availability and supplementary materials
 
 ::: {.body-text width="100%"}

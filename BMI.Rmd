@@ -376,8 +376,6 @@ Diff_tab <- read_xlsx('tables/peel_tables_bmi.xlsx', sheet="bmimon")
   footnote(alphabet = c("A sediment condition monitoring regime has also been proposed (Chapter 6). If both this regime and the invertebrate monitoring regime are adopted, then it is suggested that the sampling sites and frequency of both regimes are aligned as closely possible to maximise efficient use of resources"))   %>%
   # row_spec(1:2, background = 'white')  %>%
  scroll_box(width = "40em",fixed_thead = FALSE)
-
-  
 ```
 
 
