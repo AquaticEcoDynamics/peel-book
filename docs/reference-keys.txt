@@ -1,6 +1,9 @@
+fig:summary-pic2
 fig:summary-pic3
 fig:summary-pic6
+fig:summary-pic4
 fig:summary-pic9
+tab:synthesis
 fig:summary-pic10
 fig:summary-pic11
 fig:summary-pic12
@@ -145,17 +148,7 @@ overview
 the-peel-harvey-estuary
 project-objectives
 approach
-concepts-and-components-underlying-the-decision-support-system
-coupled-catchment-estuary-response-model
-estuarine-ecosystem-resilience-indicators
-regional-economic-resilience-indicators
-socio-ecological-scenarios-and-tradeoffs
-evidence-based-decision-making-framework
-evidence-based-decision-making-framework-1
-data-collation-collection-and-repository
 results-findings
-learning-from-the-past-and-understanding-the-present
-preparing-for-a-future-peel-harvey
 recommendations-for-policy-makers
 catmodel
 abstract
