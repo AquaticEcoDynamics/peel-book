@@ -137,7 +137,7 @@ kbl(theSheet[,2:NCOL(theSheet)], caption = "Summary of the historical (1979–20
 ::: {.body-text width="100%"}
 Independent versions of the FCI were developed for assessing the condition of shallow and deeper waters to account for the marked differences in their fish faunas and the methods used to sample them [@hallett2019fish]. The metrics which comprise the FCI, and which are known to provide a robust basis for quantifying estuarine ecological health in south-western Australia [e.g. @hallett2016review], are listed in Table \@ref(tab:fishmetrics). Figure \@ref(fig:fish-ecology-pic5) summarizes the process for calculating the FCI, which has been described extensively elsewhere [@hallett2012method; @hallett2014quantile]. The following subsections briefly outline this process, emphasizing the modifications used to customize the FCI for the Peel-Harvey Estuary.
 
-Firstly, all fish species in the collated and standardised data sets (section \@ref(fishdat)) were assigned to functional groups ('guilds') that reflected their habitat, feeding mode and use of the estuary (see Supplementary Material S9.1). Values for each fish metric (Table \@ref(tab:fishmetrics)) were then calculated for every fish sample collected in the shallow and deeper waters between 1979 and 2018. 
+Firstly, all fish species in the collated and standardised data sets (section \@ref(fishdat)) were assigned to functional groups ('guilds') that reflected their habitat, feeding mode and use of the estuary (see [Supplementary Material S9.1][Supplementary Materials]). Values for each fish metric (Table \@ref(tab:fishmetrics)) were then calculated for every fish sample collected in the shallow and deeper waters between 1979 and 2018. 
 :::
 <br>
 

@@ -50,26 +50,12 @@ People and estuaries are inextricably linked. These productive, safe and strikin
 Successfully striking a balance or acceptable tradeoffs for the above question is a global issue, yet the pathways to achieving it are often poorly 
 understood, rarely defined and seldom quantified. In part, this reflects the complexities of both estuaries and societies across multiple scales. 
 It also reflects the fact that management of socio-ecological systems requires long-term thinking, yet the future is uncertain and our ability to 
-learn from hindsight is often hampered by patchy long-term observations [@polasky2011; @carpenter2015c]. One way of dealing with these 
-challenges, and offering informed insights into the socio-ecological tradeoffs we will have to navigate in the foreseeable future, is the process 
-of ‘scenario development’. Scenarios are plausible stories about how the future may unfold based on known patterns, anticipated drivers, or alternative 
-societal choices. Scenarios aren’t predictions, but instead are alternative futures that explore particular trajectories of change and possibilities for 
-adaptation [@raskin2005global; @mahmoud2009formal]. Scenario analysis connects storylines about the socio-ecological futures of most interest to stakeholders, 
-with key drivers that ideally can be quantified (e.g. land-use mosaics, climate) and used as inputs for predictive models that capture the complexity 
-of the human-natural system. This enables simulations about how the system is likely to respond from multiple perspectives and in turn assessments of 
-the trade-offs between them, allowing decision-making to be tailored towards desired outcomes. This general process of scenario analysis has been used 
-to guide strategic planning at the catchment scale in various cases around the world, albeit with differing objectives, supporting drivers, assessment 
-methods and assumptions [@carpenter2015c; @mahmoud2009formal] ***(these are not found Bryan et al., 2011; Booth et al., 2016)***. 
+learn from hindsight is often hampered by patchy long-term observations [@polasky2011; @carpenter2015c]. One way of dealing with these challenges, and offering informed insights into the socio-ecological tradeoffs we will have to navigate in the foreseeable future, is the process of ‘scenario development’. Scenarios are plausible stories about how the future may unfold based on known patterns, anticipated drivers, or alternative societal choices. Scenarios aren’t predictions, but instead are alternative futures that explore particular trajectories of change and possibilities for 
+adaptation [@raskin2005global; @mahmoud2009formal]. Scenario analysis connects storylines about the socio-ecological futures of most interest to stakeholders, with key drivers that ideally can be quantified (e.g. land-use mosaics, climate) and used as inputs for predictive models that capture the complexity of the human-natural system. This enables simulations about how the system is likely to respond from multiple perspectives and in turn assessments of the trade-offs between them, allowing decision-making to be tailored towards desired outcomes. This general process of scenario analysis has been used to guide strategic planning at the catchment scale in various cases around the world, albeit with differing objectives, supporting drivers, assessment methods and assumptions [@carpenter2015c; @mahmoud2009formal] ***(these are not found Bryan et al., 2011; Booth et al., 2016)***. 
 
-The Peel-Harvey Estuary and its surrounding community provides a rich opportunity to explore forward-looking scenarios about the sustainability of this 
-complex system, and guide smarter management choices that support this fast-growing region yet minimise impacts on its largest natural asset. 
+The Peel-Harvey Estuary and its surrounding community provides a rich opportunity to explore forward-looking scenarios about the sustainability of this complex system, and guide smarter management choices that support this fast-growing region yet minimise impacts on its largest natural asset. 
 The catchment-estuary system has rich environmental and ecological historical data sets (in some cases dating back to the 1970s or earlier) that have 
-been brought together with extensive field sampling under the current ARC Linkage Project (e.g. Huang et al., 2019; Hallett et al., 2019; Valesini et al., 2019). 
-Further work within the Linkage Project on local economic activity and the relative influence of external economic drivers supplements our socio-economic 
-understanding of the Peel region (Plummer et al., 2019). Importantly, the coupled catchment-estuary model developed under other parts of the 
-Linkage (Huang et al., 2019; Hipsey et al., 2019) provides the framework for synthesising the biophysical complexity of the system, and translating 
-scenario storylines (via underpinning drivers) into expected estuary health responses. A further key part of the opportunity provided by the 
-Peel-Harvey is the interest and investment by a diverse range of stakeholders in the future wellbeing of the region, both from ecological and 
+been brought together with extensive field sampling under the current ARC Linkage Project (e.g. Chapters \@ref(model-hydrology), \@ref(fish), \@ref(macrophytes)). Further work within the Linkage Project on local economic activity and the relative influence of external economic drivers supplements our socio-economic understanding of the Peel region (Chapter \@ref(econ)). Importantly, the coupled catchment-estuary model developed under other parts of the Linkage (Chapters \@ref(model-hydrology) & \@ref(model-water-quality)) provides the framework for synthesising the biophysical complexity of the system, and translating scenario storylines (via underpinning drivers) into expected estuary health responses. A further key part of the opportunity provided by the Peel-Harvey is the interest and investment by a diverse range of stakeholders in the future wellbeing of the region, both from ecological and 
 socio-economic perspectives.
 
 In line with timelines for regional land planning and development proposed by the State and Commonwealth governments to support the expected increase in Peel’s population (*Strategic Assessment of the Perth and Peel Regions* - ‘SAPPR’, released in 2015 as the *Draft Perth and Peel Green Growth Plan for 3.5 million* [Government of Western Australia, 2015] and currently under review), the future horizon we have selected for our socio-ecological scenarios is 2050. 
@@ -101,7 +87,7 @@ An introductory presentation was first provided to outline the scenario concept,
 knitr::include_graphics("images/scenarios/picture2.webp")
 ```
 
-Workshop participants were then asked to anonymously complete a survey (see Supplementary Material S11.1), considering what was important to them and their organisation more broadly, after guiding them through its main questions and their objectives. The four main questions in the survey were focused on the following: 
+Workshop participants were then asked to anonymously complete a survey (see [Supplementary Material S11.1][Supplementary Materials]), considering what was important to them and their organisation more broadly, after guiding them through its main questions and their objectives. The four main questions in the survey were focused on the following: 
 :::
 
 
@@ -270,6 +256,7 @@ Scenarios are assessed from the point of view of how they are likely to impact e
 
 > *Stakeholders most value an ecologically healthy estuary with good water quality, as well as 
 environmentally-focused communities, high regional employment and strong growth industries* 
+
 
 ::: {.body-text width="100%"}
 A synthesis of the main stakeholder values and aspirational goals, incorporating perspectives across both estuarine and socio-economic health, is shown in Fig. \@ref(fig:scenarios-pic3), along with a higher-level summary in Table \@ref(tab:shgoals). The most important value was clearly high estuarine biodiversity and accompanying health, which was also reinforced by the 2050 goals (Fig. 11.2a, b). Participants gave various responses that fell into this category, such as ‘good to excellent ecological health’; ‘biodiverse and/or resilient waterways’; ‘healthy wildlife’ (including fish, birds and/or dolphins); ‘healthy seagrass habitats’; ‘no/less major fish kills’ and ‘retaining Ramsar status’. Good water quality, underpinned by value and/or goal statements such as ‘no harmful algal blooms’, ‘TN/TP half of current levels’, ‘good dissolved oxygen levels’ ‘reduced contaminants’ was also ranked highly (Fig. 11.2a, b). :::
@@ -488,7 +475,7 @@ Environmentally-sensitive land management and development priorities can encoura
 
 ## Data availability & supplementary materials
 
-Data used for the model scenario simualtions and supporting the conclusions of this analysis are available in the Peel ARC Linkage Project Github repository (Busch et al., 2023). 
+Data used for the model scenario simualtions and supporting the conclusions of this analysis are available in the Peel ARC Linkage Project Github repository [@busch2023]. 
 
 Supplementary materials for this chapter are available <here>.
 
