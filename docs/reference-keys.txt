@@ -140,7 +140,10 @@ fig:scenarios-pic3
 tab:shgoals
 fig:scenarios-pic4
 fig:scenarios-pic5
+tab:stories
+tab:scens
 fig:scenarios-pic6
+tab:loads
 fig:scenarios-pic7
 fig:scenarios-pic8
 fig:scenarios-pic9
@@ -158,6 +161,7 @@ fig:scenarios-pic20
 fig:scenarios-pic21
 fig:scenarios-pic22
 fig:scenarios-pic23
+tab:econscen1
 fig:scenarios-pic24
 fig:scenarios-pic25
 fig:scenarios-pic26
@@ -167,8 +171,6 @@ fig:scenarios-pic29
 fig:scenarios-pic30
 synthesis-overview
 background
-overview
-the-peel-harvey-estuary
 project-objectives
 approach
 results-findings

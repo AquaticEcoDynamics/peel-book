@@ -57,7 +57,7 @@ knitr::include_graphics("images/photos/CH0.1 Wetlands.jpg")
 <br>
 
 
-This work was first published by the The University of Western Australia on 20^th^ December, 2023.
+This work was first published by the The University of Western Australia on 22^nd^ December, 2023.
 
 **ISBN**: 978-1-74052-939-6
 
@@ -65,7 +65,7 @@ This work was first published by the The University of Western Australia on 20^t
 
 ## Citing this work {-}
 
-Please cite this edited book as: 
+Please cite this book as: 
 
 > <small>Valesini, F., Hipsey, M. R., Cronin O’Reilly, S., & Huang, P. (Eds.) (2023). *Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia*. The University of Western Australia. https://doi.org/10.26182/ymst-gz83.
 </small>
@@ -77,7 +77,7 @@ If you would like to cite an individual chapter of this book, please use this fo
 
 ## Accompanying data assets {-}
 
-The work contained herein served to compile a diverse data set spanning many disciplines, decades, and data-types. In the spirit of fostering future continuation of the analyses, and uptake of the model tools developed in this work, the book includes an accompanying data asset with a digital object identifier (DOI). Specific chapters explain aspects of the data and model tools. Users of the data-set and models can use the following citation:
+The work contained herein served to compile a diverse data set spanning many disciplines, decades, and data types. In the spirit of fostering future continuation of the analyses and uptake of the model tools developed in this work, the book includes an accompanying data asset with a digital object identifier (DOI). Specific chapters explain aspects of the data and model tools. Users of the dataset and models can use the following citation:
 
 > <small>Busch, B., Hipsey, M.R., Huang, P., others, 2023. AquaticEcoDynamics/peel_ARC: Data, model & document repository [dataset]. https://doi.org/https://doi.org/10.5281/zenodo.**********</small>
 

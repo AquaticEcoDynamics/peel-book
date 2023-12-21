@@ -219,20 +219,21 @@ library(readxl)
   options(knitr.kable.NA = "")
 Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="econind")
   kable(Diff_tab[,1:3],"html", escape = F, align = "c"
-        , caption = "<small>Summary of economic resilience indicators, and matching notation used in the regional econometrics model.</small>",bootstrap_options = "hover")%>%
+        , caption = "Summary of economic resilience indicators, and matching notation used in the regional econometrics model.",bootstrap_options = "hover")%>%
    kable_styling(Diff_tab, bootstrap_options = "hover",
                 full_width = T, position = "left",
                 font_size = 11) %>% 
-    
+  kable_classic(full_width = T) %>%
   row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
   column_spec(1, width_min = "10em" ,color="black",bold = F) %>%
   column_spec(2, width_min = "15em" ,color="black") %>%
   column_spec(3, width_min = "15em" ,color="black") %>%
-  # row_spec(1:2, background = 'white')  %>%
- scroll_box(width = "40em",fixed_thead = FALSE)
+  scroll_box(width = "40em",fixed_thead = FALSE)
 
   
 ```
+
+<br>
 
 ::: {.body-text width="100%"}
 The logic is that enhancing competitive and/or comparative advantage enhances economic performance (through job creation) and, hence, quality of life and standard of living. In turn, the overall competitive and comparative advantage of the Peel-Harvey depends on the pattern of industrial structure, which has been classified into key and strategic industries.  
@@ -287,7 +288,8 @@ kbl(theSheet[,2:NCOL(theSheet)], caption = "Summary of the most important stakeh
             min(which(theSheet$Group == theSheetGroups[3])),
             max(which(theSheet$Group == theSheetGroups[3])),
             background = '#ebebeb') %>%
-  row_spec(0, background = "#14759e", bold = TRUE, color = "white") %>%
+  kable_classic(full_width = T) %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
   kable_styling(full_width = F,font_size = 11) %>%
   column_spec(1, width_min = "19em") %>%
   column_spec(2, width_min = "19em") %>%
@@ -318,15 +320,62 @@ knitr::include_graphics("images/scenarios/picture5.png")
 ```
 
 ::: {.body-text width="100%"}
-Table 3 summarises the main 2050 scenarios distilled from the above consultation and data analysis process, capturing the three main story groups, their broad underpinning catchment and climate drivers, and the anticipated responses of the socio-ecological health indices chosen to reflect the key stakeholder values and goals (Table 2). 
+Table \@ref(tab:stories) summarises the main 2050 scenarios distilled from the above consultation and data analysis process, capturing the three main story groups, their broad underpinning catchment and climate drivers, and the anticipated responses of the socio-ecological health indices chosen to reflect the key stakeholder values and goals (Table \@ref(tab:shgoals)). 
 :::
+
+
+```{r stories, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="stories")
+  kable(Diff_tab[,1:4],"html", escape = F, align = "l"
+        , caption = "Summary of the main 2050 scenarios prioritised by Peel stakeholders, including the broad underpinning catchment and climate drivers (see section 11.5.2 for more detail on quantifying these parameters), and the anticipated responses of the socio-ecological health indices chosen to reflect stakeholder values/goals.",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+  kable_classic(full_width = T) %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_max = "7em" ,color="black",bold = F) %>%
+  column_spec(2, width_min = "15em" ,color="black") %>%
+  column_spec(3, width_min = "15em" ,color="black") %>%
+  footnote(alphabet = c("Stakeholder-selected management practices in their approximate order of importance. Note: while perennial pastures and irrigation management were also of interest to stakeholders, they could not be explicitly modelled due to a range of uncertainties","Additional management"))   %>%
+  scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
+
+<br>
 
 ### Model drivers for each scenario
 
 ::: {.body-text width="100%"}
-The calibrated catchment model was used to explore each of the above three scenarios under two different climate conditions. It was also used to characterise the current or ‘base case’ catchment land-use and management level to provide a benchmark for comparison. This resulted in eight separate scenarios, which are summarised in Table 3. 
+The calibrated catchment model was used to explore each of the above three scenarios under two different climate conditions. It was also used to characterise the current or ‘base case’ catchment land-use and management level to provide a benchmark for comparison. This resulted in eight separate scenarios, which are summarised in Table \@ref(tab:scens). 
 
-<!-- BROKEN LINK -->
+
+```{r scens, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="scens")
+  kable(Diff_tab[,1:4],"html", escape = F, align = "c"
+        , caption = "Summary of the eight scenarios modelled using the calibrated catchment model. ‘Base case’ refers to current catchment land-use and management level.",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+  kable_classic(full_width = T) %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_max = "11em" ,color="black",bold = F) %>%
+  column_spec(2, width_min = "3em" ,color="black",bold = T) %>%
+  column_spec(3, width_min = "11em" ,color="black") %>%
+  scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
+
+<br>
 
 Full details regarding the base case model pararametisation (0a and 0b) are provided in Hennig et al. (in prep.). The base case took existing land-use (agriculture 5,140 ha, urban 240 ha, natural vegetation 4,000 ha), and applied two climate regimes – expected current climate (pre-2018) and forecast 2050 dry climate. 
 
@@ -355,9 +404,33 @@ knitr::include_graphics("images/scenarios/picture6.png")
 ### Catchment model scenario outputs
 
 ::: {.body-text width="100%"}
-The average annual catchment discharge of flow and nutrients to the Peel-Harvey Estuary for each of the eight scenarios modelled are summarised in Table 11.5 and Fig. \@ref(fig:scenarios-pic7). The fate and impact of catchment runoff and nutrient loading is outlined in Chapter \@ref{model-water-quality} and discussed in section 11.5.4 below.
+The average annual catchment discharge of flow and nutrients to the Peel-Harvey Estuary for each of the eight scenarios modelled are summarised in Table \@ref(tab:loads) and Fig. \@ref(fig:scenarios-pic7). The fate and impact of catchment runoff and nutrient loading is outlined in Chapter \@ref(model-water-quality) and discussed in section 11.5.4 below.
 
 Comparison between the current and future climate scenarios showed that the 2050 dry climate reduced flow and nutrient loads to the estuary by approximately 50%. However, flow-weighted concentrations of nutrients (average annual nutrient load divided by average annual flow) were reduced by a much smaller amount, i.e. 7% for nitrogen and 9% for phosphorus. Flow-weighted nutrient concentrations are less sensitive to changes in hydrology and climate, and have been used to compare scenarios in this component of the study. In terms of these concentrations, there was little difference between the current and future climate for each of the scenarios, but differences were evident between scenarios. 
+
+
+```{r loads, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="loads")
+  kable(Diff_tab[,1:8],"html", escape = F, align = "c"
+        , caption = "Average annual flow, nutrient loads and flow-weighted concentrations of catchment inputs to the Peel-Harvey Estuary under each modelled scenario.",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+  kable_classic(full_width = T) %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_max = "11em" ,color="black",bold = F) %>%
+  column_spec(2, width_min = "5em" ,color="black") %>%
+  column_spec(3, width_min = "5em" ,color="black",bold = T) %>%
+  scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
+
+<br>
 
 Urban development increased surface water runoff by approximately 5–10%, but had a negligible effect on nutrient runoff in all scenarios. Agricultural development resulted in an increase in nutrient runoff in scenarios 2 (business as usual) and 3 (environmentally-pessimistic) relative to the base-case. Flow-weighted nutrient concentrations were increased by approximately 13% (N) and 34% (P) in scenario 2, and were increased by 19% (N) and 43% (P) in scenario 3.
 
@@ -459,8 +532,32 @@ knitr::include_graphics(c("images/scenarios/picture23.png"))
 ::: {.body-text width="100%"}
 The dynamics and drivers of local competitiveness and comparative advantage shape a regional economy’s responsiveness to externalities (i.e., resilience), and can help explain the underlying forces leading to ‘catch-up’, ‘falling behind’ and ‘forging ahead’ trajectories (Plummer et al. 2019). The three main scenarios reported in the previous sections (1,2,3) have been considered through this lens, and according to the analysis framework previously reported.  
 
-An example of the assessment of economic indicators for each scenario is described in Tables 5–7. 
+An example of the assessment of economic indicators for each scenario is described in Tables \@ref(tab:econscen1)–\@ref(tab:econscen3). 
 :::
+
+
+```{r econscen1, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="econscen1")
+  kable(Diff_tab[,1:5],"html", escape = F, align = "c"
+        , caption = "Economic indicator assessment for **Scenario 1**.",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+  kable_classic(full_width = T) %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_max = "11em" ,color="black",bold = T) %>%
+  column_spec(2, width_min = "5em" ,color="black") %>%
+  column_spec(4, width_min = "5em" ,color="black",bold = T) %>%
+  scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
+
+<br>
 
 ## Balancing Trade-offs Between Economic and Environmental Health
 
@@ -474,7 +571,7 @@ To ultimately facilitate decision-making a holistic view of scenarios is require
 -	*Is the option likely to induce negative feedbacks between economy and environment (e.g., strong coupling can accelerating links, likely leading to degradation)?*
 -	*How sensitive is the option relative to exogenous drivers (climate change or external economic shocks)?*
 
-```{r scenarios-pic24, echo = FALSE, out.width='100%', fig.show='hold', class = "text-image", fig.cap = "Decision support logic for scenario testing."}
+```{r scenarios-pic24, echo = FALSE, out.width='55%', fig.show='hold', class = "text-image", fig.cap = "Decision support logic for scenario testing."}
 knitr::include_graphics(c("images/scenarios/picture24.png"))
 ```
 
@@ -499,7 +596,7 @@ The structure presented above is generic, but can be tailored to specific “ass
 knitr::include_graphics(c("images/scenarios/picture27.png"))
 ```
 
-As a demonstration of the decision-support framework for the specific scenarios identified during our stakeholder consultation process, and the subsequent analysis in section 11.5.1, we visually depict the scenarios 1, 2 and 3 in Figures 27-29, by linking the identified drivers and management measures with the reported environmental and economic indicators. The results demonstrate that the environmentally-optimistic scenario can provide the best option for growth through encouraging diversification in export oriented industries and improving the specialisation of agriculture. 
+As a demonstration of the decision-support framework for the specific scenarios identified during our stakeholder consultation process, and the subsequent analysis in section 11.5.1, we visually depict the scenarios 1, 2 and 3 in Figures  \@ref(fig:scenarios-pic28) -  \@ref(fig:scenarios-pic30), by linking the identified drivers and management measures with the reported environmental and economic indicators. The results demonstrate that the environmentally-optimistic scenario can provide the best option for growth through encouraging diversification in export oriented industries and improving the specialisation of agriculture. 
 :::
 
 ```{r scenarios-pic28, echo = FALSE, out.width='100%', fig.show='hold', class = "text-image", fig.cap = "Scenario 1 drivers, adaptive measures and assessment of indicators for 1a (top) and 1b (bottom)."}
@@ -535,12 +632,26 @@ Environmentally-sensitive land management and development priorities can encoura
 
 ## Data availability & supplementary materials
 
-Data used for the model scenario simualtions and supporting the conclusions of this analysis are available in the Peel ARC Linkage Project Github repository [@busch2023]. 
+::: {.body-text width="100%"}
+Data used for the model and supporting the conclusions of this study are available in the Peel ARC Linkage Project Github repository [@busch2023]. This includes, the full set of model input files of the Peel-Harvey Estuary Response Model which are archived in the [PHERM model repository folder](https://github.com/AquaticEcoDynamics/Peel_ARC/tree/master/Models/PHERM). To run the simulation requires the AED software package [@hipsey2022], and the model TUFLOW-FV, available from @wbm2023tuflowb. 
 
-Supplementary materials for this chapter are available <here>.
+The following supplementary materials are also available in the [Supplementary Material][Supplementary Materials] chapter:
+
+ -	S11.1. Survey provided to Peel stakeholders during June 2018 workshop to determine key values and 2050 scenarios of interest.
+ -  S11.2. Summary of water quality and ecosystem indicators computed for scenario comparison.
+:::
+
 
 ## Acknowledgements 
 
 ::: {.body-text width="100%"}
 We would to thank all of our research partners and wider Peel stakeholders who participated in our scenarios workshop, and shared their thoughts and visions for the Peel region in 2050. 
+:::
+
+<br>
+<br>
+<br>
+
+::: {.author-info width="100%"}
+Cover image courtesy of *Peel-Harvey Catchment Council*.
 :::

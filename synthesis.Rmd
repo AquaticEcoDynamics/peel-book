@@ -25,9 +25,9 @@ knitr::include_graphics("images/synthesis/CH1 Channel.jpg")
 <br>
 
 ::: {.body-text width="100%"}
-Estuaries around the world are challenged by the pressures of coastal development, resource exploitation and climate change. At the same time they remain integral to community values, local identity, and regional economies. So how can we best strike the balance between development and protection? The research documented in this book aimed to explore this question and facilitate the sustainable development of a fast-growing coastal area in south-western Australia - the **Peel-Harvey** region.  By exploiting 30+ year inter-disciplinary data sets for this catchment-estuary system and integrating ecological, hydrological, biogeochemical, modelling and socio-economic expertise, research presented in this book seeks to link primary catchment drivers to estuarine health response (up to higher fauna), quantify estuarine ecological health and ecosystem services under historical and future scenarios, and test resilience across the human–natural system. Envisaged outcomes include evidence-based catchment planning solutions that optimise trade-offs between socio-economic development goals and minimal downstream impacts on estuarine health. Given the Peel-Harvey’s particularly iconic history of fundamental ecosystem shifts, through both chronic decline and an acute engineered ‘recovery’, combined with its current and forecast climate and development stressors, there is an urgent need for a holistic view of this important socio-ecological system that can be used to inform sustainable development.
+Estuaries around the world are challenged by the pressures of coastal development, resource exploitation and climate change. At the same time they remain integral to community values, local identity, and regional economies. So how can we best strike the balance between development and protection? The research documented in this book aimed to explore this question and facilitate the sustainable development of a fast-growing coastal area in south-western Australia - the **Peel-Harvey** region.  By exploiting 40+ year inter-disciplinary data sets for this catchment-estuary system and integrating ecological, hydrological, biogeochemical, modelling and socio-economic expertise, the research presented in this book seeks to link primary catchment drivers to estuarine health response (up to higher fauna), quantify estuarine ecological health and ecosystem services under historical and future scenarios, and test resilience across the human–natural system. Key outcomes include evidence-based catchment planning solutions that optimise trade-offs between socio-economic development goals and minimal downstream impacts on estuarine health. Given the Peel-Harvey’s particularly iconic history of fundamental ecosystem shifts, through both chronic decline and an acute engineered ‘recovery’, combined with its current and forecast climate and development stressors, there is an urgent need for a holistic view of this important socio-ecological system that can be used to inform sustainable development.
 
-Our overarching objectives were to:
+Our overarching **objectives** were to:
 
 1)  *Develop indices of estuarine and societal 'health'*
 2)  *Establish historical trends and health status*
@@ -37,16 +37,16 @@ Our overarching objectives were to:
 :::
 
 ::: {.body-text width="100%"}
-The underlying research project encompassed a suite of detailed underpinning studies, each of which are summarised in the following chapters of this document. In its entirety, this work has significantly advanced our understanding of how the Peel-Harvey Estuary works, and of its surrounding catchment, community and economy. It has also synthesised how it has changed over the last five decades, and is likely to change further by 2050 under proposed development and climate trajectories. In addition to extensive primary data collection on estuarine condition (hydrology, ecology and biogeochemistry), we also developed comprehensive environmental models for the catchment and estuary, an econometric model, and a conceptual management framework linking economic activity and estuarine environmental-ecological quality (Fig. \@ref(fig:summary-pic2)).
+The research project encompassed a suite of detailed underpinning studies, each of which are summarised in the following chapters of this book. In its entirety, this work has significantly advanced our understanding of how the Peel-Harvey Estuary works, and of its surrounding catchment, community and economy. It has also synthesised how it has changed over the last five decades, and is likely to change further by 2050 under proposed development and climate trajectories. In addition to extensive primary data collection on estuarine condition (hydrology, ecology and biogeochemistry), we also developed comprehensive environmental models for the catchment and estuary, an econometric model, and a conceptual management framework linking economic activity and estuarine environmental-ecological quality (Fig. \@ref(fig:summary-pic2)).
 
 ```{r summary-pic2, echo = FALSE, out.width='100%', class = "text-image", fig.cap = "A holistic assessment of the drivers threats, mitigating actions and responses, and their benefits as depicted in a 'bow-tie' diagram applied to the Peel-Harvey socio-ecological system."}
 
 knitr::include_graphics("images/synthesis/picture2.webp")
 ```
 
-Several key take-home messages were identified from this research. 
+Several key **take-home messages** were identified from this research. 
 
-Regarding our learnings from the past and understanding of the present, they included the following:
+Regarding our learnings from the past and understanding of the present, they included:
 
   -   The engineered second entrance channel to the estuary built in the mid-1990s (the Dawesville Cut) and climate change since the 1970s have led to marked and constant changes in estuarine hydrology.
 
@@ -66,10 +66,10 @@ Regarding our assessment of the Peel-Harvey in 2050, they included the following
 
   -   Continuing with a 'business as usual' approach to catchment management is expected to lead to further declines in estuarine heath.
 
-Based on our analysis, four high-level recommendations were made:
+Based on our analysis, four high-level **recommendations** were made:
 
 1.	There is a need to substantially increase the scale and diversity of catchment and estuary management - the time for adaptation to growing stressors is now.
-2.	Standardised and regular monitoring of estuarine ecology, water quality, sediment condition and human use is required to track and provide fuller insights into estuary health, and identify the most effective management interventions.-   Plan for development that can support economic growth, without increasing the overall water and nutrient footprint.
+2.	Standardised and regular monitoring of estuarine ecology, water quality, sediment condition and human use is required to track and provide fuller insights into estuary health, and identify the most effective management interventions.
 3.	Plan for development that can support economic growth, without increasing the overall water and nutrient footprint.
 4.	Continued effort to develop and operationalise the DSS and manage new data streams is required to support ongoing scenario assessments and provide transparency in decision-making for sustainable development in the Peel-Harvey region.
 :::
@@ -80,7 +80,7 @@ It has been the objective of this research program that the data, tools, knowled
 
 ## Background
 
-### Overview
+### Overview {-}
 
 ::: {.body-text width="100%"}
 The overarching goal of this research project undertaken between 2016-2019 was to produce an integrated, Decision Support System (DSS) for better understanding trade-offs between regional catchment development drivers (economic resilience) and the health of the receiving estuarine waterways (environmental and ecological resilience). Understanding these trade-offs and exploring alternative futures around them is fundamental to sustainably developing our coastal regions. If a balance can be achieved, then broader societal resilience can be realised, reflecting the societal benefits that develop from both a healthy economy (e.g. more jobs, specialised industries) and healthy waterways (e.g. good fishing, wildlife watching, connection to place; Fig. \@ref(fig:summary-pic3)).
@@ -94,7 +94,7 @@ Yet, despite the increasing challenges brought about by accelerated population g
 This research sought to tackle the above challenge by producing a decision-support framework for identifying the most sustainable catchment development choices, both under current and projected future conditions, focusing on the Peel-Harvey estuary-catchment system in south-western Australia. As outlined below, the Peel-Harvey provides an ideal test case for deepening our understanding of the drivers of ‘health’ or resilience across complex socio-ecological systems, and how we can develop better futures by learning from the past and proactively adapting in the present. 
 :::
 
-### The Peel-Harvey Estuary
+### The Peel-Harvey Estuary {-}
 
 ::: {.body-text width="100%"}
 The Peel-Harvey is the largest estuary in south-western Australia (130 km^2^) and part of the Ramsar-listed Peel-Yalgorup wetland system [@brearley2005ernest; @valesini2019peelharvey]. It’s large and shallow receiving basins (Peel Inlet and Harvey Estuary, mainly < 2 m deep) are fed by three rivers (the Murray, Serpentine and Harvey) and are connected to the sea by two permanently-open channels (the natural Mandurah Channel and artificial Dawesville Cut; Fig. \@ref(fig:summary-pic6)). The three main river subcatchments cover ~9,400 km^2^ across the coastal plain and adjoining Darling Scarp. Much of the sandy coastal plain has been developed for agriculture (dominated by beef cattle grazing), with some industrial activity (e.g. mines, refineries and intensive animal uses) and a fast-growing urban sector along the coastal fringe (Fig. \@ref(fig:summary-pic6)). Most of the catchment on the escarpment drains into the Murray River and is dominated by native vegetation and, further inland, extensive cropping areas with some forestry plantations [@kelsey2011hydrological]. 
