@@ -172,14 +172,24 @@ fig:scenarios-pic28
 fig:scenarios-pic29
 fig:scenarios-pic30
 synthesis-overview
-background
+introduction
+overview
+the-peel-harvey-estuary
 project-objectives
 approach
+concepts-and-components-underlying-the-decision-support-system
+coupled-catchment-estuary-response-model
+estuarine-ecosystem-resilience-indicators
+regional-economic-resilience-indicators
+socio-ecological-scenarios-and-trade-offs
+evidence-based-decision-making-framework
+data-collation-collection-and-repository
 results-findings
 recommendations-for-policy-makers
+supplementary-materials
 catmodel
 abstract
-introduction
+introduction-1
 objectives
 approach-1
 model-description
@@ -195,7 +205,7 @@ data-availability-supplementary-materials
 acknowledgements
 model-hydrology
 abstract-1
-introduction-1
+introduction-2
 objectives-1
 approach-2
 development-of-a-high-resolution-hydrodynamic-model
@@ -212,7 +222,7 @@ data-availability
 acknowledgements-1
 model-water-quality
 abstract-2
-introduction-2
+introduction-3
 objectives-2
 approach-3
 data-review-and-compliation
@@ -233,7 +243,7 @@ phermdata
 acknowledgements-2
 iso
 abstract-3
-introduction-3
+introduction-4
 objectives-3
 approach-4
 conceptual-model-isotope-fate-and-transport
@@ -260,7 +270,7 @@ data-availability-1
 acknowledgements-3
 sediment
 abstract-4
-introduction-4
+introduction-5
 objectives-4
 approach-5
 rapid-assessment-protocol-for-evaluating-sediment-condition
@@ -276,7 +286,7 @@ data-availability-and-supplementary-materials
 acknowledgements-4
 macrophytes
 abstract-5
-introduction-5
+introduction-6
 objectives-5
 approach-
 long-term-19782018-trends-in-macrophyte-communities-and-their-drivers
@@ -292,7 +302,7 @@ data-availability-and-supplementary-materials-1
 acknowledgements-5
 bmi
 abstract-6
-introduction-6
+introduction-7
 objectives-6
 approach-6
 characterizing-the-benthic-invertebrate-community-and-the-benthic-environment
@@ -305,7 +315,7 @@ data-availability-supplementary-materials-1
 acknowledgements-6
 fish
 abstract-7
-introduction-7
+introduction-8
 objectives-7
 approach-7
 applying-the-fci-to-the-peel-harvey-estuary
@@ -328,7 +338,7 @@ data-availability-supplementary-materials-2
 acknowledgements-7
 econ
 abstract-8
-introduction-8
+introduction-9
 objectives-8
 approach-8
 understanding-local-competitiveness-and-comparative-advantage
@@ -340,7 +350,7 @@ conclusions-8
 data-availability-supplementary-materials-3
 healthscenarios
 abstract-9
-introduction-9
+introduction-10
 objectives-9
 approach-9
 identifying-key-stakeholder-values-and-2050-scenarios
