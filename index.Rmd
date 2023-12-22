@@ -72,14 +72,14 @@ Please cite this book as:
 
 If you would like to cite an individual chapter of this book, please use this format (example given here for Chapter 9): 
 
-> <small>Hallett, C.S., Valesini, F. and Yeoh, D. (2023) Assessing the health of the Peel-Harvey Estuary through its fish communities <u>In</u>:  Valesini, F., Hipsey, M. R., Cronin O’Reilly, S., & Huang, P. (Eds.) (2023). *Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia*. The University of Western Australia.  https://doi.org/10.26182/ymst-gz83.</small>
+> <small>Hallett, C.S., Valesini, F. & Yeoh, D. (2023) Assessing the health of the Peel-Harvey Estuary through its fish communities <u>In</u>:  Valesini, F., Hipsey, M. R., Cronin O’Reilly, S., & Huang, P. (Eds.) (2023). *Balancing estuarine and societal health in a changing environment: A decision support framework for sustaining the Peel-Harvey estuary-catchment system in south-western Australia*. The University of Western Australia.  https://doi.org/10.26182/ymst-gz83.</small>
 
 
 ## Accompanying data assets {-}
 
 The work contained herein served to compile a diverse data set spanning many disciplines, decades, and data types. In the spirit of fostering future continuation of the analyses and uptake of the model tools developed in this work, the book includes an accompanying data asset with a digital object identifier (DOI). Specific chapters explain aspects of the data and model tools. Users of the dataset and models can use the following citation:
 
-> <small>Busch, B., Hipsey, M.R., Huang, P., others, 2023. AquaticEcoDynamics/peel_ARC: Data, model & document repository [dataset]. https://doi.org/https://doi.org/10.5281/zenodo.**********</small>
+> <small>Busch, B., Huang, P., Hallett, C., Wells, N., Cronin O'Reilly, S., Hennig, K., Valesini, F., & Hipsey, M. (2023). Peel-Harvey catchment-estuary dataset (1970-2050) [Data set]. https://doi.org/10.5281/zenodo.10421018</small>
 
 
 ## Copyright and license {-}

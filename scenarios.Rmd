@@ -530,7 +530,7 @@ knitr::include_graphics(c("images/scenarios/picture23.png"))
 ### Economic resilience 
 
 ::: {.body-text width="100%"}
-The dynamics and drivers of local competitiveness and comparative advantage shape a regional economy’s responsiveness to externalities (i.e., resilience), and can help explain the underlying forces leading to ‘catch-up’, ‘falling behind’ and ‘forging ahead’ trajectories (Chapter \@ref(econ)). The three main scenarios reported in the previous sections (1,2,3) have been considered through this lens, and according to the analysis framework previously reported.  
+The dynamics and drivers of local competitiveness and comparative advantage shape a regional economy’s responsiveness to externalities (i.e., resilience), and can help explain the underlying forces leading to ‘*catching-up*’, ‘*falling behind*’ and ‘*forging ahead*’ trajectories (Chapter \@ref(econ)). The three main scenarios reported in the previous sections (1, 2, 3) have been considered through this lens, and according to the analysis framework previously reported.  
 
 An example of the assessment of economic indicators for each scenario is described in Tables \@ref(tab:econscen1)–\@ref(tab:econscen3). 
 :::
