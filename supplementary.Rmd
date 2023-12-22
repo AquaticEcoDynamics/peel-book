@@ -5,28 +5,28 @@
 
 ::: {.body-text width="100%"}
 
-Supporting materials for the Chapters 3-11 are available for download:
+Supporting materials (S) for selected Chapters (corresponding numbering) are listed below and are available for download:
 
- - **S2.** Catchment hydrological model bias correction.
- - **S6.1.** Proportions of the variation in Rapid Assessment Protocol (RAP) sediment condition scores.
- - **S7.1.** Three-way crossed PERMANOVA (Permutational MANOVA and ANOVA) of the biomass composition of the macrophyte community recorded in each interannual period from 1978–2018 in each region and water depth of the Peel-Harvey Estuary.
- - **S7.2.** Biomass (g m-2, dry weight) of each macrophyte species found across the Peel-Harvey Estuary in spring 2017 and autumn 2018.
- - **S7.3.** Three-way crossed PERMANOVA (Permutational MANOVA and ANOVA) of the biomass composition of the macrophyte community in each region and water depth of the Peel-Harvey Estuary in spring 2017 and autumn 2018.
- - **S8.1.** List of benthic macroinvertebrate taxa recorded in all regions of the Peel-Harvey Estuary during winter 2017 and summer 2018.
- - **S8.2.** Three-way crossed PERMANOVA (Permutational MANOVA and ANOVA) of the species composition of the Peel-Harvey benthic macroinvertebrate community.
- - **S9.1.** List of fish species caught in the Peel-Harvey Estuary during historical (1979–2014) and/or contemporary (2016–2018) studies.
- - **S9.2.** Environmental variables derived from the estuary response models that were related to observed Fish Community Index grades from 1979-2018 using GAMs to identify key environmental drivers of estuary condition.
- - **S9.3.** Shadeplot of the average abundance of the most prevalent fish species recorded in the shallow waters of the basins in each sampling period and season.
- - **S9.4.** Shadeplot of the average abundance of the most prevalent fish species recorded in the shallow waters of the rivers in each sampling period and season.
- - **S9.5.** Shadeplot of the average abundance of the most prevalent fish species recorded in the deeper waters of the basins in each sampling period and season.
- - **S9.6.** Shadeplot of the average abundance of the most prevalent fish species recorded in the deeper waters of the rivers in each sampling period and season.
- - **S9.7.** The best-fit GAM model for each major estuarine region and water depth.
- - **S10.1.** Australian and New Zealand Standard Industrial Classification (ANZSIC).
- - **S10.2.** Formulae for calculating local economic growth rates and specialization.
- - **S11.1.** Survey provided to Peel stakeholders during June 2018 workshop to determine key values and 2050 scenarios of interest.
- - **S11.2.** Summary of water quality and ecosystem indicators computed for scenario comparison.
+ - **S1.1**: Summary of the historical data sets collated to support development of the DSS.
+ - **S2**: Catchment hydrological model bias correction.
+ - **S6.1**: Proportions of the variation in Rapid Assessment Protocol (RAP) sediment condition scores.
+ - **S7.1**: Three-way crossed PERMANOVA (Permutational MANOVA and ANOVA) of the biomass composition of the macrophyte community recorded in each interannual period from 1978–2018 in each region and water depth of the Peel-Harvey Estuary.
+ - **S7.2**: Biomass (g/m^2^, dry weight) of each macrophyte species found across the Peel-Harvey Estuary in spring 2017 and autumn 2018.
+ - **S7.3**: Three-way crossed PERMANOVA (Permutational MANOVA and ANOVA) of the biomass composition of the macrophyte community in each region and water depth of the Peel-Harvey Estuary in spring 2017 and autumn 2018.
+ - **S8.1**: List of benthic macroinvertebrate taxa recorded in all regions of the Peel-Harvey Estuary during winter 2017 and summer 2018.
+ - **S8.2**: Three-way crossed PERMANOVA (Permutational MANOVA and ANOVA) of the species composition of the Peel-Harvey benthic macroinvertebrate community.
+ - **S9.1**: List of fish species caught in the Peel-Harvey Estuary during historical (1979–2014) and/or contemporary (2016–2018) studies.
+ - **S9.2**: Environmental variables derived from the estuary response models that were related to observed Fish Community Index grades from 1979-2018 using GAMs to identify key environmental drivers of estuary condition.
+ - **S9.3**: Shadeplot of the average abundance of the most prevalent fish species recorded in the shallow waters of the basins in each sampling period and season.
+ - **S9.4**: Shadeplot of the average abundance of the most prevalent fish species recorded in the shallow waters of the rivers in each sampling period and season.
+ - **S9.5**: Shadeplot of the average abundance of the most prevalent fish species recorded in the deeper waters of the basins in each sampling period and season.
+ - **S9.6**: Shadeplot of the average abundance of the most prevalent fish species recorded in the deeper waters of the rivers in each sampling period and season.
+ - **S9.7**: The best-fit GAM model for each major estuarine region and water depth.
+ - **S10.1**: Australian and New Zealand Standard Industrial Classification (ANZSIC).
+ - **S10.2**: Formulae for calculating local economic growth rates and specialization.
+ - **S11.1**: Survey provided to Peel stakeholders during June 2018 workshop to determine key values and 2050 scenarios of interest.
+ - **S11.2**: Summary of water quality and ecosystem indicators computed for scenario comparison.
 
- 
 <br>
 <center>
 [Supplementary Material Download Link](Valesini Peel ebook Supplementary Material.pdf)
