@@ -530,7 +530,7 @@ knitr::include_graphics(c("images/scenarios/picture23.png"))
 ### Economic resilience 
 
 ::: {.body-text width="100%"}
-The dynamics and drivers of local competitiveness and comparative advantage shape a regional economy’s responsiveness to externalities (i.e., resilience), and can help explain the underlying forces leading to ‘catch-up’, ‘falling behind’ and ‘forging ahead’ trajectories (Plummer et al. 2019). The three main scenarios reported in the previous sections (1,2,3) have been considered through this lens, and according to the analysis framework previously reported.  
+The dynamics and drivers of local competitiveness and comparative advantage shape a regional economy’s responsiveness to externalities (i.e., resilience), and can help explain the underlying forces leading to ‘catch-up’, ‘falling behind’ and ‘forging ahead’ trajectories (Chapter \@ref(econ)). The three main scenarios reported in the previous sections (1,2,3) have been considered through this lens, and according to the analysis framework previously reported.  
 
 An example of the assessment of economic indicators for each scenario is described in Tables \@ref(tab:econscen1)–\@ref(tab:econscen3). 
 :::
@@ -558,6 +558,50 @@ Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="econscen1")
 ```
 
 <br>
+
+```{r econscen2, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="econscen2")
+  kable(Diff_tab[,1:5],"html", escape = F, align = "c"
+        , caption = "Economic indicator assessment for **Scenario 2**.",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+  kable_classic(full_width = T) %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_max = "11em" ,color="black",bold = T) %>%
+  column_spec(2, width_min = "5em" ,color="black") %>%
+  column_spec(4, width_min = "5em" ,color="black",bold = T) %>%
+  scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
+
+<br>
+
+```{r econscen3, echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(readxl)
+  options(knitr.kable.NA = "")
+Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="econscen3")
+  kable(Diff_tab[,1:5],"html", escape = F, align = "c"
+        , caption = "Economic indicator assessment for **Scenario 3**.",bootstrap_options = "hover")%>%
+   kable_styling(Diff_tab, bootstrap_options = "hover",
+                full_width = T, position = "left",
+                font_size = 11) %>% 
+  kable_classic(full_width = T) %>%
+  row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
+  column_spec(1, width_max = "11em" ,color="black",bold = T) %>%
+  column_spec(2, width_min = "5em" ,color="black") %>%
+  column_spec(4, width_min = "5em" ,color="black",bold = T) %>%
+  scroll_box(width = "40em",fixed_thead = FALSE)
+
+  
+```
 
 ## Balancing Trade-offs Between Economic and Environmental Health
 

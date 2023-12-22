@@ -162,6 +162,8 @@ fig:scenarios-pic21
 fig:scenarios-pic22
 fig:scenarios-pic23
 tab:econscen1
+tab:econscen2
+tab:econscen3
 fig:scenarios-pic24
 fig:scenarios-pic25
 fig:scenarios-pic26
