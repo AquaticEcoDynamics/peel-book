@@ -548,11 +548,36 @@ Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="econscen1")
                 full_width = T, position = "left",
                 font_size = 11) %>% 
   kable_classic(full_width = T) %>%
+  add_header_above(c("Scenario 1: Modest urban expansion, focus on land management innovation and environmental stewardship ^a^" = 5),font_size = 14,bold = TRUE) %>%
   row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
   column_spec(1, width_max = "11em" ,color="black",bold = T) %>%
   column_spec(2, width_min = "5em" ,color="black") %>%
   column_spec(4, width_min = "5em" ,color="black",bold = T) %>%
-  scroll_box(width = "40em",fixed_thead = FALSE)
+  footnote(alphabet = c("Under this scenario, more people would be living in the region (e.g. Perth-Peel 3.5 mil). Employment in supporting industries related to catchment management (revegetation, innovative remediation of soils and better agricultural management). Growth in urban areas will create demand in other areas like housing (building new urban dwellings), and also industry. Existing mining activity would be maintained. The area would seek to improve desirability of the region and encourage skilled workers, by adopting a regional focus on education, fostering cultural activities, liveability initiatives and eco-tourism opportunities. In summary:
+
+•	SAPPR’ development footprint 
+o	Planned urban development (Fig. 11.5 without additional urban)
+o	Planned industrial development, concentrated around mining activities 
+(e.g. Peel Business Park(?)) 
+
+•	Community building strategies and liveability enhancements
+o	Initiatives to develop improved higher education facilities
+o	Environmentally sustainable urban design (urban bushland and greening and water sensitive urban design)
+o	Community stewardship, arts & culture focus
+
+•	No further intensive agricultural development, but refinement
+o	Increased technology adoption
+o	New agribusiness opportunities (incl carbon farming, smart agriculture innovation)
+
+•	Increased eco-tourism 
+o	(eg Tourism and Visitation plan by Shire of Murray)
+
+•	Climate change: 
+o	Influence on economy due to climate change events (e.g. less water, more extreme events, flooding and storm surges). 
+o	Local competitive advantage under climate change – coastal (water) living, but more floods and reduced water quality.
+
+"))   %>%
+    scroll_box(width = "40em",fixed_thead = FALSE)
 
   
 ```
@@ -571,11 +596,28 @@ Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="econscen2")
                 full_width = T, position = "left",
                 font_size = 11) %>% 
   kable_classic(full_width = T) %>%
+  add_header_above(c("Scenario 2: Modest urban expansion, limited land management and food export focus ^a^" = 5),font_size = 14,bold = TRUE) %>%
   row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
   column_spec(1, width_max = "11em" ,color="black",bold = T) %>%
   column_spec(2, width_min = "5em" ,color="black") %>%
   column_spec(4, width_min = "5em" ,color="black",bold = T) %>%
-  scroll_box(width = "40em",fixed_thead = FALSE)
+  footnote(alphabet = c("Under this scenario, more people would be living in the region (e.g. Perth-Peel 3.5 mil). Likely growth would be in areas like housing (building new urban dwellings), mining and industry, and intensive horticulture. 
+
+•	SAPPR development footprint 
+o	Planned urban development (Fig. 11.5 without additional urban)
+o	Planned industrial development, concentrated around mining activities 
+(e.g. Peel Business Park) 
+
+•	Expansion of agriculture
+o	Peel Food Zone
+o	Increased technology adoption
+o	New agribusiness opportunities (incl carbon farming, smart agriculture innovation)
+
+•	Climate change: 
+o	Influence on economy due to climate change events (e.g. less water, more extreme events, flooding and storm surges). 
+
+"))   %>%
+    scroll_box(width = "40em",fixed_thead = FALSE)
 
   
 ```
@@ -594,10 +636,26 @@ Diff_tab <- read_xlsx('tables/peel_tables_scen.xlsx', sheet="econscen3")
                 full_width = T, position = "left",
                 font_size = 11) %>% 
   kable_classic(full_width = T) %>%
+  add_header_above(c("Scenario 3: Extensive urban expansion, limited land management and food export focus ^a^" = 5),font_size = 14,bold = TRUE) %>%
   row_spec(0, background = "#5f543f", bold = TRUE, color = "white") %>%
   column_spec(1, width_max = "11em" ,color="black",bold = T) %>%
   column_spec(2, width_min = "5em" ,color="black") %>%
   column_spec(4, width_min = "5em" ,color="black",bold = T) %>%
+  footnote(alphabet = c("Under this scenario, more people would be living in the region (e.g. Perth-Peel 3.5 mil). Likely growth would be in areas like housing (building new urban dwellings), mining and industry, and intensive horticulture. For example:
+
+•	SAPPR’ development footprint 
+o	Planned urban development (Fig. 11.5 without additional urban)
+o	Planned industrial development, concentrated around mining activities 
+(e.g. Peel Business Park) 
+
+•	Expansion of agriculture
+o	Peel Food Zone
+o	Increased technology adoption
+o	New agribusiness opportunities (incl carbon farming, smart agriculture innovation)
+
+•	Climate change: 
+o	Influence on economy due to climate change events (e.g. less water, more extreme events, flooding and storm surges). 
+"))   %>%
   scroll_box(width = "40em",fixed_thead = FALSE)
 
   
