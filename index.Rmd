@@ -57,7 +57,7 @@ knitr::include_graphics("images/photos/CH0.1 Wetlands.jpg")
 <br>
 
 
-This work was first published by the The University of Western Australia on 22^nd^ December, 2023.
+This work was first published by the The University of Western Australia on 10^th^ December, 2023.
 
 **ISBN**: 978-1-74052-939-6
 
