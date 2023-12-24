@@ -195,7 +195,7 @@ knitr::include_graphics("images/model_water_quality/picture13.webp")
 ### Regional water quality response to catchment inputs
 
 ::: {.body-text width="100%"}
-PHE presents high heterogeneity in the distributions of both hydrology such as salinity and water retention time (see Chapter @\ref(model-hydrology) for the hydrology analysis), and for water quality attributes making it difficult to make broad statements about water quality response to changing conditions. It is therefore warranted to undertake a “regional” analysis of local water quality changes to catchment inputs, in addition to the whole estuary nutrient budgeting and water quality analysis described above. This approach breaks the system into Estuary Response Zones and seeks to identify how water quality in (selected) zones is impacted by changing environmental drivers.
+PHE presents high heterogeneity in the distributions of both hydrology such as salinity and water retention time (see Chapter \@ref(model-hydrology) for the hydrology analysis), and for water quality attributes making it difficult to make broad statements about water quality response to changing conditions. It is therefore warranted to undertake a “regional” analysis of local water quality changes to catchment inputs, in addition to the whole estuary nutrient budgeting and water quality analysis described above. This approach breaks the system into Estuary Response Zones and seeks to identify how water quality in (selected) zones is impacted by changing environmental drivers.
 :::
 
 #### Salinity response
